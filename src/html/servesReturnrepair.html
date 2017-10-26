@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>服务工单回访报修</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/servesRepair.css" />
+		
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left" />
+			<div class="imp">服务工单回访</div>
+		</header>
+		
+		<!--工单详情-->
+		<div class="work-more">
+			<div class="partblue"><span></span><i>工单详情</i><img src="../img/more.png" class="more-pic"/></div>
+			<ul class="writeul">
+				<li><span>工单号</span><i>FW20170716</i></li>
+				<li><span>工单类型</span><i>报修</i></li>
+				<li><span>型号</span><i>JCPT1234</i></li>
+				<li><span>门店</span><i>南京店</i></li>
+				<li><span>项目名称</span><i>鸿泰消防项目</i></li>
+				<li><span>项目地址</span><i>南京市江宁区</i></li>
+				<li><span>联系人</span><i>测试人</i></li>
+				<li><span>联系电话</span><i>18710231211</i></li>
+				<li><span>客户名称</span><i>测试客户</i></li>
+				<li><span>服务工程师</span><i>17878782931</i></li>
+				<li><span>客户名称</span><i>测试客户</i></li>
+				<li><span>工单号</span><i>FW20170716</i></li>
+				<li><span>附件</span></li>
+			</ul>
+			<textarea readonly>备注信息</textarea>
+		</div>
+		
+		<!--处理结果-->
+		<div class="work-result">
+			<div class="partblue"><span></span><i>处理结果</i></div>
+			<ul class="writeul">
+				<li><span>出厂编号</span><i>NCPT20170716</i></li>
+				<li><span>设备小时数</span><i>888</i></li>
+				<li><span>实际工时</span><i>3小时</i></li>
+				<li><span>质保</span><i>保内</i></li>
+				<li><span>故障类型</span><i>电机烧坏</i></li>
+				<li><span>故障性质</span><i>电机烧坏</i></li>
+			</ul>
+			<textarea placeholder="处理结果:" readonly>故障原因:漏油</textarea>
+			<textarea placeholder="处理结果:" readonly>处理结果:更换配件后，正常使用</textarea>
+		</div>
+		
+		<div class="description">
+			<div class="des">配件描述</div>
+			<ul>
+				<li><span>明细</span>&nbsp;<i>(1)</i></li>
+				<li><span>配件名称</span><b>油管</b></li>
+				<li>
+					<span>数量</span><b>1</b>
+				</li>
+			</ul>
+			<textarea placeholder="备注:"></textarea>
+		</div>
+		<div class="work-return">
+			<div class="partblue"><span></span><i>工单回访</i></div>
+			<div class="work1 "><span>回访时间</span><input type="date" class="time"/><img src="../img/date.png" class="date-first next"/></div>
+			<div class="work1 score"><span>回访满意度</span><s>请选择（1-10分）</s><img src="../img/next.png" class="next"/></div>
+			<textarea placeholder="客户评价:"></textarea>
+			<textarea placeholder="回访遗留问题:"></textarea>
+		</div>
+		<button class="ok">确&nbsp;&nbsp;&nbsp;定</button>
+		<div id="mark"></div>
+		<div class="yincang scores">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>9</li>
+				<li>10</li>
+			</ul>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js"></script>
+<script type="text/javascript" src="../js/servesRepair.js"></script>
+<script>
+	tk("score","scores","0");
+	var time = document.getElementsByClassName("time")[0];
+	var dateF = document.getElementsByClassName("date-first")[0];
+	time.onchange = function(){
+		if(time.value!=""){
+			dateF.src="../img/dateb.png";
+		}else{
+			dateF.src="../img/date.png";
+		}
+	}
+	var ok=document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="serves.html?type=4";
+	}
+	
+</script>
+

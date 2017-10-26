@@ -1,0 +1,57 @@
+header{
+	padding:0;
+}
+
+header img{
+	position: absolute;
+	top:0.2rem;
+	left:0.24rem;
+	width:0.26rem;
+	height: 0.45rem;
+}
+
+i{
+	font-size:0.32rem;
+	display: inline-block;
+	line-height: 0.98rem;
+	color: #999999;
+}
+
+b{
+	font-size:0.32rem;
+	line-height: 0.98rem;
+	color: #363636;
+	float:right;
+	padding-right: 0.25rem;
+	
+	
+	}
+
+
+section{
+	margin-top:0.88rem;
+	height: auto;
+	width:100%;
+	font-size:0.32rem;
+}
+
+ul{
+	height: auto;
+	width:100%;
+	
+}
+
+ul li{
+	margin-left:0.24rem;
+	width:auto;
+	height: 0.98rem;
+	border-bottom:1px solid #E6E6E6;
+	
+	
+}
+
+ul li:last-child{
+	border:none;
+}
+
+

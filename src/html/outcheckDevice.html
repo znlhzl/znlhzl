@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>退场验机</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/outcheckDevice.css" />
+		
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png"  class="left" id="left"/>
+			<div>退场验机</div>
+		</header>
+		<ul>
+    		<li class="no1 have">
+    			<span>验机结果</span><input type="radio" name="check" class="go" checked/><b class="go1">通过</b>
+    			<input type="radio" name="check" class="not"/><b class="not1">不通过</b>
+    			<img src="../img/radio.png"/> 
+    			
+    		</li>
+    		<li class="no2">
+    			<span>设备到场时间</span><i><input type="datetime-local" placeholder="请输入到场时间(到分钟)" class="time"/></i>
+    		</li>
+    		<li class="no3">
+    			<span>设备起租时间</span><i><input type="datetime-local" placeholder="请输入起租时间(到日期)"  class="time"/></i>
+    		</li>
+    		<li class="no4">
+    			<span>设备小时数</span><i><input type="text" placeholder="请输入设备小时数"/></i>
+    		</li>
+    		<li class="have">
+    			<span>上传图片</span><i></i>
+    		</li>
+    	</ul>
+    	
+    	<div class="more" id="more">
+    		<div><span></span>损坏明细</div>
+    		<ol class="ol-more">
+    			<li class="first">
+    				<span>明细 <i>(1)</i></span><b class="btn-clear">删除</b>
+    			</li>
+    			<li>
+    				<span>配件名称</span><input placeholder="请输入配件名称" />
+    			</li>
+    			<li><span>数量</span><input type="number" placeholder="请输入配件数量"/></li>
+    		</ol>
+    		
+    	</div>
+    	<div class="last" id="last"><i id="addOl">+添加配件</i></div>
+    	<textarea>备注 :</textarea>
+    	<button class="ok">确 &nbsp;&nbsp;&nbsp;&nbsp;定</button>
+   
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/outcheckDevice.js" ></script>
+<script>
+	var ok =document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="outField.html?type=2";
+	}
+</script>

@@ -1,0 +1,30 @@
+html,body{
+	background: #FAFAFA;
+	font-size:0.32rem;
+}
+
+header{
+	z-index:100;
+}
+
+.first-message{
+	margin-top:0.88rem;
+}
+
+.writeul .description{
+	height: 2rem;
+	margin-left: 0;
+}
+
+.writeul .description textarea{
+	padding-left:0.24rem;
+	padding-top:0.2rem;
+	width:7.26rem;
+	height: 1.8rem;
+}
+
+.writeul li i{
+	position: absolute;
+	right:0.24rem;
+	color:#363636;
+}

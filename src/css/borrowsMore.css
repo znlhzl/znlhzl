@@ -1,0 +1,217 @@
+html,body{
+	background:#FAFAFA;
+	font-size:0.32rem;
+}
+
+header{
+	z-index:100;
+}
+
+input{
+	background: none;
+	height: 0.42rem;
+	width:4.8rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	text-align: right;
+	font-size:0.32rem;
+}
+a{
+	color:#363636;
+}
+
+button,input,textarea{
+	border:none;
+	outline:none;
+	box-sizing: content-box;
+	/*padding:0;*/
+}
+/*--------tab切换四部分页面-----------*/
+
+
+.box .bottom .message{
+	font-size:0.32rem;
+	height: 1.03rem;
+	width:7.5rem;
+	background: #F2F2F2;
+	position: relative;
+	
+}
+
+
+.box .bottom .show ul li{
+	height: 0.98rem;
+	margin-left:0.24rem;
+	border-bottom: 0.01rem solid #E6E6E6;
+	position: relative;
+}
+
+.box .bottom .show ul li span{
+	position: absolute;
+	font-size:0.32rem;
+	color: #999999;
+	top:0.28rem;
+	
+}
+
+.box .bottom .show ul li:last-child{
+
+	border-bottom: none;	
+}
+
+.box .bottom .show ul li i{
+	position: absolute;
+	font-size:0.32rem;
+	color: #363636;
+	top:0.28rem;
+	right:0.24rem;
+}
+
+.box .bottom textarea{
+	border:none;
+	outline: none;
+	font-size:0.32rem;
+	color: #999999;
+	resize: none;
+	width:7.26rem;
+	height: 1.8rem;
+	padding-left:0.24rem;
+	padding-top:0.2rem;
+}
+
+.box .bottom .show ol li{
+	border-bottom: 0.1rem solid #F2F2F2;
+	background: #FAFAFA;
+	
+	
+}
+
+.box .bottom .show ol li .top-message{
+	height: 0.97rem;
+	position: relative;
+	border-bottom:1px solid #E6E6E6; 
+}
+
+.box .bottom .show ol li .top-message span{
+	position: absolute;
+	top:0.29rem;
+	left:0.24rem;
+	font-size:0.3rem;
+	color: #363636;
+}
+
+.box .bottom .show ol li .bottom-message{
+	padding:0.2rem 0 0.2rem 0.24rem;
+}
+.box .bottom .show ol li .bottom-message span{
+	display: block;
+	font-size: 0.26rem;
+	color: #999999;
+	line-height:0.4rem;
+	
+}
+
+.box .bottom .gcs{
+	color: #999999;	
+	
+}
+
+.box .bottom .show .gcs li{
+	height: 0.98rem;
+	margin-left:0.24rem;
+	line-height: 0.98rem;
+	position: relative;
+	border-bottom:1px solid #E6E6E6;
+}
+.box .bottom .gcs img{
+	position: absolute;
+	width:0.45rem;
+	height: 0.45rem;
+	right:0.24rem;
+	top:0.26rem;
+}
+
+.box .bottom .gcs b,.box .bottom .gcs s{
+	position: absolute;
+	right:0.7rem;
+}
+
+.box .bottom .gcs i{
+	position: absolute;
+	right:0.24rem;
+	color:#363636;
+}
+
+.box .bottom .jiedan{
+	margin-top:0.5rem;
+	width:3rem;
+	height: 0.9rem;
+	background-color:rgba(0,130,217,1);
+	border-radius: 0.08rem;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	margin-left:0.5rem;
+	margin-bottom: 0.5rem;
+	box-sizing: border-box;
+}
+
+.box .bottom .fanhui{
+	margin-top:0.5rem;
+	width:3rem;
+	height: 0.9rem;
+	margin-bottom: 0.5rem;
+	border-radius: 0.08rem;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	margin-left:0.5rem;
+	box-sizing: border-box;
+}
+
+
+.top-message {
+	position: relative;
+}
+
+.top-message .suopei{
+	background: #0082D9;
+	border-radius:0.04rem;
+	width:1.58rem;
+	height: 0.58rem;
+	color: #FFFFFF;
+	position: absolute;
+	top:0.22rem;
+	right:2.02rem;
+	box-sizing: border-box;
+}
+
+.top-message .zhengbei{
+	background: #63CFE8;
+	border-radius:0.04rem;
+	width:1.58rem;
+	height: 0.58rem;
+	color: #FFFFFF;
+	position: absolute;
+	right:0.24rem;
+	top:0.22rem;
+	box-sizing: border-box;
+}
+
+/*#pops{
+	position: fixed;
+	width:3rem;
+	height: 1.6rem;
+	font-size:0.32rem;
+	color: #FFFFFF;
+	padding:0.4rem;
+	z-index:200 ;
+	top:4rem;
+	left: 2rem;
+	background: rgba(0,0,0,0.61);
+	display: inline-block;
+	text-align: center;
+	border-radius: 0.24rem;
+	display: none;
+}*/
+
+

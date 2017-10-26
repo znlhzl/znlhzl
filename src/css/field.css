@@ -1,0 +1,57 @@
+html,body{
+	background:#FAFAFA;
+}
+
+header{
+	padding:0;
+	z-index:100;
+
+}
+
+
+header input{
+	position: absolute;
+	right:0.65rem;
+	top:0.15rem;
+	width:5.38rem;
+	height: 0.58rem;
+	border-radius:0.1rem;
+	outline: none;
+	border:none;
+	font-size:0.28rem;
+	padding-left:0.67rem;
+}
+header .zoom{
+	position: absolute;
+	width:0.25rem;
+	height:0.25rem;
+	left:1.1rem;
+	top:0.32rem;
+	z-index:100;
+}
+
+/*------------------------*/
+
+/*--------中间模块-------------*/
+/*----------tab切换------------*/
+
+/*--------tab切换四部分页面-----------*/
+
+.box .bottom .show .bot2 button{
+	font-size:0.28rem;
+	 color: #0082D9;  
+	position: absolute;
+	width:1.58rem;
+	height: 0.58rem;
+	line-height: 0.58rem;
+	top:0.19rem;
+	right:0.24rem;
+	color:white;
+	background: #0082D9;
+	border-radius:0.04rem;
+	outline: none;
+	border: none;
+	
+}
+
+

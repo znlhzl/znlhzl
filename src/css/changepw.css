@@ -1,0 +1,36 @@
+header b{
+	margin-left:0.24rem;
+}
+header{
+	font-size: 0.32rem;
+	color: #FFFFFF;
+	line-height: 0.88rem;
+}
+
+header span{
+	padding-left:1.93rem;
+}
+
+header i{
+	padding-left:1.93rem;
+}
+
+section{
+	margin-top:0.88rem;
+	width:auto;
+	height: auto;
+	font-size: 0.32rem;
+	color: #999999;
+	padding-left:0.24rem;
+}
+
+section ul li input{
+	font-size: 0.32rem;
+	border:none;
+	outline:none;
+	height: 0.98rem;
+	display: block;
+	width:100%;
+	border-bottom: 1px solid #E6E6E6;
+	line-height: 0.98rem;
+}

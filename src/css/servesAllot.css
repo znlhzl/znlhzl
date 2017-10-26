@@ -1,0 +1,68 @@
+header{
+	z-index: 100;
+}
+
+html,body{
+	background: #FAFAFA;
+	font-size:0.32rem;
+}
+
+.first-message{
+	margin-top:0.88rem;
+}
+
+.first-message .writeul li i{
+	position: absolute;
+	right: 0.24rem;
+	color: #363636;
+}
+
+.first-message textarea{
+	padding-left:0.24rem;
+	padding-top:0.2rem;
+	width:7.24rem;
+	height: 1.8rem;
+	color: #999999;
+}
+
+.allot-message .engineer{
+	height: 0.98rem;
+	border-bottom: 0.1rem solid #F2F2F2;
+	color:#999999;
+	line-height: 0.98rem;
+	position: relative;
+	padding-left:0.24rem;
+}
+
+.allot-message .next{
+	position: absolute;
+	top:0.28rem;
+	right: 0.24rem;
+	width: 0.45rem;
+	height: 0.45rem;
+}
+
+.allot-message .engineer1{
+	height: 0.98rem;
+	border-bottom: 1px solid #F2F2F2;
+	color:#999999;
+	line-height: 0.98rem;
+	position: relative;
+	margin-left:0.24rem;
+}
+
+.allot-message .engineer s,.allot-message .engineer1 s{
+	position: absolute;
+	right: 0.7rem;
+}
+
+ .add-engineer{
+	width:7.5rem;
+	height: auto;
+}
+ .add-engineer i{
+	color: #0082D9;
+	display: block;
+	margin-top:0.28rem;
+	text-align: center;
+	}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>报停单审批</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/stopMore.css" />
+	</head>
+	<body>
+		<header>
+			<div id="left">取消</div>
+			<div id="new">报停单审批</div>
+		</header>
+		
+		<div class="writes">
+			<ul>
+				<li><span>报停单号</span><input type="text" value="CK1700234" readonly></li>
+				<li><span>出厂编号</span><input type="text" value="F1700234" readonly></li>
+				<li><span>报停天数</span><input type="text"  class="days" value="5" readonly><i>天</i></li>
+				<li><span>报停开始时间</span><input type="text" class="times" value="2017-10-10" readonly></li>
+				<li><span>报停结束日期</span><input type="text" value="2017-10-15" readonly></li>
+				
+			</ul>
+			<textarea readonly>车修不好</textarea>
+		</div>
+		
+		<div class="autos">
+			<ul>
+				<li><span>审批类型</span><i>报停</i></li>
+				<li><span>合同编号</span><i>12213122311</i></li>
+				<li><span>客户名称</span><i>江苏鸿泰</i></li>
+				<li><span>项目名称</span><i>南京机场</i></li>
+				<li><span>型号</span><i>JCPT1212</i></li>
+				<li><span>门店</span><i>南京店</i></li>	
+			</ul>
+		</div>
+		
+		<div class="last">
+			<span>上传附件</span>
+		</div>
+		
+		<div class="end">
+			<div class="end1"><span></span><i>审批日志</i></div>
+			<div class="end2">
+				<i>执行环节:开始</i>
+				<i>执行人:孔彩虹</i>
+				<i>开始时间:2017-10-10 11:18:32</i>
+				<i>结束时间:2017-10-10 11:18:32</i>
+				<i>提交意见:</i>
+				<i>任务历时:</i>
+			</div>
+		</div>
+		
+		<div class="choose">
+			<div class="end1">
+				<span></span><i>审批结果</i>
+				<button class="agree">同意</button>
+				<button class="disagree">不同意</button>
+			</div>
+			<textarea placeholder="备注:"></textarea>
+			<button class="ok">确 &nbsp;&nbsp;&nbsp;定</button>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script>
+	left();
+	var btns = document.getElementsByClassName("choose")[0].getElementsByClassName("end1")[0].getElementsByTagName("button");
+	btns[0].onclick=function(){
+		this.style.background="#0082D9";
+		this.style.color="#FFFFFF";
+		btns[1].style.background="none";
+		btns[1].style.color="#999999";
+	}
+	
+	btns[1].onclick=function(){
+		this.style.background="#0082D9";
+		this.style.color="#FFFFFF";
+		btns[0].style.background="none";
+		btns[0].style.color="#999999";
+	}	
+	var ok= document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="stop.html?type=2";
+	}
+</script>
+

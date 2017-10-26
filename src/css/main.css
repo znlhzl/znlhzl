@@ -1,0 +1,218 @@
+body{
+	background: #FAFAFA;
+}
+
+header{
+	z-index: 100;
+}
+
+section{
+	margin-bottom:1rem;
+}
+
+
+.swiper-container{
+	width:100%;
+	height:4.25rem;
+	background: #FAFAFA;
+	border-bottom:0.2rem solid #F4F4F4;
+	padding-bottom:0.6rem;
+	margin-top:0.88rem;
+	
+}
+
+nav .nav-c{
+	height:4.25rem;
+	width: 100%;
+	
+}
+
+nav .nav-c ul{
+	width: 100%;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+	height: 1.48rem;
+	width:25%;
+    text-align: center;
+    margin-top:0.4rem;
+  
+}
+
+nav ul li img{
+	display: block;
+	margin: 0 auto;
+    margin-bottom: 0.1rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+nav ul li a{
+	color:#323232;
+	font-size: 0.26rem;
+	display: block;
+	/*line-height: 0.35rem;*/	
+}
+
+.swiper-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+.swiper-slide {
+      text-align: center;
+      align-items: center;
+    }
+    
+.swiper-container .swiper-pagination{
+  	position: absolute;
+  	bottom:-0.1rem;
+  
+  }
+
+
+
+
+/*----------信息--------------*/
+section .borrows-thing{
+	height:auto;
+	font-size:0.32rem;
+	border-bottom:0.2rem solid #E6E6E6;
+	
+}
+
+section .borrows-thing .top{
+	border-bottom:1px solid #E6E6E6;
+	width:100%;
+	height: 0.78rem;
+	position: relative;
+}
+
+
+section .borrows-thing span{
+	margin-left: 0.24rem;
+	display: inline-block;
+	line-height: 0.78rem;
+	color: #363636;
+}
+
+section .borrows-thing a{
+	font-size:0.24rem;
+	line-height: 0.78rem;
+	display: inline-block;
+	color: #8F8E94;
+	margin-left:3.16rem;
+}
+
+section .borrows-thing div img{
+	width:0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	top:0.2rem;
+	right:0.1rem;
+}
+
+section .borrows-thing li{
+	width:100%;
+	height: 1.5rem;
+	position: relative;
+	border-bottom: 1px solid #E6E6E6;;
+}
+
+section .borrows-thing li img{
+	position: absolute;
+	top:0.33rem;
+	left:0.24rem;
+	width:0.84rem;
+	height: 0.84rem;;
+}
+
+section .borrows-thing li b{
+	position: absolute;
+	top:0.34rem;
+	left:1.24rem;
+	color: #363636;
+}
+
+section .borrows-thing li i{
+	position: absolute;
+	left:1.24rem;
+	top:0.8rem;
+	color: #8F8E94;
+	font-size:0.24rem;
+}
+
+section .borrows-thing li span{
+	display: block;
+	width:1.52rem;
+	height: 0.48rem;
+	text-align: center;
+	line-height: 0.48rem;
+	border:1px solid #8F8E94;
+	color:#8F8E94;
+	border-radius: 3px;
+	position: absolute;
+	right:0.2rem;
+	top:0.8rem;
+}
+
+section .servers-thing{
+	border-bottom:0;
+}
+
+
+
+
+/*footer*/
+footer{
+    background: #FAFAFA;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height: 1 rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+   
+}
+a{
+	/* //解决移动端点击链接触发颜色块的问题*/
+	-webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+}
+footer a{
+    padding-top: 0.66rem;
+    font-size: 0.2rem;
+    color: #868A8D;
+    text-align: center;
+    padding-bottom: 0.1rem;
+}
+
+/*准备用精灵图，但是有问题，暂时没用*/
+footer .bot1{
+     flex: 1;
+     background:url(../img/homeb.png) no-repeat center 0.14rem;
+     background-size:  0.5rem 0.5rem;
+     color: #0082D9;
+    
+}
+footer .bot2{
+    flex: 1;
+    background: url(../img/device.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+footer .bot3{
+    flex: 1;
+    background: url(../img/address.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+footer .bot4{
+    flex: 1;
+    background: url(../img/me.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+

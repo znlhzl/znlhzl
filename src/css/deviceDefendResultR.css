@@ -1,0 +1,147 @@
+html,body{
+	background: #FAFAFA;
+	font-size:0.32rem;
+	
+}
+input{
+	text-align: right;
+	width:4rem;
+}
+header{z-index: 100;}
+
+.first-message{margin-top:0.88rem;}
+
+input{
+	font-size:0.32rem;
+	background: none;
+}
+
+.first-message i{
+	position: absolute;
+	right: 0.24rem;
+	
+}
+
+.first-message input{
+	position: absolute;
+	right: 0.24rem;
+	width: 4.8rem;
+	top:0.28rem;
+	text-align: right;
+}
+
+.first-message img{
+	width:0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	top:0.28rem;
+	right:0.24rem;
+}
+
+.first-message s{
+	position: absolute;
+	right:0.77rem;
+}
+
+.first-message textarea{
+	padding-top:0.2rem;
+	padding-left:0.24rem;
+	width:7.26rem;
+	height: 1.8rem;
+}
+
+.description{
+	margin-top:0.2rem;
+	margin-left:0.24rem;
+	color:#999999;
+}
+
+
+ #more{
+  		font-size:0.32rem;
+  		width:100%;
+  		height: auto;
+  		
+  	}
+  	 #more .div-more{
+  		margin-bottom:0.2rem;
+  	}
+  	 #more .div-more li{
+  		height: 0.98rem;
+  		line-height: 0.98rem;
+		width:auto;
+		font-size:0.32rem;
+		color: #999999;
+		position: relative;
+		border-bottom: 1px solid #E6E6E6;
+		margin-left:0.24rem;
+  	}
+  	
+  
+	 #more .div-more .li-first{
+		height: 0.71rem;
+		line-height: 0.71rem;
+		display: block;
+		font-size: 0.24rem;
+	}
+	
+	 #more .div-more .li-first b{
+		display: block;
+		float: right;
+		margin-right: 0.24rem;
+		color: #0082D9;
+	}
+		
+	 #more .div-more li input{
+		width:4.5rem;
+		font-size:0.32rem;
+		right:0.24rem;
+		position: absolute;
+		top:0.28rem;
+		text-align: right;
+	}
+	
+	 #more .div-more .li-last b{
+		position: absolute;
+		font-size:0.32rem;
+		right:0.24rem;
+	}
+	
+	#more em{
+		position: absolute;
+		right:0.24rem;
+		color:#363636;
+	}
+	
+	.addol{
+		width:100%;
+		height: 1rem;
+		border-bottom:0.1rem solid #F2F2F2;
+		position: relative;
+		
+	}
+	#addOl{
+		
+		position: absolute;
+		color:#0082D9;
+		text-align: center;
+		left:3rem;
+		z-index: 100;
+		top:0.1rem;
+		
+	}
+	
+	.fj1,.fj2{
+		color: #999999;
+		margin-top:0.2rem;
+		margin-left: 0.24rem;
+		margin-bottom: 0.28rem;
+	}
+	
+	.last{
+		padding-top:0.2rem;
+		padding-left:0.24rem;
+		width:7.26rem;
+		height: 1.8rem;
+	}
+	

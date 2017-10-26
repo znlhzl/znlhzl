@@ -1,0 +1,248 @@
+
+	html,body{
+		font-size:0.32rem;
+		background: #FAFAFA;
+	}
+	header{
+		z-index:200;
+	}
+	header #left{
+		position: absolute;
+		color:white;
+		top:0.24rem;
+		left:0.24rem;
+		font-size: 0.32rem;
+		
+	}
+	
+	header #new{
+		position: absolute;
+		color:white;
+		top:0.23rem;
+		left:2.85rem;
+		font-size: 0.34rem;
+	}
+	
+	.writes{
+		margin-top:0.88rem;
+	}
+	
+	.writes ul{
+		border-bottom: 1px solid #E6E6E6;
+		position: relative;
+	}
+	
+	.writes ul li,.autos ul li{
+		color:#999999;
+		height: 0.98rem;
+		line-height: 0.98rem;
+		margin-left:0.24rem;
+		border-bottom: 1px solid #E6E6E6;
+		position: relative;
+	}
+	
+	.writes input{
+		width:4rem;
+		height: 0.42rem;
+		position: absolute;
+		background:#FAFAFA;
+		right: 0.24rem;
+		top:0.28rem;
+		font-size: 0.32rem;
+		line-height: 0.42rem;
+		text-align: right;
+	}
+	.writes li i{
+		position: absolute;
+		right: 0.24rem;
+		color:#363636;
+	}
+	.writes li:last-child{
+		border:none;
+	}
+	
+	
+	.writes .times{
+		
+		position: absolute;
+		right:0.24rem;
+	}
+	.writes .days{
+		position: absolute;
+		right: 0.55rem;
+	}
+	
+	.writes textarea{
+		resize: none;
+		width:7.26rem;
+		height: 1.8rem;
+		padding-left:0.24rem;
+		padding-top:0.2rem;
+		border:none;
+		outline: none;
+		
+	}
+	
+	.writes .reson{
+		position: absolute;
+		top:4.2rem;
+		left:0.25rem;
+		color: #999999;
+		
+	}
+	/*-----------自动填充--------------*/
+	.autos i{
+		position: absolute;
+		right:0.24rem;
+		color: #363636;
+	}
+	
+	/*-------------上传附件------------------*/
+	.last{
+		margin-left:0.24rem;
+		height: auto;
+		
+	}
+	.last span{
+		color:#999999;
+		display: block;
+		margin-bottom:1rem;
+	}
+	
+
+	.end .end1{
+		background: #F2F2F2;
+		height: 1.03rem;
+		position: relative;
+	}
+	
+	.end .end1 i{
+		position: absolute;
+		left:0.5rem;
+		top:0.3rem;
+	}
+	
+	.end .end1 span{
+		width: 0.06rem;
+		height: 0.4rem;
+		background: #0082D9;
+		left:0.24rem;
+		top:0.32rem;
+		position: absolute;
+	}
+	
+	.end2{
+		width:100%;
+		height:2.64rem;
+		color: #999999;
+		font-size: 0.26rem;
+		line-height: 0.4rem;
+		padding-top:0.2rem;
+		border-bottom: 1px solid #E6E6E6;
+	}
+	.end2:last-child{
+		border:none;
+	}
+	.end2 i{
+		display: block;	
+		margin-left:0.24rem;
+		
+	}
+	
+	/*-----------审批页面-----------*/
+	.choose,.use{
+		width:100%;
+		height: auto;
+	}
+	
+	.choose .end1,.use .use1{
+		position: relative;
+		background: #F2F2F2;
+		height: 1.03rem;
+	}
+	.choose .end1 i,.use .use1 i{
+		position: absolute;
+		left:0.5rem;
+		top:0.3rem;
+	}
+	
+	.choose .end1 span,.use .use1 span{
+		width: 0.06rem;
+		height: 0.4rem;
+		background: #0082D9;
+		left:0.24rem;
+		top:0.32rem;
+		position: absolute;
+	}
+	
+	.choose .end1 .agree{
+		position: absolute;
+		right:2.24rem;
+		top:0.22rem;
+		width:1.6rem;
+		height: 0.6rem;
+		background: none;
+		border:1px solid #979797;
+		border-radius: 0.04rem;
+		font-size: 0.28rem;
+		color: #999999;
+	}
+	
+	.choose .end1 .disagree{
+		position: absolute;
+		right:0.24rem;
+		top:0.22rem;
+		width:1.6rem;
+		height: 0.6rem;
+		background: none;
+		border:1px solid #979797;
+		border-radius: 0.04rem;
+		font-size: 0.28rem;
+		color: #999999;
+	}
+	
+	.choose textarea,.use textarea{
+		resize: none;
+		padding-left:0.24rem;
+		padding-top:0.2rem;
+		width:7.3rem;
+		height: 1.8rem;
+	}
+	
+	.choose .ok,.use .ok{
+		background: #0082D9;
+		color:#FFFFFF;
+		margin:0.5rem 0 0.5rem 0.95rem;
+		border-radius:0.08rem;
+		display: block;
+		width:5.6rem;
+		height: 0.9rem;
+		font-size: 0.36rem;
+	}
+	
+	/*-------------提前启用详情--------------*/
+	.use .use2{
+		height: 0.98rem;
+		line-height: 0.98rem;
+		padding-left:0.24rem;
+		position: relative;
+	}
+	
+	.use .use2 img{
+		width:0.45rem;
+		height: 0.45rem;
+		top:0.22rem;
+		right:0.24rem;
+		position: absolute;
+		
+	}
+	
+	.use .use2 input{
+		width:2rem;
+		height: 0.42rem;
+		position: absolute;
+		top:0.28rem;
+		right: 0.4rem;
+		background: #FAFAFA;
+	}
+

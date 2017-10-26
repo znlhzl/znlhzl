@@ -1,0 +1,310 @@
+	header{
+		padding:0;
+		z-index: 100;
+	}
+	
+	html,body{
+		background: #FAFAFA;
+	}
+	
+	input{
+		background: none;
+	}
+	/*-----------section------------*/
+	section{
+		margin-top:0.88rem;
+	}
+	
+
+	section #buyId{
+		width:100%;
+		font-size:0;
+		height: auto;
+	}
+	
+	section #buyId li{
+		height: 0.98rem;
+		width:auto;
+		font-size:0.32rem;
+		color: #999999;
+		position: relative;
+		border-bottom: 1px solid #E6E6E6;
+		margin-left:0.24rem;
+	}
+	
+	section #buyId li span{
+		position: absolute;
+		font-size:0.32rem;
+		top:0.28rem;
+	}
+	
+	section #buyId li .next{
+		width:0.45rem;
+		height: 0.45rem;
+		position: absolute;
+		top:0.26rem;
+		right:0.12rem;
+	}
+	
+	
+	section #buyId li input{
+		position: absolute;
+		font-size:0.32rem;
+		top:0.28rem;
+		height: 0.42rem;
+		right:0.24rem;
+		text-align: right;
+		width:4.8rem;
+	}
+	
+	section #buyId li s{
+		position: absolute;
+		right: 0.8rem;
+		top:0.28rem;
+	}
+
+	section .rili{
+		width:0.45rem;
+		height: 0.45rem;
+		position: absolute;
+		right:0.24rem;
+		top:0.28rem;
+	}
+	
+	
+	
+	section #buyId .have input{
+		width:0.44rem;
+		height: 0.44rem;
+		position: absolute;
+	}
+	
+	section #buyId .have .year{
+		right:2.21rem;
+	}
+	
+	section #buyId .have .years{
+		position: absolute;
+		right:1.76rem;
+		top:0.28rem;
+	}
+	section #buyId .have .month{
+		right:0.69rem;
+	}
+	section #buyId .have .months{
+		position: absolute;
+		right:0.24rem;
+		top:0.28rem;
+	}
+	
+	section #buyId .have .radios{
+		width: 0.7rem;
+		height: 0.7rem;
+		display: none;
+		position: absolute;
+		
+	}
+	
+	section #buyId li .zz{
+		position: absolute;
+		width:2rem;
+		right:0.42rem;
+	}
+	
+	section #buyId li i{
+		position: absolute;
+		right:0.24rem;
+		top:0.28rem;
+		color:#363636;
+	}
+/*----------相册-------------*/
+    section .container {
+            width: 100%;
+            height: auto;
+            margin-left:0.24rem;
+        }
+    
+    section .give-pic{
+    	font-size: 0.32rem;
+		color: #999999;		
+		margin:0.28rem 0 0.22rem 0;
+    }
+        
+    
+     
+	 /*---------备注---------*/
+  		
+    section .rember{
+    	border-top:0.1rem solid  #F2F2F2;
+    	font-size:0.3rem;
+    }
+    
+    section .rember span{
+    	font-size:0.32rem;
+    	color: #999999;
+    	display: block;
+    	margin-top:0.22rem;
+    	margin-left:0.24rem;
+    }
+
+    
+     /* -----设备明细-----------*/
+  
+  	section #more{
+  		font-size:0.32rem;
+  		width:100%;
+  		height: auto;
+  	}
+  	
+  	section #more input{
+  		text-align: right;
+  	}
+  	section #more .div-more{
+  		margin-bottom:0.2rem;
+  	}
+  	section #more .div-more li{
+  		height: 0.98rem;
+  		line-height: 0.98rem;
+		width:auto;
+		font-size:0.32rem;
+		color: #999999;
+		position: relative;
+		border-bottom: 1px solid #E6E6E6;
+		margin-left:0.24rem;
+  	}
+  	
+  
+	section #more .div-more .li-first{
+		height: 0.71rem;
+		line-height: 0.71rem;
+		display: block;
+		font-size: 0.24rem;
+	}
+	
+	section #more .div-more .li-first b{
+		display: block;
+		float: right;
+		margin-right: 0.24rem;
+		color: #0082D9;
+	}
+	
+	section #more .div-more li .next{
+		width:0.45rem;
+		height: 0.45rem;
+		position: absolute;
+		top:0.26rem;
+		right:0.12rem;
+	}
+	
+	section #more .div-more li input{
+		width:4.8rem;
+		font-size:0.32rem;
+		height: 0.42rem;
+		right:0.24rem;
+		position: absolute;
+		top:0.28rem;
+		background: none;
+		padding:0;
+	}
+	
+	section #more .div-more .li-last b{
+		position: absolute;
+		font-size:0.32rem;
+		right:0.24rem;
+	}
+	
+	section #more .div-more s{
+		position: absolute;
+		right:0.6rem;
+	}
+	
+	
+	section #more em{
+		position: absolute;
+		right:0.24rem;
+		color:#363636;
+	}
+	
+	section #more .num4{
+		color:#363636;
+	}
+	
+	
+	/*---------审批日志---------------*/
+	.sprz-1{
+		padding:0.2rem 0;
+	}
+	
+	.sprz-1 small{
+		display: block;
+		margin-left:0.24rem;
+		font-size: 0.26rem;
+		line-height: 0.4rem;
+		color:#999999;
+	}
+	
+	.spjg textarea{
+		padding-top:0.2rem;
+		padding-left:0.24rem;
+		width:7.26rem;
+		height: 1.8rem;
+	}
+	
+	/*----------底部----------*/
+	footer{
+		width:100%;
+		height: 2.75rem;
+	}
+	footer div{
+		text-align: center;
+		font-size:0.32rem;
+		color: #0082D9;
+	}
+	
+	textarea{
+		padding-top:0.2rem;
+		padding-left:0.24rem;
+		width:7.26rem;
+		height: 1.8rem;
+	}
+
+	footer .fqwl{
+		width:3rem;
+		height: 0.9rem;
+		border-radius: 0.08rem;
+		color:#FFFFFF;
+		background: #0082D9;
+		display: inline-block;
+		margin:0.5rem 0 0.5rem 0.5rem;
+		font-size:0.36rem;
+	}
+	
+	footer .lrsb{
+		width:3rem;
+		height: 0.9rem;
+		border-radius: 0.08rem;
+		color:#FFFFFF;
+		background: #FD8822;
+		display: inline-block;
+		margin:0.5rem 0 0.5rem 0.5rem;
+		font-size:0.36rem;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

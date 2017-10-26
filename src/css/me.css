@@ -1,0 +1,214 @@
+html,body{
+	background:#F2F2F2;
+}
+header{
+	padding:0;
+	z-index:100;
+}
+section{
+	width:100%;
+	height: auto;	
+	background: #F2F2F2;
+	margin-bottom:1.4rem;
+}
+b{
+	font-weight: normal;
+}
+
+.top{
+	font-size:0.34rem;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	line-height: 0.88rem;
+}
+
+.banner{
+	width: 100%;
+	height: 2.87rem;
+	margin-top:0.88rem;
+	position: relative;
+	background: #F2F2F2;
+}
+
+.banner p{
+	font-size:0.3rem;
+	color: #8F8E94;
+	position: absolute;
+	top:1.95rem;
+	left:2.71rem;
+}
+
+.banner .logo{
+	width:1.18rem;
+	height:1.18rem;
+	/*float:left;
+	top:0.54rem;
+	left:3.15rem;*/
+	/*为什么浮动无效果*/
+	position: absolute;
+	top:0.54rem;
+	left:3.15rem;
+}
+/*---------information------*/
+.information{
+	width:auto;
+	height:auto;
+	padding:0 0 0 0.24rem;
+	background: #FAFAFA;
+}
+
+.info-top{
+	height: 0.98rem;
+	position: relative;
+	border-bottom: 1px solid #CCCCCC; 
+	
+}
+
+.info-top b{
+	display: block;
+	width:0.06rem;
+	height: 0.4rem;
+	position: absolute;
+	background: #0082D9;
+	top:0.3rem;
+	
+}
+
+.info-top span{
+	font-size: 0.32rem;
+	color: #666666;
+	position: absolute;
+	top:0.3rem;
+	left:0.26rem;
+}
+
+.information ul li{
+	font-size:0.32rem;
+	height: 0.98rem;
+	border-bottom: 1px solid #E6E6E6;
+	line-height: 0.98rem;
+	color: #999999;
+}
+
+.information li b{
+	float: left;
+}
+	
+.information li span{
+	float: right;
+	margin-right:0.24rem;
+}
+.information{
+	margin-bottom:0.2rem;
+}
+
+ .changepw{
+	background: #FAFAFA;
+	position: relative;
+	width:auto;
+	height: 0.98rem;
+	padding:0 0 0 0.24rem;
+	position: relative;
+}
+
+.changepw img{
+	position: absolute;
+	width:0.45rem;
+	height: 0.45rem;
+	top:0.36rem;
+	right: 0.24rem;
+}
+
+
+
+ .changepw b{
+	display: block;
+	width:0.06rem;
+	height: 0.4rem;
+	position: absolute;
+	background: #0082D9;
+	top:0.3rem;
+	
+}
+
+ .changepw span{
+	font-size: 0.32rem;
+	color: #666666;
+	position: absolute;
+	top:0.3rem;
+	left:0.5rem;
+	
+}
+
+section button{
+	background: #0082D9;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	width:5.6rem;
+	height: 0.9rem;
+	margin:0 auto;
+	margin-top:0.82rem;
+	cursor: pointer;
+	outline: none;
+	display: block;
+	border-radius: 10px;
+	border:none;
+	
+}
+
+
+
+
+
+/*-----------footer--------*/
+
+footer{
+    background: #FAFAFA;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height: 1 rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+}
+
+footer a{
+    padding-top: 0.66rem;
+    font-size: 0.2rem;
+    color: #868A8D;
+    text-align: center;
+    padding-bottom: 0.1rem;
+/*    //解决移动端点击链接触发颜色块的问题*/
+    -webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+}
+
+
+
+footer .bot1{
+     flex: 1;
+     background:url(../img/home.png) no-repeat center 0.14rem;
+     background-size:  0.5rem 0.5rem;
+     
+    
+}
+footer .bot2{
+    flex: 1;
+    background: url(../img/device.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+footer .bot3{
+    flex: 1;
+    background: url(../img/address.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+footer .bot4{
+    flex: 1;
+    background: url(../img/meb.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+    color: #0082D9;
+}
+
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>接单</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/deviceDefendReceive.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left" />
+			<div class="imp">接单</div>
+		</header>
+		<div class="first-message">
+			<div class="partblue"><span></span><i>设备信息</i></div>
+			<ul class="writeul">
+				<li><span>工单号</span><i>FW123456</i></li>
+				<li><span>工单类型</span><i>整备</i></li>
+				<li><span>型号</span><i>JCPT1234</i></li>
+				<li><span>门店</span><i>南京店</i></li>
+				<li><span>项目名称</span><i>鸿泰科技</i></li>
+				<li><span>项目地址</span><i>南京江宁区</i></li>
+				<li><span>联系人</span><i>测试人</i></li>
+				<li><span>联系电话</span><i>17891829112</i></li>
+				<li><span>客户名称</span><i>小小</i></li>
+				<li class="description">
+					<textarea readonly>工单描述：无法行走</textarea>
+				</li>
+				<li><span>协作工程师</span><i>张程程</i></li>
+			</ul>
+		</div>
+		<button class="ok">接&nbsp;&nbsp;单</button>
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script>
+	left();
+	var ok =document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="deviceDefend.html?type=3"
+	}
+</script>

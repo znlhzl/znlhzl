@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>采购</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/buy.css"  />
+	</head>
+	<body>
+		<!-------头部------->
+		<header>
+			<img src="../img/Back Chevron.png" class="left" id="left"/>
+			<img src="../img/zoom.png" class="zoom" />
+			<input type="text" placeholder="输入供应商/融资公司" />
+			<img src="../img/buy/add.png" class="add"  id="add"/>
+		</header>
+		<!---------内容区域--------->
+		<div class="box" id="box">
+			
+		<!-------tab栏切换------->
+			<div class="top" id="top">
+				<div class="blue">全部</div>
+				<div>已审批</div>
+				<div>待审批<span></span></div>
+				<div class="last">筛选<img src="../img/select.png" id="sel"/></div>
+			</div>
+			
+			<div class="bottom" id="divs">
+				 <div class="show">
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>已作废</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>待审批 杨天利</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>已拒绝</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>审批通过</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>已作废</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	
+			      
+			        </div>
+			      <div>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>审批通过</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商1</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        	
+			       </div>
+			        
+			     <!--   待审批有红圈的页面-->
+			        <div>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>采购单号:C100000</i>
+			        			<b>待审批 陈龙</b>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>供应商:供应商111</small>
+			        			<small>融资公司:阿尔法公司</small>
+			        			<small>采购台量:30</small>
+			        			<small>采购计划:计划内</small>
+			        			<small>采购时间:2017-09-18</small>
+			        		</p>
+			        		<p class="bot4"></p>
+			        	</section>
+			        </div>
+			        <div id="selects">
+			        	<div class="sel-first">筛选</div>
+						<ul>
+							<li>
+								<span>供应商</span>
+								<a>浙江鼎力</a>
+								<a>捷尔杰</a>
+								<a>临工集团</a>
+								<a>江苏徐工</a>
+								<a>中盛百利</a>
+							</li>
+							<li>
+								<span>融资公司</span>
+								<a>拉赫兰顿</a>
+								<a>三井住友</a>
+								<a>狮桥融资</a>
+								<a>亿多世</a>
+								<a>山重融资</a>
+								<a>上海鼎策</a>
+							</li>
+							<li>
+								<span>审批状态</span>
+								<a>已审批</a>
+								<a>未审批</a>
+							</li>
+							<li>
+								<span>附近状态</span>
+								<a>已上传</a>
+								<a>未上传</a>
+							</li>
+							<li>
+								<span>采购日期</span>
+								<a>计划内</a>
+								<a>计划外</a>
+							</li>
+							<li>
+								
+								<span>采购日期</span>
+								<i>开始</i><input type="date" placeholder="1990-01-01" class="kaishi"/>
+								<i>至</i><input type="date" placeholder="1990-01-01"  class="jieshu"/>
+								<img src="../img/date.png" class="date-first" />
+								<img src="../img/date.png" class="date-second" />
+							</li>
+							
+						</ul>
+						<div class="sel-end">
+							<button  type="reset" class="btn-first">重置</button><button  type="submit" class="btn-next">确定</button>
+						</div>
+			        </div>
+				
+			</div>
+			
+			
+		</div>
+			
+		<div id="mark">
+			
+		</div>
+		
+		
+	</body>
+</html>
+<script src="../js/public.js"></script>
+<script type="text/javascript" src="../js/buy.js" ></script>
+<script>
+	var kaishi = document.getElementsByClassName("kaishi")[0];
+	var jieshu = document.getElementsByClassName("jieshu")[0];
+	var dateFirst = document.getElementsByClassName("date-first")[0];
+	var dateSecond = document.getElementsByClassName("date-second")[0];
+	kaishi.onchange = function(){
+		if(kaishi.value!=""){
+			dateFirst.src="../img/dateb.png";
+		}else{
+			dateFirst.src="../img/date.png";
+		}
+	}
+	
+	jieshu.onchange=function(){
+		if(jieshu.value!=""){
+			dateSecond.src="../img/dateb.png";
+		}else{
+			dateSecond.src="../img/date.png";
+		}
+	}
+</script>

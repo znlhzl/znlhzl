@@ -1,0 +1,140 @@
+html,body{
+		font-size:0.32rem;
+		background: #FAFAFA;
+		font-size: 0.32rem;
+	}
+	header{
+		z-index:200;
+	}
+	
+	input{
+		background: none;
+		text-align: right;
+		width:4.5rem;
+	}
+	header #left{
+		position: absolute;
+		color:white;
+		top:0.24rem;
+		left:0.24rem;
+		font-size: 0.32rem;
+	}
+/*------------div空出0.88rem---------------*/
+.need{
+	margin-top:0.88rem;
+}
+
+.need .writeul input{
+	background: none;
+	font-size:0.32rem;
+	height: 0.42rem;
+	line-height:0.42rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.3rem;
+	
+}
+
+.need .writeul i{
+	position: absolute;
+	right:0.24rem;
+}
+
+.need .writeul .mins{
+	width:2.12rem;
+	right:0.77rem;
+}
+
+.need .writeul img{
+	width:0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right: 0.24rem;
+	top:0.28rem;
+	
+}
+
+.need textarea{
+	height: 1.8rem;
+	padding-top:0.2rem;
+	padding-left:0.24rem;
+	width:7.26rem;
+}
+
+.need .lastli{
+	border:none;
+}
+/*-----下方明细----------------*/
+
+.message ul{
+	border-bottom: 0.1rem solid #F2F2F2;
+}
+
+.message ul:last-child{
+	border-bottom :none;
+}
+.message ul:last-child li:last-child{
+	border-bottom:1px solid #E6E6E6;
+}
+.message ul li{
+	position: relative;
+	border-bottom:1px solid #E6E6E6;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	margin-left:0.24rem;
+	color: #999999;
+}
+
+.message ul li:first-child{
+	font-size: 0.24rem;
+	color: #C7C7CC;
+	height: 0.72rem;
+	line-height: 0.72rem;	
+}
+
+.message ul li:nth-child(2) b{
+	position: absolute;
+	right:0.24rem;
+	
+}
+
+.message ul li:last-child{
+	border-bottom: none;
+}
+
+.message ul li:last-child input{
+	width:0.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size:0.32rem;
+	position: absolute;
+	top:0.28rem;
+	right: 0.74rem;
+	text-align: center;
+	
+}
+.message ul li:last-child img{
+	width:0.4rem;
+	height: 0.4rem;
+	position: absolute;
+}
+
+.message ul li:last-child .img2{
+	top:0.28rem;
+	right: 0.24rem;
+}
+.message ul li:last-child .img1{
+	right:1.64rem;
+	top:0.28rem;
+}
+
+.tijiao{
+	margin:0.5rem 0 0.5rem 0.95rem;
+	background: #0082D9;
+	width:5.6rem;
+	height: 0.9rem;
+	font-size: 0.36rem;
+	color:#FFFFFF;
+	border-radius: 0.08rem;
+}
+

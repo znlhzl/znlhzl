@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+	 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>添加采购单</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/buyAdd.css" />
+		
+	</head>
+
+	<body>
+
+		<header>
+			<div id="left" class="lefts">取消</div>
+			<div class="imp">新建采购单</div>
+		</header>
+
+		<section>
+			<div class="buy">采购单<span></span></div>
+			<ul id="buyId">
+				<li>
+					<span>采购单号</span>
+					<input type="type" placeholder="请输入采购单号" />
+				</li>
+				<li class="caigou">
+					<span>采购类型</span>
+					<s></s>
+					<img src="../img/next.png" class="next" />
+				</li>
+				<li>
+					<span>采购日期</span>
+					<input type="date" placeholder="1990-01-01" id="buyDay" />
+					<img src="../img/date.png" />
+				</li>
+				<li class="rzgs">
+					<span>融资公司</span>
+					<s></s>
+					<img src="../img/next.png" class="next " />
+					
+				</li>
+				<li class="gys">
+					<span>供应商</span>
+					<s></s>
+					<img src="../img/next.png" class="next " />
+				</li>
+				<li>
+					<span>采购台量</span>
+					<input type="number" placeholder="请输入采购台数" />
+				</li>
+				<li>
+					<span>采购金额</span>
+					<input type="number" placeholder="请输入采购金额" />
+				</li>
+				<li>
+					<span>采购计划</span>
+					<input type="radio" name="choose" class="jhns"/><i class="jhn">计划内</i>
+					<input type="radio" name="choose" class="jhws"/><i class="jhw">计划外</i>
+					<img src="../img/radio.png" class="danxuan" />
+				</li>
+				<li>
+					<span>发货地址</span>
+					<input type="text" placeholder="请输入发货地址" id="address" class="address" />
+				</li>
+			</ul>
+
+			<!--使用相册-->
+
+
+			<div class="rember">
+				
+				<form>
+					<textarea name="textarea" placeholder="备注:">备注:</textarea>
+				</form>
+
+			</div>
+
+			<!-- 添加设备明细-->
+			<div class="buy">设备明细<span></span></div>
+
+			<div id="more">
+			
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span><b class="b-clear btn-clear">删除</b>
+						</li>
+						<li class="pinpai">
+							<span>品牌</span><s></s><img src="../img/next.png" class="next pins" />
+						</li>
+						<li class="xinhao">
+							<span>型号</span><s></s><img src="../img/next.png" class="next xins" />	
+						</li>
+						<li>
+							<span>台量</span><input type="number" placeholder="请输入台量" class="num1" onkeyup="autoAdd()" />
+						</li>
+						<li>
+							<span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" onkeyup="autoAdd()"/>
+						</li>
+						<li class="li-last">
+							<span>小计(元)</span>
+							<b class="num3">自动计算</b>
+						</li>
+					</ol>
+							
+			</div>
+			
+		</section>
+		
+		<footer>
+			<div id="addOl">+添加设备明细</div>
+			<button type="submit">提&nbsp;&nbsp;&nbsp;交</button>
+		</footer >
+
+		<div id="mark">
+			
+		</div>
+		<div class="caigous yincang">
+			<ul>
+				<li>分期</li>
+				<li>银行贷款</li>
+				<li>第三方融资</li>
+			</ul>
+		</div>
+		
+		<div class="rzgss yincang">
+			<ul>
+				<li>l拉赫兰顿融资租赁</li>
+				<li>三井住友融资租赁</li>
+				<li>狮桥融资</li>
+				<li>亿多世租赁有限公司</li>
+				<li>山重融资租赁有限公司</li>
+				<li>上海鼎策融资租赁有限公司</li>
+			</ul>
+		</div>
+		
+		<div class="gyss yincang">
+			<ul>
+				<li>浙江鼎力机械股份有限公司</li>
+				<li>捷尔杰（天津）设备公司</li>
+				<li>临工集团济南重机有限公司</li>
+				<li>江苏徐工广联机械租赁公司</li>
+				<li>天津中盛百利工厂</li>
+			</ul>
+		</div>
+		
+		<div class="pinpais yincang">
+			<ul>
+				<li>CLG</li>
+				<li>LDG</li>
+				<li>天津中盛百利工厂</li>
+			</ul>
+		</div>
+		<div class="xinhaos yincang">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+<script type="text/javascript" src="../js/buyAdd.js"></script>
+

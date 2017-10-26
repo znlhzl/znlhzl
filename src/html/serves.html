@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>服务工单</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/serves.css"  />
+	</head>
+	<body>
+		<!-------头部------->
+	
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left"/>
+			<img src="../img/zoom.png" class="zoom" />
+			<input type="text" placeholder="输入工单号/项目名称/客户名称" />
+			<img src="../img/buy/add.png" class="create-page"  id="add"/>
+		</header>
+		<!---------内容区域--------->
+		<div class="box" id="box">
+			
+		<!-------tab栏切换------->
+			<div class="top" id="top">
+				<div class="blue">全部</div>
+				<div>待分派<span></span></div>
+				<div>待审批<span></span></div>
+				<div>待回访<span></span></div>
+				<div class="last">筛选<img src="../img/select.png" id="sel"/></div>
+			</div>
+			
+			<div class="bottom" id="divs">
+				 <div class="show">
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待分派</b>
+			        			<button>分派</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待接单</b>
+			        			<button>重新接单</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待审批</b>
+			        			<button>审批</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待审批</b>
+			        			<button>审批</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:整备</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待审批</b>
+			        			<button>审批</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报养</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待回访</b>
+			        			<button>回访</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待处理</b>
+			        			<button></button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待整改</b>
+			        			<button></button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:何婷婷</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>已完成</b>
+			        			<button></button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待分派</b>
+			        			<button>分派</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	
+			        </div>
+			        
+			        <!--待分派-->
+			     	 <div>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待分派</b>
+			        			<button>分派</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待接单</b>
+			        			<button>重新分派</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			       	</div>
+			        
+			     <!--待审批有红圈的页面-->
+			        <div>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待审批</b>
+			        			<button>审批</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        </div>
+			        <!--待回访-->
+			        <div>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待回访</b>
+			        			<button>回访</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:报修</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>工单号:FW100000</i>
+			        			<b>待回访</b>
+			        			<button>回访</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>客户名称:鸿泰</small>
+			        			<small>项目名称:合肥京东方科技</small>
+			        			<small>类型:整备/保养</small>
+			        			<small>服务工程师:</small>
+			        		</p>
+			        	</section>
+			        </div>
+			        
+			        <div id="selects">
+			        	<div class="sel-first">筛选</div>
+						<ul>
+							<li>
+								<span>类型</span>
+								<a>保修</a>
+								<a>保养</a>
+								<a>整备</a>
+							</li>
+							<li>
+								<span>工单状态</span>
+								<a>待分派</a>
+								<a>待处理</a>
+								<a>待审核</a>
+								<a>待回访</a>
+								<a>待接单</a>
+								<a>已完成</a>
+								<a>待整改</a>
+							</li>
+							<li>
+								<span>门店</span>
+								<a>天津店</a>
+								<a>雄安店</a>
+								<a>青岛店</a>
+								<a>济南店</a>
+								<a>郑州店</a>
+								<a>南京店</a>
+								<a>苏州店</a>
+								<a>重庆店</a>
+								<a>成都店</a>
+								<a>武汉店</a>
+								<a>长沙店</a>
+								<a>广州店</a>
+								<a>西安店</a>
+							</li>
+							<li>
+								<span>派单日期</span>
+								<i>开始</i><input type="date" placeholder="1990-01-01" class="kaishi" />
+								<i>至</i><input type="date" placeholder="1990-01-01" class="jieshu" />
+								<img src="../img/date.png" class="date-first" />
+								<img src="../img/date.png" class="date-second" />
+							</li>
+							
+						</ul>
+						<div class="sel-end">
+							<button  type="reset" class="btn-first">重置</button><button  type="submit" class="btn-next">确定</button>
+						</div>
+			        </div>
+				
+			</div>
+			
+			
+		</div>
+		
+	
+		
+		<div id="mark">
+			
+		</div>
+		
+		
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+<script type="text/javascript" src="../js/serves.js" ></script>
+<script>
+	
+		var ur =location.href;
+		if(ur.indexOf("?")>-1){
+		var type=ur.split('?')[1].split("=")[1];
+		$('#divs div').removeClass('show');
+		$('#top div').removeClass('blue');
+		$('#top div').eq(type-1).addClass('blue');
+		$('#divs div').eq(type-1).addClass('show');
+		}
+		
+		var kaishi = document.getElementsByClassName("kaishi")[0];
+	var jieshu = document.getElementsByClassName("jieshu")[0];
+	var dateFirst = document.getElementsByClassName("date-first")[0];
+	var dateSecond = document.getElementsByClassName("date-second")[0];
+	kaishi.onchange = function(){
+		if(kaishi.value!=""){
+			dateFirst.src="../img/dateb.png";
+		}else{
+			dateFirst.src="../img/date.png";
+		}
+	}
+	
+	jieshu.onchange=function(){
+		if(jieshu.value!=""){
+			dateSecond.src="../img/dateb.png";
+		}else{
+			dateSecond.src="../img/date.png";
+		}
+	}
+</script>

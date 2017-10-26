@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>新建索赔单</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/claimNew.css" />
+		
+	</head>
+	<body>
+		<header>
+			<div id="left" class="lefts">取消</div>
+			<div class="imp">新建索赔单</div>
+		</header>
+		<ul class="writeul firstul">
+			<li><span>出厂编号</span><input type="text" placeholder="请输入（必填）"/></li>
+			<li><span>型号</span><i>回显</i></li>
+			<li class="suopei"><span>索赔类型</span><s></s><img src="../img/next.png" class="choose"/></li>
+			<li><span>索赔原因</span><input type="text" placeholder="请输入（必填）"/></li>
+			<li class="custom"><span>客户名称</span><i>回显</i></li>
+			<li class="custom"><span>项目名称</span><i>回显</i></li>
+			<li class="custom"><span>合同编号</span><i>回显</i></li>
+			<li class="custom"><span>客户经理</span><i>回显</i></li>
+			<li class="factory"><span>采购日期</span><i>回显</i></li>
+			<li class="factory"><span>质保</span><i>回显</i></li>
+			<li class="factory"><span>供应商名称</span><i>回显</i></li>
+			<li class="factory"><span>联系人</span><i>回显</i></li>
+			<li><span>工时单价</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()"/></li>
+			<li><span>工时</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/></li>
+			<li><span>工时费总计</span><b class="num3 auto">自动计算</b></li>
+			<li><span>里程单价</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()"/></li>
+			<li><span>里程</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/></li>
+			<li><span>里程费总计</span><b class="num3 auto">自动计算</b></li>
+		</ul>
+		<div class="lastcon">配件描述</div>
+		<div class="description" id="more">
+			
+			<ol class="div-more writeul">
+				<li class="li-first">
+					<span>明细  <i>(1)</i></span><b class="btn-clear">删除</b>
+				</li>
+				<li>
+					<span>配件名称</span><input placeholder="请输入（必填）" />
+				</li>
+				<li>
+					<span>数量</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()"/>
+				</li>
+				<li>
+					<span>单价</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/>
+				</li>
+				<li>
+					<span>小计</span><b class="rights num3">自动计算</b>
+				</li>
+			</ol>
+		</div>
+		<footer>
+			<div class="f1">
+				<span>总金额</span><b class="rights allmoney">自动计算</b>
+			</div>
+			<div class="f2">
+				<i id='addOl'>+添加配件</i>
+			</div>
+			<textarea placeholder="备注:"></textarea>
+			<button class="ok">提&nbsp;&nbsp;&nbsp;交</button>
+		</footer>
+		
+		<div id="mark">
+			
+		</div>
+		<div class="suopeis yincang">
+			<ul>
+				<li>客户索赔</li>
+				<li>工厂索赔</li>
+			</ul>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script src="../js/claimNew.js"></script>
+
+

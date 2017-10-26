@@ -1,0 +1,448 @@
+
+/*去除自带边距*/
+body,header,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,img,textarea{padding:0;margin:0;font-family: "microsoft yahei";}
+
+li {
+	list-style: none;
+}
+
+i,b,em,strong{
+	font-weight: normal;
+	font-style: normal;
+}
+s{
+	text-decoration: none;
+}
+
+button,input,textarea{
+	border:none;
+	outline:none;
+}
+
+textarea{
+	resize: none;
+	font-size:0.32rem;
+}
+
+
+a{text-decoration: none;
+	color:#363636;
+}
+
+html,body{
+			overflow:hidden;
+			overflow-y:auto;
+			font-family: "microsoft yahei"; 
+			height:100%;
+			}
+		
+html{
+    font-size:100px;
+}
+				
+header{
+			height: 0.88rem;
+			width:100%;
+			background-color:rgba(0,130,217,1);
+			position: fixed;
+			left:0;
+			top:0;
+			z-index:200;
+		}
+		
+header .imp{
+		text-align: center;
+		color:#FFFFFF;
+		line-height: 0.88rem;
+		font-size: 0.34rem;
+		height: 0.88rem;
+}
+
+header .left-img{
+	position: absolute;
+	left:0.24rem;
+	top:0.2rem;	
+	width:0.26rem;
+	height: 0.45rem;
+	
+}
+
+header .lefts{
+	position: absolute;
+	font-size:0.32rem;
+	left:0.24rem;
+	top:0.24rem;
+	color:#FFFFFF;
+}
+
+header .create-page{
+	position: absolute;
+	width:0.34rem;
+	height: 0.34rem;
+	top:0.26rem;
+	right: 0.24rem;
+}
+
+header input{
+	position: absolute;
+	border-radius: 0.1rem;
+	height: 0.58rem;
+	left:0.8rem;
+	top:0.15rem;
+	border-radius:0.1rem;
+	font-size:0.28rem;
+}
+
+header .zoom{
+	width:0.25rem;
+	height: 0.25rem;
+	position: absolute;
+	top:0.32rem;
+	z-index：100;
+}
+
+
+/*----------------细节蓝色竖线加小标题------------------*/
+
+.partblue{
+	position: relative;
+	height: 1.03rem;
+	background: #F2F2F2;
+	font-size:0.32rem;
+}
+
+.partblue span{
+	position: absolute;
+	width:0.06rem;
+	height: 0.4rem;
+	background: #0082D9;
+	top:0.32rem;
+	left:0.24rem;
+}
+
+.partblue i{
+	display: block;
+	color: #666666;
+	position: absolute;
+	left:0.5rem;
+	top:0.28rem;
+
+}
+
+.partblue .agree{
+		position: absolute;
+		right:2.04rem;
+		top:0.22rem;
+		width:1.6rem;
+		height: 0.6rem;
+		background: none;
+		border:1px solid #979797;
+		border-radius: 0.04rem;
+		font-size: 0.28rem;
+		color: #999999;
+		box-sizing: border-box;
+	}
+	
+	
+.partblue .disagree{
+		position: absolute;
+		right:0.24rem;
+		top:0.22rem;
+		width:1.6rem;
+		height: 0.6rem;
+		background: none;
+		border:1px solid #979797;
+		border-radius: 0.04rem;
+		font-size: 0.28rem;
+		color: #999999;
+		box-sizing: border-box;
+	}	
+
+/*----------------格式化的ul填写内容--------------------------------*/
+.writeul li{
+	position: relative;
+	height: 0.98rem;
+	margin-left: 0.24rem;
+	color: #999999;
+	border-bottom: 1px solid #E6E6E6;
+	line-height: 0.98rem;
+	font-size:0.32rem;
+}
+
+/*---------------修改按钮----------------------*/
+#resive{
+	width:0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	top:0.21rem;
+	right: 0.24rem;
+}
+
+
+
+
+/*----------------提交按钮---------------------*/
+button.ok{
+	width:5.6rem;
+	height: 0.9rem;
+	margin:0.5rem 0 0.5rem 0.95rem;
+	border-radius: 0.08rem;
+	color:#FFFFFF;
+	background: #0082D9;
+	font-size:0.36rem;
+	box-sizing: border-box;
+}
+
+
+/*-------------mark-------------*/
+#mark{
+	width:7.5rem;
+	height: 100%;
+	z-index:100;
+	position: fixed;
+	top:0;
+	left:0;
+	display: none;
+}
+
+
+/*-------------Tab栏公用部分--------------------*/
+
+.box{
+	width:100%;
+	height: auto;
+	display: flex;
+	margin-top:0.88rem;	
+}
+.box .top{
+	display: flex;
+	width:100%;
+	height:0.99rem;
+	line-height: 0.99rem;
+	border-bottom:2px solid #E6E6E6;
+	/*border-bottom:0.02rem solid #E6E6E6;*/
+	position: fixed;
+	top:0.88rem;
+	left:0;
+	background: #FAFAFA;
+	z-index: 100;
+
+}
+.box .top div{
+	
+	flex:1;
+	font-size:0.3rem;
+	height:0.99rem;
+	line-height: 0.99rem;
+	text-align: center;
+	
+}
+.box .top div span{
+	width:0.16rem;
+	height: 0.16rem;
+	background: #FE3F3B;
+	position: absolute;
+	border-radius: 0.16rem;
+	top:0.3rem;
+}
+
+.box .top div #sel{
+	vertical-align: middle;
+	width:0.5rem;
+	height: 0.5rem;
+}
+
+.box .top .last{
+	border-left:1px solid  #E6E6E6;
+}
+
+.box .top .blue {
+    border-bottom:0.04rem solid #0082D9;
+    font-family: HiraginoSansGB-W6;
+    color: #0082D9;   
+}
+
+/*--------tab切换四部分页面-----------*/
+
+.box .bottom{
+	margin-top:0.99rem;
+	width:7.5rem;
+	height: auto;
+}
+
+.box .bottom .show{
+	width:7.5rem;
+	height:auto;
+	
+}
+.box .bottom .bot1{
+   width:7.5rem;
+	height:auto;
+	border-bottom: 0.1rem solid #F2F2F2;
+}
+
+
+.box .bottom .show .bot2{
+	height:0.96rem;
+	width: 7.5rem;
+	background: #FAFAFA;
+	position:relative;
+	border-bottom: 1px solid #E6E6E6;
+	font-size:0.3rem;
+	
+}
+
+.box .bottom .show .bot2 i{
+	
+	font-size:0.3rem;
+	display:block;
+	color: #363636;
+	line-height: 0.96rem;
+	margin-left:0.24rem;
+	
+}
+
+.box .bottom .show .bot3{
+	width:7.5rem;
+	height:auto;
+	font-size:0.26rem;
+	background: #FAFAFA;
+	padding:0.2rem 0;
+}
+
+.box .bottom .show small{
+	font-size:0.26rem;
+	display:block;
+	line-height: 0.4rem;
+	color: #999999;
+	margin-left:0.24rem;
+}
+
+
+
+.box .bottom div{
+	display: none;
+}
+.box .bottom .show{
+	display: block;
+}
+
+
+
+/*--------------手写弹窗--------------------*/
+.yincang{
+		position: fixed;
+		z-index:1000;
+		width:5.4rem;
+		max-height: 4rem;
+		height: auto;
+		background:#FFF;
+		border-radius: 0.24rem;
+		left:1.05rem;
+		top:4rem;
+		font-size:0.32rem;
+		display: none;
+	}
+			
+			
+	.yincang ul{
+		overflow-y: scroll;
+		height: auto;
+		/*padding-right:0.1rem;*/
+		max-height: 4rem;
+	}
+	
+	.yincang ul li{
+		list-style: none;
+		height:1rem ;
+		text-align: center;
+		border-bottom:1px solid #E6E6E6;
+		line-height: 1rem;
+		color: #666666;
+		margin-left:0.12rem;
+		margin-right:0.12rem;
+		
+	}
+	.yincang ul li:last-child{
+		border-bottom:none;
+	}
+	
+/*-------------动画----------------*/
+	@keyframes mymove
+	{
+	from {right:-6rem;}
+	to {right:0;}
+	}
+	
+	@-webkit-keyframes mymove 
+	{
+	from {right:-6rem;}
+	to {right:0;}
+	}
+	
+	@-o-keyframes mymove 
+	{
+	from {right:-6rem;}
+	to {right:0;}
+	}
+	
+	@-moz-keyframes mymove 
+	{
+	from {right:-6rem;}
+	to {right:0;}
+	}
+	
+	
+	@keyframes mymoves
+	{
+	from {right:0;}
+	to {right:-6rem;}
+	}
+	
+	@-webkit-keyframes mymoves 
+	{
+	from {right:0;}
+	to {right:-6rem;}
+	}
+	
+	@-o-keyframes mymoves 
+	{
+	from {right:0;}
+	to {right:-6rem;}
+	}
+	
+	@-moz-keyframes mymoves 
+	{
+	from {right:0;}
+	to {right:-6rem;}
+	}
+	
+	
+	.tkl{
+	animation:mymove 1s forwards;
+	-webkit-animation:mymove 1s forwards ; 
+	-moz-animation:mymove 1s forwards ; 
+	-o-animation:mymove 1s forwards ; 
+	}
+	
+	.tkr{
+	  animation:mymoves 1s forwards;
+	  -webkit-animation:mymoves 1s forwards ;
+	  -moz-animation:mymoves 1s forwards ; 
+	-o-animation:mymoves 1s forwards ; 
+	}
+	
+	.tkls{
+	animation:mymove 1s forwards;
+	-webkit-animation:mymove 1s forwards ;
+	-moz-animation:mymove 1s forwards ; 
+	-o-animation:mymove 1s forwards ;  	
+	}
+	
+	.tkrs{
+	  animation:mymoves 1s forwards;
+	  -webkit-animation:mymoves 1s forwards ;
+	   -moz-animation:mymoves 1s forwards ; 
+		-o-animation:mymoves 1s forwards ; 
+	}
+

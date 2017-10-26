@@ -1,0 +1,129 @@
+
+	html,body{
+		font-size:0.32rem;
+		background: #FAFAFA;
+	}
+	header{
+		z-index:200;
+	}
+	input{
+		text-align: right;
+		width:4.8rem;
+	}
+	/*header #left{
+		position: absolute;
+		color:white;
+		top:0.24rem;
+		left:0.24rem;
+		font-size: 0.32rem;
+		
+	}
+	
+	header #new{
+		position: absolute;
+		color:white;
+		top:0.23rem;
+		left:2.85rem;
+		font-size: 0.34rem;
+	}*/
+	
+	.writes{
+		margin-top:0.88rem;
+	}
+	
+	.writes ul{
+		border-bottom: 1px solid #E6E6E6;
+		position: relative;
+	}
+	
+	.writes ul li,.autos ul li{
+		color:#999999;
+		height: 0.98rem;
+		line-height: 0.98rem;
+		margin-left:0.24rem;
+		border-bottom: 1px solid #E6E6E6;
+		position: relative;
+	}
+	
+	.writes input{
+		
+		height: 0.42rem;
+		position: absolute;
+		background:#FAFAFA;
+		right: 0.24rem;
+		top:0.28rem;
+		font-size: 0.32rem;
+		line-height: 0.42rem;
+	}
+	.writes li i{
+		position: absolute;
+		right: 0.24rem;
+	}
+	.writes li:last-child{
+		border:none;
+	}
+	
+	.writes img{
+		width:0.44rem;
+		height: 0.44rem;
+		position: absolute;
+		right:0.24rem;
+		top:0.28rem;
+		
+	}
+	.writes .times{
+		text-align: left;
+		position: absolute;
+		right:0.4rem;
+		width:2rem;
+	}
+	.writes .days{
+		position: absolute;
+		right: 0.55rem;
+	}
+	
+	.writes textarea{
+		resize: none;
+		width:7.26rem;
+		height: 1.8rem;
+		padding-left:0.24rem;
+		padding-top:0.2rem;
+		border:none;
+		outline: none;
+	}
+	
+	.writes .reson{
+		position: absolute;
+		top:4.2rem;
+		left:0.25rem;
+		color: #999999;
+		
+	}
+	/*-----------自动填充--------------*/
+	.autos i{
+		position: absolute;
+		right:0.24rem;
+	}
+	
+	/*-------------上传附件------------------*/
+	.last{
+		margin-left:0.24rem;
+		height: auto;
+		border-bottom:1px solid #E6E6E6;
+	}
+	.last span{
+		color:#999999;
+		display: block;
+		margin-bottom:1rem;
+	}
+	
+	button{
+		width:5.6rem;
+		height: 0.9rem;
+		background: #0082D9;
+		color: #FFFFFF;
+		font-size:0.36rem;
+		border-radius: 0.08rem;
+		margin:0.5rem 0 0.87rem 0.95rem;
+		
+	}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>转租单详情审批通过</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/subletAdd.css" />
+	</head>
+
+	<body>
+
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left" />
+			<div class="imp">转租单详情</div>
+		</header>
+
+		<section>
+			<div class="partblue"><span></span><i>转租单</i></div>
+			<ul id="buyId">
+				<li>
+					<span>转租单号</span>
+					<i>Z100001</i>
+				</li>
+				<li>
+					<span>供应商</span>
+					<i>江苏徐工租赁公司</i>
+				</li>
+				
+				<li class="have">
+    			<span>转租方式</span><input type="radio" name="checks" class="year" checked /><b class="years">年</b>
+    			<input type="radio" name="checks" class="month" disabled/><b class="months">月</b>
+    			<img src="../img/radio.png" class="radios"/> 
+    			</li>
+				
+				<li>
+					<span>转租周期</span>
+					<i>1</i>
+				</li>
+				<li>
+					<span>转租开始日期</span>
+					<i>2017-10-10</i>
+				</li>
+				<li>
+					<span>转租结束日期</span>
+					<i>2017-10-01</i>
+				</li>
+				<li>
+					<span>转租台数</span>
+					<i>1</i>
+				</li>
+				<li>
+					<span>转租金额</span>
+					<i>50000</i>
+				</li>
+				<li>
+					<span>保证金(元)</span>
+					<i>20000</i>
+				</li>
+				<li>
+					<span>发货地址</span>
+					<input type="text" placeholder="请输入发货地址" id="address" value="南京江宁大学城"/>
+				</li>
+			</ul>
+
+			<!--使用相册-->
+
+			
+
+			<div class="rember">
+					<textarea name="textarea" readonly>12221</textarea>
+
+			</div>
+
+	<!--添加设备明细-->
+			<div class="partblue"><i>设备明细</i><span></span></div>
+
+			<div id="more">
+			
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span>
+						</li>
+						<li>
+							<span>品牌</span><em>JLG</em>
+						</li>
+						<li>
+							<span>型号</span><em>R10</em>
+							
+						</li>
+						<li>
+							<span>台量</span><em>1</em>
+						</li>
+						<li>
+							<span>单价(元)</span><em>50000</em>
+						</li>
+						<li class="li-last">
+							<span>小计(元)</span>
+							<b class="num3 num4">50000</b>
+						</li>
+					</ol>
+			</div>
+			<div class="sprz">
+				<div class="partblue"><span></span><i>审批日志</i></div>
+				<div class="sprz-1">
+					<small>执行环节:开始</small>
+					<small>执行人:孔彩虹</small>
+					<small>开始时间:2017-9-1 11:08:23</small>
+					<small>结束时间:2017-9-1 11:08:23</small>
+					<small>提交意见:</small>
+					<small>任务历时:</small>
+				</div>
+			</div>
+			
+		</section>
+		
+		<footer>
+			
+			<button class="fqwl">发起物流</button><button class="lrsb">录入设备</button>
+		</footer >
+
+	</body>
+
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+
+<script>
+	left();
+	var fqwl =document.getElementsByClassName("fqwl")[0];
+	var lrsb =document.getElementsByClassName("lrsb")[0];
+	fqwl.onclick=function(){
+		window.location.href="newLog.html";
+	}
+	
+	lrsb.onclick=function(){
+		window.location.href="inputEquipment.html";
+	}
+	
+	/*----------单选--------------*/
+	var radios =document.getElementsByClassName("radios")[0];
+	var year =document.getElementsByClassName("year")[0];
+	var month =document.getElementsByClassName("month")[0];
+	
+	if(year.checked){
+		radios.style.display="block";
+		radios.style.right="2.09rem";
+		radios.style.top="0.14rem";
+	}
+	if(month.checked){
+		radios.style.display="block";
+		radios.style.right="0.56rem";
+		radios.style.top="0.14rem";
+	}
+</script>
+

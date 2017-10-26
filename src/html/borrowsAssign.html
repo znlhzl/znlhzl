@@ -1,0 +1,178 @@
+<!--
+	作者：742731093@qq.com
+	时间：2017-09-30
+	描述：
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>租赁详情页分派</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/borrowsMore.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png"  class="left-img" id="left"/>
+			<div class="imp">租赁工单详情</div>
+		</header>
+		<div class="box" id="box">
+			<!-------tab栏切换------->
+			<div class="top" id="top">
+				<div class="blue">工单信息</div>
+				<div>设备列表</div>
+			
+			</div>
+			<div class="bottom" id="divs">
+				 <div class="show">
+				 	<section>
+				 		<p class="partblue"><span></span><i>工单信息</i></p>
+			        	<ul>
+			        		<li>
+			        			<span>工单号</span><i>FW123456</i>
+			        		</li>
+			        		<li>
+			        			<span>工单类型</span><i>进场</i>
+			        		</li>
+			        		<li>
+			        			<span>项目名称</span><i>京东方科技集团厂房项目</i>
+			        		</li>
+			        		<li>
+			        			<span>合同号</span><i>ZNLH00005</i>
+			        		</li>
+			        		<li>
+			        			<span>客户名称</span><i>消防</i>
+			        		</li>
+			        		<li>
+			        			<span>项目地址</span><input class="address" value="南京市江宁区河定桥地铁口欧尚超市清水湾花园1111" readonly/>
+			        		</li>
+			        		<li>
+			        			<span>联系人</span><i>王少卿</i>
+			        		</li>
+			        		<li>
+			        			<span>联系电话</span><i>18709871234</i>
+			        		</li>
+			        		<li>
+			        			<span>支付方式</span><i>先付保证金</i>
+			        		</li>
+			        		<li>
+			        			<span>保证金</span><i>3000</i>
+			        		</li>
+			        		<li>
+			        			<span>要求进/退场时间</span><i>2017-08-08 12:00</i>
+			        		</li>
+			        		<li>
+			        			<span>客户经理</span><i>肖波</i>
+			        		</li>
+			        		<li>
+			        			<span>服务工程师</span><i></i>
+			        		</li>
+			        		<li>
+			        			<span>派单时间</span><i></i>
+			        		</li>
+			        		<li>
+			        			<span>工单提交时间</span><i></i>
+			        		</li>
+			        		
+			        	</ul>
+			        	<textarea placeholder="备注:">备注:</textarea>
+			        	</section>
+			        	
+			        <section>
+			        	<p class="partblue"><span></span><i>设备信息</i></p>
+			        	<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>设备型号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>台数:1</span>
+			        				<span>已进/退场:5</span>
+			        				<span>进/退场类型:首次进场</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+			        	<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>设备型号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>台数:1</span>
+			        				<span>已进/退场:5</span>
+			        				<span>进/退场类型:首次进场</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+			        </section>
+			        <section class="assign">
+			        	<p class="partblue"><span></span><i>工单分派</i></p>
+			        	<ol class="gcs">
+			        		<li class="fwgcs">
+				        		<span>服务工程师</span>
+				        		<s class="gaibian">请选择分派工程师</s>
+				      			<img src="../img/next.png" class="next">
+			        		</li>
+			        	</ol>
+			        </section>
+			        <button class="ok">分&nbsp;&nbsp;&nbsp;派</button>
+				 </div>
+				 <div>
+				 		<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>出厂编号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>型号:JCPT1234</span>
+			        				<span>自编号:ZNLH123456</span>
+			        				<span>实际进场时间:2017-08-03 09:55</span>
+			        				<span>实际退场日期:2017-08-04 12:33</span>
+			        			</p>
+			        		</li>
+			        		<li>
+			        		<p class="top-message">
+			        				<span>出厂编号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>型号:JCPT1234</span>
+			        				<span>自编号:ZNLH123456</span>
+			        				<span>实际进场时间:2017-08-03 09:55</span>
+			        				<span>实际退场日期:2017-08-04 12:33</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+				 </div>
+				
+			</div>
+			
+			
+		</div>
+		
+		<div id="mark"></div>
+		<div class="yincang fwgcss">
+			<ul>
+				<li>张程程</li>
+				<li>贺婷婷</li>
+				<li>李四</li>
+				<li>张三</li>
+				<li>1232</li>
+				<li>123</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/borrowsMore.js" ></script>
+<script>
+	var oks =document.getElementsByClassName("ok")[0];
+	oks.onclick=function(){
+		window.location.href="borrows.html?type=2";
+	}
+	
+	tk("fwgcs","fwgcss","0");
+</script>
+

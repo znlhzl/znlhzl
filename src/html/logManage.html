@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>物流管理</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/logManage.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png"  class="left" id="left"/>
+			<div class="imp">物流管理</div>
+			<img src="../img/revise.png" id="resive"/>
+		</header>
+		
+				<div class="box" id="box">
+			
+		<!-------tab栏切换------->
+			<div class="top" id="top">
+				<div class="blue">物流需求详情</div>
+				<div class="tiaozhuan">启动物流</div>
+				<div>物流单</div>
+				
+			</div>
+			
+			<div class="bottom" id="divs">
+				 <div class="show" id="only">
+				 	<ul class="writeul">
+						<li><span>物流类型</span><i>采购</i></li>
+						<li><span>物流需求名称</span><input value="采购设备物流运输" readonly/></li>
+						<li><span>合同号</span><input value="C100001" readonly/></li>
+						<li><span>要求运输时间</span><input value="2017-10-10 09:30" class="mins" readonly/></li>
+						<li><span>项目名称</span><input value="南京机场" readonly/></li>
+						<li><span>预计公里数</span><input value="1000公里" readonly/></li>
+						<li><span>发货地址</span><input value="南京" readonly/></li>
+						<li><span>收货地址</span><input value="安徽省芜湖市芜湖县六郎镇湾沚朱军18号2栋" readonly/></li>
+						<li><span>发货人</span><input value="张三" readonly/></li>
+						<li><span>收货人</span><input value="李四" readonly/></li>
+						<li><span>总物流费</span><input value="0" readonly/></li>
+						<li><span>总装卸费</span><input value="0" readonly/></li>
+						<li><span>创建人</span><input value="王少卿" readonly/></li>
+						<li class="lastli"><span>创建时间</span><input value="2017-05-10 09:30" readonly/></li>
+					
+					</ul>
+					<textarea placeholder="备注:"></textarea>
+		
+			     </div>
+			     	
+			  <div id="onlyOne">
+			   		<section class="message">
+			     		
+						<p class="partblue"><span></span><i>设备信息</i></p>
+						<ul>
+							<li><span>明细</span>&nbsp;<i>(1)</i></li>
+							<li><span>型号</span><b>JCPT123456</b></li>
+							<li><span>台量</span><b>12</b></li>
+							<li><span>发运台量</span><img src="../img/log/minus.png" class="img1"/><input type="number" value="12" class="input1"/>
+								<img src="../img/log/add.png" class="img2"/></li>
+						</ul>
+						<ul>
+							<li><span>明细</span>&nbsp;<i>(2)</i></li>
+							<li><span>型号</span><b>JCPT767345</b></li>
+							<li><span>台量</span><b>12</b></li>
+							<li><span>发运台量</span><img src="../img/log/minus.png" class="img1"/><input type="number" value="5" class="input1"/>
+								<img src="../img/log/add.png" class="img2"/></li>
+						</ul>
+		
+			     	</section>
+			     	<section class="new">
+			     		<p class="partblue"><span></span><i>新建物流单</i></p>
+			     		<ul class="writeul">
+			     			<li class="wls"><span>物流商</span><s></s><img src="../img/next.png" class="next"/></li>
+			     			<li><span>运输金额</span><input placeholder="请输入（必填）"/></li>
+			     			<li><span>承运联系人</span><input placeholder="请输入（必填）"/></li>
+			     			<li><span>联系电话</span><input type="number" placeholder="请输入（必填）"/></li>
+			     			<li><span>车牌号</span><input placeholder="请输入（必填）"/></li>
+			     			<li><span>车型</span><input placeholder="请输入（必填）"/></li>
+			     			<li><span>预计提货时间</span><input placeholder="精确到分" class="thingtime tihuo" type="datetime-local"/>
+			     				<img src="../img/date.png"class="thingtime1 tihuos"/></li>
+			     			<li><span>预计到货时间</span><input placeholder="精确到分" class="thingtime daohuo" type="datetime-local"/>
+			     				<img src="../img/date.png"class="thingtime1 daohuos"/></li>
+			     			</li>
+			     			<li>
+			     				<span>上传图片</span>
+			     			</li>
+			     		</ul>
+			     		
+			     	</section>
+			     	<textarea placeholder="备注:"></textarea>
+			     	<button type="submit" class="ok">提&nbsp;&nbsp;&nbsp;交</button>
+			     </div>
+			        
+			     <!--物流单-->
+			        <div id="onlyTwo">
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>物流单编号:WD1700000</i>
+			        			<b>待装车</b>
+			        			<button>装车</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>联系人:朱信息</small>
+			        			<small>联系电话:17612345672</small>
+			        			<small>预计提货时间:2017-09-26 09:30</small>
+			        			<small>车型:平板</small>
+			        			<small>车牌号:苏A8888</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>物流单编号:WD1700000</i>
+			        			<b>运输中</b>
+			        			<button>卸车</button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>联系人:朱信息</small>
+			        			<small>联系电话:17612345672</small>
+			        			<small>预计提货时间:2017-09-26 09:30</small>
+			        			<small>车型:平板</small>
+			        			<small>车牌号:苏A8888</small>
+			        		</p>
+			        	</section>
+			        	<section class="bot1">
+			        		<p class="bot2">
+			        			<i>物流单编号:WD1700000</i>
+			        			<b>已完成</b>
+			        			<button></button>
+			        		</p>
+			        		<p class="bot3">
+			        			<small>联系人:朱信息</small>
+			        			<small>联系电话:17612345672</small>
+			        			<small>预计提货时间:2017-09-26 09:30</small>
+			        			<small>车型:平板</small>
+			        			<small>车牌号:苏A8888</small>
+			        		</p>
+			        	</section>
+			        </div>
+			        
+			      
+			</div>
+			
+			
+		</div>
+		
+		<div id="mark"></div>
+		<div class="wlss yincang">
+			<ul>
+				<li>圆通</li>
+				<li>申通</li>
+				<li>德邦</li>
+				<li>EMS</li>
+				<li>韵达</li>
+				<li>顺丰</li>
+				<li>快递</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/logManage.js" ></script>
+<script>
+	tk("wls","wlss","0");
+	var kaishi = document.getElementsByClassName("tihuo")[0];
+	var jieshu = document.getElementsByClassName("daohuo")[0];
+	var dateFirst = document.getElementsByClassName("tihuos")[0];
+	var dateSecond = document.getElementsByClassName("daohuos")[0];
+	kaishi.onchange = function(){
+		if(kaishi.value!=""){
+			dateFirst.src="../img/dateb.png";
+		}else{
+			dateFirst.src="../img/date.png";
+		}
+	}
+	
+	jieshu.onchange=function(){
+		if(jieshu.value!=""){
+			dateSecond.src="../img/dateb.png";
+		}else{
+			dateSecond.src="../img/date.png";
+		}
+	}
+	
+	/*--------------------(+)-(-)-(input)------------------------*/
+	var addNum = document.getElementsByClassName("message")[0].getElementsByClassName("img2");
+	var minusNum = document.getElementsByClassName("message")[0].getElementsByClassName("img1");
+	var inputs  =document.getElementsByClassName("message")[0].getElementsByClassName("input1");
+
+	for(var i=0;i<minusNum.length;i++){
+		minusNum[i].index = i; 
+		minusNum[i].onclick=function(){
+	/*		console.log(inputs[this.index].value);*/
+			if(inputs[this.index].value!=0){
+				inputs[this.index].value--;
+				
+			}
+			
+			if(inputs[this.index].value==0){
+				inputs[this.index].value==0;
+				this.style.opacity="0.3";
+			}
+		}
+		
+	}
+	for(var i=0;i<addNum.length;i++){
+		addNum[i].index = i; 
+		addNum[i].onclick=function(){
+			console.log(inputs[this.index].value);
+			inputs[this.index].value++;
+			this.previousElementSibling.previousElementSibling.style.opacity="1";
+		}
+		
+	}
+	
+	var ok= document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="log.html";
+	}
+	
+</script>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>客户索赔完成</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/claimNew.css" />
+		
+	</head>
+	<body>
+		<header>
+			<div id="left" class="lefts">取消</div>
+			<div class="imp">索赔单详情</div>
+		</header>
+		<ul class="writeul firstul">
+			<li><span>出厂编号</span><input type="text" value="JPHD12345" readonly/></li>
+			<li><span>型号</span><i>JPCT12345</i></li>
+			<li><span>索赔类型</span><a class="a2">客户索赔</a></li>
+			<li><span>索赔原因</span><input type="text" value="质量问题" readonly/></li>
+			<li class="custom"><span>客户名称</span><i>鸿泰消防</i></li>
+			<li class="custom"><span>项目名称</span><i>南京机场</i></li>
+			<li class="custom"><span>合同编号</span><i>ZN123123</i></li>
+			<li class="custom"><span>客户经理</span><i>张体东</i></li>
+			<li><span>工时单价</span><input type="text" value="50" readonly/></li>
+			<li><span>工时</span><input type="text" value="6" readonly/></li>
+			<li><span>工时费总计</span><b class="blacks">300</b></li>
+			<li><span>里程单价</span><input type="text" value="10" readonly/></li>
+			<li><span>里程</span><input type="text" value="20" readonly/></li>
+			<li><span>里程费总计</span><b class="blacks">200</b></li>
+		</ul>
+		<div class="lastcon">配件描述</div>
+		<div class="description" id="more">
+			<ol class="div-more writeul">
+				<li class="li-first">
+					<span>明细 <i>(1)</i></span>
+				</li>
+				<li>
+					<span>配件名称</span><input value="油管" />
+				</li>
+				<li>
+					<span>数量</span><input value="1" readonly/>
+				</li>
+				<li>
+					<span>单价</span><input value="500" readonly/>
+				</li>
+				<li>
+					<span>小计</span><b class="rights rights1">500</b>
+				</li>
+			</ol>
+		</div>
+		<footer>
+			<div class="f1 f11">
+				<span>总金额</span><b class="rights rights1">500</b>
+			</div>
+			<textarea placeholder="备注:" readonly></textarea>
+			
+		</footer>
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script>
+	left();
+</script>

@@ -1,0 +1,377 @@
+
+
+#mark{
+	width:7.5rem;
+	height: 100%;
+	z-index:100;
+	position: fixed;
+	top:0;
+	left:0;
+	display: none;
+}
+
+body,html{
+	background: #FAFAFA;
+}
+
+/*-------头部导航-----------*/
+header{
+	z-index:100;
+}
+
+
+header input{
+	position: absolute;
+	left:0.24rem;
+	top:0.15rem;
+	width:3.92rem;
+	height: 0.58rem;
+	border-radius: 6px;
+	outline: none;
+	border:none;
+	font-size:0.28rem;
+	padding-left:1.88rem;
+}
+header .zoom{
+	position: absolute;
+	width:0.25rem;
+	height:0.25rem;
+	left:1.77rem;
+	top:0.32rem;
+	z-index:100;
+}
+
+header div span{
+	font-size: 0.32rem;
+	display: block;
+	position: absolute;
+	right:0.68rem;
+	top:0.2rem;
+	color:#FFFFFF;
+	
+}
+
+header div img{
+	width:0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	right: 0.14rem;
+	top:0.18rem;
+}
+
+
+/*--------中间模块-------------*/
+/*----------tab切换------------*/
+.box{
+	width:100%;
+	height: auto;
+	display: flex;
+	margin-bottom: 1rem;
+	margin-top:-0.1rem;
+}
+
+
+.box .bottom{
+
+	width:7.5rem;
+	height: auto;
+}
+
+.box .bottom .show{
+	width:7.5rem;
+	height:auto;
+	
+}
+
+.box .bottom .bot3{
+	padding:0.15rem 0;
+}
+
+.box .bottom .bot1{
+    width:7.5rem;
+	height:auto;
+	border-bottom: 0.1rem solid #F2F2F2;
+}
+
+
+.box .bottom .show .bot2{
+	height:0.96rem;
+	width: 7.5rem;
+	background: #FAFAFA;
+	position:relative;
+	border-bottom: 1px solid #E6E6E6;
+	font-size:0.3rem;
+	
+}
+
+.box .bottom .show .bot2 i{
+	
+	font-size:0.3rem;
+	display:block;
+	color: #363636;
+	line-height: 0.96rem;
+	margin-left:0.24rem;
+	
+}
+
+.box .bottom .show .bot2 span{
+	font-size:0.28rem;
+	color: #FD8822;
+	position: absolute;
+	top:0.29rem;
+	left:4.95rem;
+}
+
+.box .bottom .show .bot2 b{
+	font-size:0.28rem;
+	
+	/*color: #FD8822;*/
+	 color: #0082D9;  
+	position: absolute;
+	top:0.29rem;
+	right:0.24rem;
+}
+
+
+
+.box .bottom .show .bot3{
+	width:7.5rem;
+	height:auto;
+	font-size:0.26rem;
+	background: #FAFAFA;
+}
+
+.box .bottom .show small{
+	font-size:0.26rem;
+	display:block;
+	line-height: 0.4rem;
+	color: #999999;
+	margin-left:0.24rem;
+}
+
+
+
+.box .bottom div{
+	display: none;
+}
+.box .bottom .show{
+	display: block;
+}
+
+
+
+/*-----------------筛选页面-----------------*/
+#selects{
+	width:6rem;
+	height:100%;
+	position: fixed;
+	top:0;
+	right:0;
+	overflow: auto;
+	margin-top:0rem;
+	z-index:300;
+	background:#FFFFFF;
+
+}
+
+#selects div{
+	display: block;
+}
+
+.bottom #selects .sel-first{
+	background:#F1F2F6;
+	font-size:0.28rem;
+	height:0.68rem;
+	line-height: 0.68rem;
+	color: #8E8E93;
+	padding-left:0.25rem;
+}
+
+	/*---筛选页面的主题内容---*/
+
+.bottom #selects ul {
+	margin-bottom:0.82rem;
+	font-size:0.3rem;
+}
+
+.bottom #selects ul li{
+	height: auto;
+	position: relative;
+	/*background: paleturquoise;*/
+	border-bottom:1px solid #E6E6E6;
+	font-size:0.3rem;
+	height: ;
+}
+
+.bottom #selects ul li span{
+	font-size:0.28rem;
+	display: block;
+	padding:0.24rem 0;
+	padding-left:0.25rem;
+	
+}
+
+.bottom #selects ul li a{
+	font-size:0.26rem;
+	display: inline-block;
+	width: 1.65rem;
+	height: 0.6rem;
+	background:#F1F2F6;
+	line-height: 0.6rem;
+	text-align: center;
+	border-radius: 0.08rem ;
+	position: relative;
+}
+#selects ul li img{
+	position: absolute;
+	top:0.2rem;
+	right: 0.25rem;
+	width:0.45rem;
+	height: 0.45rem;
+}
+
+#selects li a:nth-of-type(3n+1){
+	margin-left:0.25rem;
+	
+}
+#selects li a:nth-of-type(3n+2),#selects li a:nth-of-type(3n+3){
+	margin-left:0.2rem;
+}
+
+#selects li a{
+	margin-bottom:0.2rem;
+
+}
+
+#selects .sel-end{
+	position: fixed;
+	bottom:0;
+	border-top:1px solid #E6E6E6;
+	font-size:0;
+	
+}
+#selects button{
+	height: 0.82rem;
+	width:3rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 0.3rem;
+	outline: none;
+	border: none;
+	
+}
+#selects .btn-first{
+	color: #363636;
+	background: #FFFFFF;
+}
+#selects .btn-next{
+	color: #FFFFFF;
+	background: #0082D9;
+}
+
+.bottom #selects ul li:last-child{
+	border-bottom:0;
+}
+
+.bottom #selects ul li .change-color{
+	position: relative;
+	background: white;
+	border-radius: 0.08rem;
+	border: 1px solid #0082D9;
+	background: url(../img/check.png) 0.12rem 0.2rem no-repeat;
+	background-size: 0.196rem 0.202rem;
+	
+}
+
+/*-----日期调控界面----*/
+.bottom #selects ul li input{
+	width:1.8rem;
+	height: 0.56rem;
+	/*z-index:301;*/
+	margin-bottom:0.2rem;
+	outline: none;
+	font-size:0.26rem;
+	border: 1px solid #E6E6E6;
+	border-radius:0.08rem;
+	padding-left:0.15rem;
+
+}
+
+.bottom #selects ul li i{
+	padding-left:0.25rem;
+	padding-right: 0.2rem;
+}
+
+.bottom #selects ul li .date-first{
+	position: absolute;
+	width:0.26rem;
+	height: 0.28rem;
+	top:1rem;
+	left:2.7rem;
+}
+
+.bottom #selects ul li .date-second{
+	position: absolute;
+	width:0.26rem;
+	height: 0.28rem;
+	top:1rem;
+	right:0.33rem;
+}
+
+
+
+footer{
+    background: #FAFAFA;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height: 1 rem;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+   
+}
+a{
+	/*    //解决移动端点击链接触发颜色块的问题*/
+	-webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+}
+footer a{
+    padding-top: 0.66rem;
+    font-size: 0.2rem;
+    color: #868A8D;
+    text-align: center;
+    padding-bottom: 0.1rem;
+}
+
+/*准备用精灵图，但是有问题，暂时没用*/
+footer .bot1{
+     flex: 1;
+     background:url(../img/home.png) no-repeat center 0.14rem;
+     background-size:  0.5rem 0.5rem;
+     
+}
+footer .bot2{
+    flex: 1;
+    background: url(../img/deviceb.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+    color: #0082D9;
+    
+}
+footer .bot3{
+    flex: 1;
+    background: url(../img/address.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+footer .bot4{
+    flex: 1;
+    background: url(../img/me.png) no-repeat center 0.14rem;
+    background-size:  0.5rem 0.5rem;
+}
+
+
+
+
+
+
+
+

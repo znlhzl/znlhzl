@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>租赁详情页审批进场</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/borrowsMore.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png"  class="left-img" id="left"/>
+			<div class="imp">租赁工单详情</div>
+		</header>
+		<div class="box" id="box">
+			<!-------tab栏切换------->
+			<div class="top" id="top">
+				<div class="blue">工单信息</div>
+				<div>设备列表</div>
+			</div>
+			<div class="bottom" id="divs">
+				 <div class="show">
+				 	<section>
+				 		<p class="partblue"><span></span><i>工单信息</i></p>
+			        	<ul>
+			        		<li>
+			        			<span>工单号</span><i>FW123456</i>
+			        		</li>
+			        		<li>
+			        			<span>工单类型</span><i>进场</i>
+			        		</li>
+			        		<li>
+			        			<span>项目名称</span><i>京东方科技集团厂房项目</i>
+			        		</li>
+			        		<li>
+			        			<span>合同号</span><i>ZNLH00005</i>
+			        		</li>
+			        		<li>
+			        			<span>客户名称</span><i>消防</i>
+			        		</li>
+			        		<li>
+			        			<span>项目地址</span><i>南京市江宁区</i>
+			        		</li>
+			        		<li>
+			        			<span>联系人</span><i>王少卿</i>
+			        		</li>
+			        		<li>
+			        			<span>联系电话</span><i>18709871234</i>
+			        		</li>
+			        		<li>
+			        			<span>支付方式</span><i>先付保证金</i>
+			        		</li>
+			        		<li>
+			        			<span>保证金</span><i>3000</i>
+			        		</li>
+			        		<li>
+			        			<span>要求进/退场时间</span><i>2017-08-08 12:00</i>
+			        		</li>
+			        		<li>
+			        			<span>客户经理</span><i>肖波</i>
+			        		</li>
+			        		<li>
+			        			<span>服务工程师</span><i>贺婷婷</i>
+			        		</li>
+			        		<li>
+			        			<span>派单时间</span><i></i>
+			        		</li>
+			        		<li>
+			        			<span>工单提交时间</span><i></i>
+			        		</li>
+			        		
+			        	</ul>
+			        	<textarea placeholder="备注:" readonly>备注:</textarea>
+			        	</section>
+			        	
+			        <section>
+			        	<p class="partblue"><span></span><i>设备信息</i></p>
+			        	<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>设备型号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>租赁类型:天</span>
+			        				<span>台数:1</span>
+			        				<span>单价:3000</span>
+			        				<span>已进/退场:5</span>
+			        				<span>进/退场类型:首次进场</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+			        	<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>设备型号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>租赁类型:月</span>
+			        				<span>台数:1</span>
+			        				<span>单价:3000</span>
+			        				<span>已进/退场:5</span>
+			        				<span>进/退场类型:首次进场</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+			        </section>
+				 </div>
+				 <div>
+				 		<ol>
+			        		<li>
+			        			<p class="top-message">
+			        				<span>出厂编号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>型号:JCPT1234</span>
+			        				<span>自编号:ZNLH123456</span>
+			        				<span>实际进场时间:2017-08-03 09:55</span>
+			        				<span>实际退场日期:2017-08-04 12:33</span>
+			        			</p>
+			        		</li>
+			        		<li>
+			        		<p class="top-message">
+			        				<span>出厂编号 : JPHD12345</span>
+			        			</p>
+			        			<p class="bottom-message">
+			        				<span>型号:JCPT1234</span>
+			        				<span>自编号:ZNLH123456</span>
+			        				<span>实际进场时间:2017-08-03 09:55</span>
+			        				<span>实际退场日期:2017-08-04 12:33</span>
+			        			</p>
+			        		</li>
+			        	</ol>
+			        	<p class="partblue" id="gdsp">
+			        		<span></span><i>工单审批</i>
+			        		<button class="agree">合格</button>
+			        		<button class="disagree">不合格</button>
+			        	</p>
+			        	<textarea placeholder="审批意见:"></textarea>
+			        	<button class="ok">确&nbsp;&nbsp;&nbsp;定</button>
+				 </div>
+				
+			</div>
+			
+		</div>
+		
+		<div id="mark"></div>
+		
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/borrowsMore.js" ></script>
+<script type="text/javascript" src="../js/borrowsReadIn.js" ></script>
+
+

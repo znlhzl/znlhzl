@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>添加转租单</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/subletAdd.css" />
+	</head>
+
+	<body>
+
+		<header>
+			<div id="left" class="lefts">取消</div>
+			<div class="imp">新建转租单</div>
+		</header>
+
+		<section>
+			<div class="partblue"><span></span><i>转租单</i></div>
+			<ul id="buyId">
+				<li>
+					<span>转租单号</span>
+					<input type="type" placeholder="请输入转租单号(必填)" value="Z1000001"/>
+				</li>
+				<li class="gys">
+					<span>供应商</span>
+					<s>浙江鼎力机械股份有限公司</s>
+					<img src="../img/next.png" class="next" />
+				</li>
+			
+				<li class="have">
+    			<span>转租方式</span><input type="radio" name="checks" class="year" checked/><b class="years">年</b>
+    			<input type="radio" name="checks" class="month"/><b class="months">月</b>
+    			<img src="../img/radio.png" class="radios"/> 
+    			
+    			</li>
+				
+				
+				<li>
+					<span>转租周期</span>
+					<input type="type" placeholder="请输入转租周期" value="1"/>
+				</li>
+				<li>
+					<span>转租开始日期</span>
+					<input placeholder="（必填）" class="zz" type="date" value="2017-08-18"/>
+					<img src="../img/dateb.png" class="rili"/>
+				</li>
+				<li>
+					<span>转租结束日期</span>
+					<input type="text" placeholder="自动生成" value="2017-08-19" readonly/>
+				</li>
+				<li>
+					<span>转租台数</span>
+					<input type="text" placeholder="自动计算" readonly value="1"/>
+				</li>
+				<li>
+					<span>转租金额</span>
+					<input type="text" placeholder="自动计算" readonly vlaue="5000"/>
+				</li>
+				<li>
+					<span>保证金(元)</span>
+					<input type="text" placeholder="请输入保证金金额" id="address" vlaue="5000"/>
+				</li>
+				<li>
+					<span>发货地址</span>
+					<input type="text" placeholder="请输入发货地址" id="address" value="南京市江宁区" />
+				</li>
+			</ul>
+
+
+			<div class="rember">			
+					<textarea name="textarea" placeholder="备注:" >备注:</textarea>
+			</div>
+
+	<!--添加设备明细-->
+			<div class="partblue"><i>设备明细</i><span></span></div>
+
+			<div id="more">
+			
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span><b class="b-clear btn-clear">删除</b>
+						</li>
+						<li class="pinpai">
+							<span>品牌</span><s>JLG</s><img src="../img/next.png" class="next pins" />
+						</li>
+						<li class="xinhao">
+							<span>型号</span><s>2</s><img src="../img/next.png" class="next xins" />
+							
+						</li>
+						<li>
+							<span>台量</span><input type="number" placeholder="请输入台量" class="num1" onkeyup="autoAdd()"/>
+						</li>
+						<li>
+							<span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" onkeyup="autoAdd()"/>
+						</li>
+						<li class="li-last">
+							<span>小计(元)</span>
+							<b class="num3">自动计算</b>
+						</li>
+					</ol>
+			</div>
+
+		</section>
+		
+		<footer>
+			<div id="addOl">+添加设备明细</div>
+			<button type="submit" class="ok">提&nbsp;&nbsp;&nbsp;交</button>
+		</footer >
+
+		<div id="mark">
+			
+		</div>
+		<div class="gyss yincang">
+			<ul>
+				<li>浙江鼎力机械股份有限公司</li>
+				<li>捷尔杰（天津）设备公司</li>
+				<li>临工集团济南重机有限公司</li>
+				<li>江苏徐工广联机械租赁公司</li>
+				<li>天津中盛百利工厂</li>
+			</ul>
+		</div>
+		<div class="pinpais yincang">
+			<ul>
+				<li>CLG</li>
+				<li>LDG</li>
+				<li>天津中盛百利工厂</li>
+			</ul>
+		</div>
+		<div class="xinhaos yincang">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+		
+		
+	</body>
+
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+<script type="text/javascript" src="../js/subletAdd.js"></script>
+<script>
+	var ok=document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="sublet.html";
+	}
+	tk("gys","gyss","0");
+</script>

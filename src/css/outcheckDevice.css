@@ -1,0 +1,237 @@
+html,body{
+	background:#FAFAFA;
+	size: 0.32rem;
+}
+
+
+header{
+	padding:0;
+	z-index:100;
+
+}
+header .left{
+	position: absolute;
+	left:0.24rem;
+	top:0.2rem;	
+	width:0.26rem;
+	height: 0.45rem;
+}
+
+header div{
+	font-size:0.34rem;
+	color: #FFFFFF;
+	letter-spacing:0.02rem;
+	position: absolute;
+	left:3.03rem;
+	top:0.2rem;
+}
+
+ul{
+	margin-top:0.88rem;
+	font-size:0.32rem;
+}
+ ul li{
+	height: 0.98rem;
+	margin-left:0.24rem;
+	border-bottom: 0.01rem solid #E6E6E6;
+	position: relative;
+}
+
+ul li i{
+	position: absolute;
+	font-size:0.32rem;
+	color: #363636;
+	top:0.28rem;
+	right:0.24rem;
+}
+
+ ul li span{
+	position: absolute;
+	font-size:0.32rem;
+	color: #999999;
+	top:0.28rem;
+	
+}
+
+ ul li:last-child{
+
+	border-bottom: none;	
+}
+
+ul li:first-child input{
+	width:0.44rem;
+	height: 0.44rem;
+	
+}
+
+ul li{
+	position: relative;
+}
+
+ul .no1 .go{
+	position: absolute;
+	display: block;
+	left:3.65rem;
+	top:0.27rem;
+	
+	
+}
+
+ul .no1 .not{
+	position: absolute;
+	display: block;
+	right:1.33rem;
+	top:0.27rem;
+	
+	
+}
+ul .no1 b{
+	font-size:0.32rem;
+	color: #999999;
+}
+
+ul .no1 .go1{
+	color: #363636;
+}
+
+ul .no1 .go1{
+	position: absolute;
+	top:0.28rem;
+	left:4.22rem;
+}
+ul .no1 .not1{
+	position: absolute;
+	top:0.28rem;
+	right:0.24rem;
+}
+
+ul .no1 img{
+	width:0.7rem;
+	height: 0.7rem;
+	position: absolute;
+	left:3.51rem;
+	top:0.14rem;
+}
+
+ul li .time{
+	width:3.45rem;
+	height:0.42rem;
+	font-size:0.32rem;
+	outline: none;
+	border:none;
+	line-height: 0.42rem;
+	background: #FAFAFA;
+}
+
+ul .no4 input{
+	width:2.56rem;
+	height: 0.42rem;
+	font-size:0.32rem;
+	outline: none;
+	border:none;
+	line-height: 0.42rem;
+	background: #FAFAFA;
+}
+
+
+.more{
+	font-size:0.32rem;
+}
+
+.more div{
+	height: 1.03rem;
+	background: #F2F2F2;
+	position: relative;
+	line-height: 1.03rem;
+	padding-left:0.5rem;
+}
+
+.more div span{
+	position: absolute;
+	width:0.06rem;
+	height: 0.4rem;
+	background:  #0082D9;
+	top:0.32rem;
+	left:0.26rem;
+	z-index: 100;
+}
+
+
+
+.more ol li{
+	height: 0.85rem;
+	border-bottom: 1px solid #E6E6E6;
+	margin-left:0.24rem;
+	line-height: 0.85rem;
+	position: relative;
+}
+.more ol .first{
+	height: 0.72rem;
+	line-height: 0.72rem;
+	border-bottom:1px solid #B3B3B3;
+}
+.more ol .last{
+	border:none;
+}
+
+.more ol li span{
+	color:#999999;
+}
+
+.more ol .first span{
+	font-size:0.24rem;
+	color: #C7C7CC;
+}
+.more ol .first b{
+	font-size: 0.24rem;
+	color:#0082D9;
+	position: absolute;
+	right: 0.24rem;
+}
+
+.more ol li input{
+	width:2rem;
+	height: 0.42rem;
+	line-height: 0.42rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	outline: none;
+	border:none;
+	background: #FAFAFA;
+}
+
+.last{
+	color: #0082D9;
+	text-align: center;
+	line-height: 0.85rem;
+	height: 0.85rem;
+	font-size:0.32rem;
+}
+
+textarea{
+	resize: none;
+	width:7.25rem;
+	height: 1.8rem;
+	outline:none;
+	border:none;
+	padding-left:0.24rem;
+	padding-top:0.2rem;
+	color: #999999;
+}
+
+button{
+	border:none;
+	outline:none;
+	width:5.6rem;
+	height: 0.9rem;
+	background:#0082D9;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	border-radius: 0.05rem;
+	text-align: center;
+	margin-left:0.95rem;
+	margin-bottom:0.5rem;
+
+	
+}

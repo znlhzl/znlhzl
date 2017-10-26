@@ -1,0 +1,906 @@
+{
+	"index.html": {
+		"resources": [
+			"js/main.js",
+			"src/css/main.css",
+			"src/img/address.png",
+			"src/css/public.css",
+			"src/img/me.png",
+			"src/img/homeb.png",
+			"src/img/device.png",
+			"src/html/address.html",
+			"src/img/home/changem.png",
+			"src/img/home/borrows.png",
+			"src/img/home/transm.png",
+			"src/img/home/serves.png",
+			"src/img/home/paym.png",
+			"src/img/home/moneym.png",
+			"src/img/home/bookm.png",
+			"src/img/home/buym.png",
+			"src/js/main.js",
+			"src/html/me.html",
+			"src/html/device.html",
+			"src/html/buy.html",
+			"src/js/public.js",
+			"src/html/change.html",
+			"src/img/next.png",
+			"src/img/message.png",
+			"src/lib/jquery-2.1.1.min.js",
+			"src/lib/swiper.min.css",
+			"src/lib/swiper.min.js",
+			"src/html/sublet.html",
+			"src/lib/css/swiper.min.css",
+			"src/lib/js/swiper.min.js",
+			"src/html/contract.html",
+			"src/html/borrows.html",
+			"src/html/field.html",
+			"src/html/stop.html",
+			"src/html/claim.html",
+			"src/img/home/subletm.png",
+			"src/img/home/fieldm.png",
+			"src/img/home/deviceRepair.png",
+			"src/img/home/claim.png",
+			"src/img/home/stopm.png",
+			"src/html/serves.html",
+			"src/html/log.html",
+			"src/html/lizi.html"
+		],
+		"refer": [
+			"src/html/address.html",
+			"src/html/me.html",
+			"src/html/device.html",
+			"src/html/buy.html",
+			"src/html/change.html",
+			"src/html/sublet.html",
+			"src/html/contract.html",
+			"src/html/borrows.html",
+			"src/html/field.html",
+			"src/html/stop.html",
+			"src/html/claim.html",
+			"src/html/serves.html",
+			"src/html/log.html",
+			"src/html/lizi.html"
+		]
+	},
+	"src/html/address.html": {
+		"resources": [
+			"index.html",
+			"src/css/foot.css",
+			"src/img/addressb.png",
+			"src/css/address.css",
+			"src/img/home.png",
+			"src/css/public.css",
+			"src/img/me.png",
+			"src/img/device.png",
+			"js/main.js",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/js/main.js",
+			"src/html/address.html",
+			"src/img/next.png",
+			"src/js/address.js",
+			"src/html/me.html",
+			"src/html/device.html",
+			"src/html/addressDept.html",
+			"src/js/public.js"
+		],
+		"refer": [
+			"index.html",
+			"src/html/address.html",
+			"src/html/me.html",
+			"src/html/device.html",
+			"src/html/addressDept.html"
+		]
+	},
+	"src/html/me.html": {
+		"resources": [
+			"src/img/meb.png",
+			"index.html",
+			"src/css/me.css",
+			"src/img/me/LOGO.png",
+			"src/html/address.html",
+			"src/img/home.png",
+			"src/img/next.png",
+			"src/img/address.png",
+			"src/css/public.css",
+			"src/js/main.js",
+			"src/img/device.png",
+			"src/html/login.html",
+			"src/js/me.js",
+			"src/html/changepw.html",
+			"src/html/device.html",
+			"src/js/public.js"
+		],
+		"refer": [
+			"index.html",
+			"src/html/address.html",
+			"src/html/login.html",
+			"src/html/changepw.html",
+			"src/html/device.html"
+		]
+	},
+	"src/html/login.html": {
+		"resources": [
+			"src/img/login/tel.png",
+			"src/img/login/password.png",
+			"src/img/login/background.png",
+			"src/css/login.css",
+			"src/js/login.js",
+			"src/js/public.js"
+		]
+	},
+	"src/html/changepw.html": {
+		"resources": [
+			"src/js/changepw.js",
+			"src/css/changepw.css",
+			"src/html/me.html",
+			"src/css/public.css",
+			"src/js/main.js",
+			"src/lib/jquery-3.2.1.js",
+			"src/html/device.html"
+		],
+		"refer": [
+			"src/html/me.html",
+			"src/html/device.html"
+		]
+	},
+	"src/html/device.html": {
+		"resources": [
+			"src/img/zoom.png",
+			"index.html",
+			"src/html/address.html",
+			"src/js/device.js",
+			"src/img/device/Page 1.png",
+			"src/css/device.css",
+			"src/img/deviceb.png",
+			"src/img/home.png",
+			"src/img/address.png",
+			"src/css/public.css",
+			"src/img/me.png",
+			"src/js/main.js",
+			"src/img/device/select.png",
+			"src/html/me.html",
+			"src/html/changepw.html",
+			"src/html/devicemore.html",
+			"src/img/device/bottom.png",
+			"src/js/mobiscroll.js",
+			"src/js/jquery.min.js",
+			"src/js/mobiscroll_date.js",
+			"src/css/mobiscroll_date.css",
+			"src/img/select.png",
+			"src/js/public.js",
+			"src/img/date.png",
+			"src/img/device/top.png",
+			"src/img/check.png",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/device/whiteselect.png"
+		],
+		"refer": [
+			"index.html",
+			"src/html/address.html",
+			"src/html/me.html",
+			"src/html/changepw.html",
+			"src/html/devicemore.html"
+		]
+	},
+	"src/html/devicemore.html": {
+		"resources": [
+			"src/img/Back Chevron.png",
+			"src/css/devicemore.css",
+			"src/js/devicemore.js",
+			"src/html/device.html",
+			"src/css/public.css",
+			"src/js/main.js"
+		],
+		"refer": [
+			"src/html/device.html"
+		]
+	},
+	"src/html/buy.html": {
+		"resources": [
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"index.html",
+			"src/img/zoom.png",
+			"src/js/buy.js",
+			"src/css/buy.css",
+			"src/img/select.png",
+			"src/css/public.css",
+			"src/js/main.js",
+			"src/img/device/bottom.png",
+			"src/img/date.png",
+			"src/html/add.html",
+			"src/js/public.js",
+			"src/js/jquery.min.js",
+			"src/html/buyAdd.html",
+			"src/html/buyMore.html",
+			"src/html/buyRead.html",
+			"src/html/buyJujue.html",
+			"src/img/check.png",
+			"src/img/device/top.png",
+			"src/img/dateb.png"
+		],
+		"refer": [
+			"index.html",
+			"src/html/add.html",
+			"src/html/buyAdd.html",
+			"src/html/buyMore.html",
+			"src/html/buyRead.html",
+			"src/html/buyJujue.html"
+		]
+	},
+	"src/html/add.html": {
+		"resources": [
+			"src/js/add.js",
+			"src/css/add.css",
+			"src/html/buy.html",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/next.png",
+			"src/img/date.png",
+			"src/img/buy/z_add.png"
+		],
+		"refer": [
+			"src/html/buy.html"
+		]
+	},
+	"src/html/change.html": {
+		"resources": [
+			"src/css/change.css",
+			"src/js/change.js",
+			"src/html/changeAdd.html",
+			"src/img/select.png",
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"src/img/device/bottom.png",
+			"src/img/date.png",
+			"index.html",
+			"src/img/device/top.png",
+			"src/img/check.png",
+			"src/html/changeRead.html"
+		],
+		"refer": [
+			"src/html/changeAdd.html",
+			"index.html",
+			"src/html/changeRead.html"
+		]
+	},
+	"src/html/changeAdd.html": {
+		"resources": [
+			"src/css/changeAdd.css",
+			"src/js/changeAdd.js",
+			"src/img/next.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/date.png",
+			"src/html/change.html",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/dateb.png"
+		],
+		"refer": [
+			"src/html/change.html"
+		]
+	},
+	"src/html/buyAdd.html": {
+		"resources": [
+			"src/img/buy/z_add.png",
+			"src/js/buyAdd.js",
+			"src/css/buyAdd.css",
+			"src/img/next.png",
+			"src/html/buy.html",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/date.png",
+			"src/img/radio.png",
+			"src/img/dateb.png"
+		],
+		"refer": [
+			"src/html/buy.html"
+		]
+	},
+	"src/html/addressDept.html": {
+		"resources": [
+			"src/img/Back Chevron.png",
+			"src/img/smallnext.png",
+			"src/js/addressDept.js",
+			"src/css/addressDept.css",
+			"src/html/addressMore.html",
+			"src/html/address.html",
+			"src/js/public.js",
+			"src/img/zoom.png",
+			"src/css/public.css",
+			"src/html/addressPeople.html"
+		],
+		"refer": [
+			"src/html/addressMore.html",
+			"src/html/address.html",
+			"src/html/addressPeople.html"
+		]
+	},
+	"src/html/addressMore.html": {
+		"resources": [
+			"src/html/addressDept.html",
+			"src/img/address-phone.png",
+			"src/js/addressMore.js",
+			"src/html/addressPeople.html",
+			"src/css/addressMore.css",
+			"src/img/address-people.png",
+			"src/img/smallnext.png",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/img/zoom.png",
+			"src/css/public.css"
+		],
+		"refer": [
+			"src/html/addressDept.html",
+			"src/html/addressPeople.html"
+		]
+	},
+	"src/html/addressPeople.html": {
+		"resources": [
+			"src/html/addressMore.html",
+			"src/css/adressPeople.css",
+			"src/js/addressPeople.js",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/img/zoom.png",
+			"src/css/public.css",
+			"src/html/addressDept.html"
+		],
+		"refer": [
+			"src/html/addressMore.html",
+			"src/html/addressDept.html"
+		]
+	},
+	"src/html/sublet.html": {
+		"resources": [
+			"src/img/select.png",
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/css/sublet.css",
+			"src/js/sublet.js",
+			"src/img/device/bottom.png",
+			"src/lib/jquery-2.1.1.min.js",
+			"src/img/date.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"index.html",
+			"src/html/subletAdd.html",
+			"src/img/device/top.png",
+			"src/html/subletRead.html",
+			"src/html/subletZuofei.html",
+			"src/html/subletJujue.html",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/dateb.png",
+			"src/img/check.png"
+		],
+		"refer": [
+			"index.html",
+			"src/html/subletAdd.html",
+			"src/html/subletRead.html",
+			"src/html/subletZuofei.html",
+			"src/html/subletJujue.html"
+		]
+	},
+	"src/html/contract.html": {
+		"resources": [
+			"src/js/contract.js",
+			"src/css/contract.css",
+			"index.html",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/img/zoom.png",
+			"src/css/public.css",
+			"src/html/contractMore.html"
+		],
+		"refer": [
+			"index.html",
+			"src/html/contractMore.html"
+		]
+	},
+	"src/html/contractMore.html": {
+		"resources": [
+			"src/js/contractMore.js",
+			"src/css/contractMore.css",
+			"src/html/contract.html",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/css/public.css"
+		],
+		"refer": [
+			"src/html/contract.html"
+		]
+	},
+	"src/html/borrows.html": {
+		"resources": [
+			"src/img/select.png",
+			"src/img/Back Chevron.png",
+			"src/js/borrows.js",
+			"src/img/zoom.png",
+			"src/img/device/bottom.png",
+			"src/img/date.png",
+			"src/css/borrows.css",
+			"src/js/public.js",
+			"src/css/public.css",
+			"index.html",
+			"src/img/device/top.png",
+			"src/img/check.png",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/html/borrowsAssign.html",
+			"src/html/borrowsReadIn.html",
+			"src/html/borrowshuifang.html",
+			"src/html/borrowsAgainAssign.html",
+			"src/html/borrowsDaichuli.html",
+			"src/lib/css/mui.picker.min.css",
+			"src/lib/js/mui.picker.min.js",
+			"src/lib/js/mui.min.js",
+			"src/lib/css/mui.min.css",
+			"src/img/date1.png",
+			"src/img/dateb.png",
+			"src/html/borrowsReadOut.html"
+		],
+		"refer": [
+			"index.html",
+			"src/html/borrowsAssign.html",
+			"src/html/borrowsReadIn.html",
+			"src/html/borrowshuifang.html",
+			"src/html/borrowsAgainAssign.html",
+			"src/html/borrowsDaichuli.html",
+			"src/html/borrowsReadOut.html"
+		]
+	},
+	"src/html/field.html": {
+		"resources": [
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/field.css",
+			"src/js/field.js",
+			"src/html/inField.html",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"index.html",
+			"src/html/outField.html",
+			"src/html/fieldOrder.html"
+		],
+		"refer": [
+			"src/html/inField.html",
+			"index.html",
+			"src/html/outField.html",
+			"src/html/fieldOrder.html"
+		]
+	},
+	"src/html/checkDevice.html": {
+		"resources": [
+			"src/js/checkDevice.js",
+			"src/css/checkDevice.css",
+			"src/img/radio.png",
+			"src/html/inField.html",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/html/outField.html"
+		],
+		"refer": [
+			"src/html/inField.html",
+			"src/html/outField.html"
+		]
+	},
+	"src/html/inField.html": {
+		"resources": [
+			"src/css/inField.css",
+			"src/html/checkDevice.html",
+			"src/js/inField.js",
+			"src/html/field.html",
+			"src/html/newLog.html",
+			"src/img/Back Chevron.png",
+			"src/html/logManage.html",
+			"src/html/fieldOrder.html"
+		],
+		"refer": [
+			"src/html/checkDevice.html",
+			"src/html/field.html",
+			"src/html/newLog.html",
+			"src/html/logManage.html",
+			"src/html/fieldOrder.html"
+		]
+	},
+	"src/html/subletAdd.html": {
+		"resources": [
+			"src/js/subletAdd.js",
+			"src/img/buy/z_add.png",
+			"src/html/sublet.html",
+			"src/css/subletAdd.css",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/radio.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/date.png",
+			"src/img/next.png"
+		],
+		"refer": [
+			"src/html/sublet.html"
+		]
+	},
+	"src/html/outField.html": {
+		"resources": [
+			"src/css/inField.css",
+			"src/html/checkDevice.html",
+			"src/js/inField.js",
+			"src/html/field.html",
+			"src/js/outField.js",
+			"src/html/outcheckDevice.html"
+		],
+		"refer": [
+			"src/html/checkDevice.html",
+			"src/html/outcheckDevice.html",
+			"src/html/field.html"
+		]
+	},
+	"src/html/outcheckDevice.html": {
+		"resources": [
+			"src/js/outcheckDevice.js",
+			"src/css/outcheckDevice.css",
+			"src/html/outField.html",
+			"src/img/radio.png"
+		],
+		"refer": [
+			"src/html/outField.html"
+		]
+	},
+	"src/html/stop.html": {
+		"resources": [
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/stop.css",
+			"src/js/stop.js",
+			"index.html",
+			"src/html/newStop.html",
+			"src/html/stopNew.html",
+			"src/html/stopChoose.html",
+			"src/html/stopMore.html",
+			"src/html/stopadvanceUse.html"
+		],
+		"refer": [
+			"index.html",
+			"src/html/newStop.html",
+			"src/html/stopNew.html",
+			"src/html/stopChoose.html",
+			"src/html/stopMore.html",
+			"src/html/stopadvanceUse.html"
+		]
+	},
+	"src/html/newStop.html": {
+		"resources": [
+			"src/html/stop.html",
+			"src/css/newStop.css",
+			"src/js/newStop.js"
+		],
+		"refer": [
+			"src/html/stop.html"
+		]
+	},
+	"src/html/stopNew.html": {
+		"resources": [
+			"src/js/stopNew.js",
+			"src/css/stopNew.css",
+			"src/img/date.png",
+			"src/html/stop.html",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/dateb.png"
+		],
+		"refer": [
+			"src/html/stop.html"
+		]
+	},
+	"src/html/stopChoose.html": {
+		"resources": [
+			"src/html/stop.html",
+			"src/css/stopMore.css"
+		],
+		"refer": [
+			"src/html/stop.html"
+		]
+	},
+	"src/html/stopMore.html": {
+		"resources": [
+			"src/html/stop.html"
+		],
+		"refer": [
+			"src/html/stop.html"
+		]
+	},
+	"src/html/newLog.html": {
+		"resources": [
+			"src/css/newLog.css",
+			"src/js/newLog.js",
+			"src/img/log/minus.png",
+			"src/img/log/add.png",
+			"src/img/date.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/html/inField.html"
+		],
+		"refer": [
+			"src/html/inField.html"
+		]
+	},
+	"src/html/claim.html": {
+		"resources": [
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/js/claim.js",
+			"src/css/claim.css",
+			"src/js/public.js",
+			"src/css/public.css",
+			"index.html",
+			"src/html/claimNew.html",
+			"src/html/claimReadF.html"
+		],
+		"refer": [
+			"index.html",
+			"src/html/claimNew.html",
+			"src/html/claimReadF.html"
+		]
+	},
+	"src/html/inCar.html": {
+		"resources": [
+			"src/css/inCar.css",
+			"src/js/inCar.js",
+			"src/img/more.png"
+		]
+	},
+	"src/html/logManage.html": {
+		"resources": [
+			"src/js/logManage.js",
+			"src/img/revise.png",
+			"src/html/inCar.html",
+			"src/img/log/minus.png",
+			"src/img/date.png",
+			"src/img/log/add.png",
+			"src/css/logManage.css",
+			"src/html/inField.html"
+		],
+		"refer": [
+			"src/html/inCar.html",
+			"src/html/inField.html"
+		]
+	},
+	"src/html/claimNew.html": {
+		"resources": [
+			"src/css/claimNew.css",
+			"src/js/claimNew.js",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/html/claim.html",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/next.png"
+		],
+		"refer": [
+			"src/html/claim.html"
+		]
+	},
+	"src/html/borrowsAssign.html": {
+		"resources": [
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js",
+			"src/html/borrows.html",
+			"src/lib/js/mui.min.js",
+			"src/lib/css/mui.min.css",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/next.png"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/borrowsReadIn.html": {
+		"resources": [
+			"src/js/borrowsReadIn.js",
+			"src/html/borrows.html"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/borrowshuifang.html": {
+		"resources": [
+			"src/html/borrows.html"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/borrowsAgainAssign.html": {
+		"resources": [
+			"src/html/borrows.html",
+			"src/css/borrowsMore.css",
+			"src/lib/js/mui.min.js",
+			"src/js/borrowsMore.js",
+			"src/lib/css/mui.min.css",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/img/next.png"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/fieldOrder.html": {
+		"resources": [
+			"src/html/field.html",
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js",
+			"src/html/inField.html"
+		],
+		"refer": [
+			"src/html/field.html",
+			"src/html/inField.html"
+		]
+	},
+	"src/html/serves.html": {
+		"resources": [
+			"src/img/select.png",
+			"src/img/buy/add.png",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/css/serves.css",
+			"src/img/device/bottom.png",
+			"src/img/date.png",
+			"src/js/serves.js",
+			"index.html",
+			"src/html/servesAllot.html",
+			"src/lib/js/jquery-1.10.0.min.js"
+		],
+		"refer": [
+			"index.html",
+			"src/html/servesAllot.html"
+		]
+	},
+	"src/html/changeRead.html": {
+		"resources": [
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/js/changeAdd.js",
+			"src/css/changeRead.css"
+		]
+	},
+	"src/html/servesAllot.html": {
+		"resources": [
+			"src/js/servesAllot.js",
+			"src/css/servesAllot.css"
+		]
+	},
+	"src/html/borrowsDaichuli.html": {
+		"resources": [
+			"src/html/borrows.html"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/log.html": {
+		"resources": [
+			"src/img/buy/add.png",
+			"index.html",
+			"src/js/log.js",
+			"src/css/log.css",
+			"src/img/select.png",
+			"src/img/date.png"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"src/html/borrowsReadOut.html": {
+		"resources": [
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js",
+			"src/js/borrowsReadOut.js",
+			"src/html/borrows.html",
+			"src/js/borrowsReadIn.js"
+		],
+		"refer": [
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/subletRead.html": {
+		"resources": [
+			"src/html/sublet.html",
+			"src/js/subletAdd.js",
+			"src/img/buy/z_add.png",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/subletAdd.css",
+			"src/img/radio.png"
+		],
+		"refer": [
+			"src/html/sublet.html"
+		]
+	},
+	"src/html/subletZuofei.html": {
+		"resources": [
+			"src/html/sublet.html"
+		],
+		"refer": [
+			"src/html/sublet.html"
+		]
+	},
+	"src/html/subletJujue.html": {
+		"resources": [
+			"src/img/dateb.png",
+			"src/html/sublet.html"
+		],
+		"refer": [
+			"src/html/sublet.html"
+		]
+	},
+	"src/html/buyMore.html": {
+		"resources": [
+			"src/js/buyAdd.js",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/buyAdd.css",
+			"src/html/buy.html"
+		],
+		"refer": [
+			"src/html/buy.html"
+		]
+	},
+	"src/html/buyRead.html": {
+		"resources": [
+			"src/html/buy.html",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/buyAdd.css",
+			"src/js/buyRead.js"
+		],
+		"refer": [
+			"src/html/buy.html"
+		]
+	},
+	"src/html/buyJujue.html": {
+		"resources": [
+			"src/img/dateb.png",
+			"src/js/public.js",
+			"src/js/buyAdd.js",
+			"src/css/public.css",
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/css/buyAdd.css",
+			"src/img/radio.png",
+			"src/img/next.png",
+			"src/html/buy.html"
+		],
+		"refer": [
+			"src/html/buy.html"
+		]
+	},
+	"src/html/stopadvanceUse.html": {
+		"resources": [
+			"src/css/stopMore.css",
+			"src/img/date.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/html/stop.html"
+		],
+		"refer": [
+			"src/html/stop.html"
+		]
+	},
+	"src/html/claimReadF.html": {
+		"resources": [
+			"src/css/claimNew.css",
+			"src/js/claimNew.js",
+			"src/html/claim.html"
+		],
+		"refer": [
+			"src/html/claim.html"
+		]
+	}
+}

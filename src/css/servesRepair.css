@@ -1,0 +1,149 @@
+
+header{
+	z-index:100;
+}
+html,body{
+	background: #FAFAFA;
+	font-size:0.32rem;
+}
+
+.work-more{
+	margin-top:0.88rem;
+	
+}
+
+
+.work-more .more-pic{
+	width:0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	transform-origin:center center;
+    transform: rotate(0deg); //返回原点
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -o-transition: -o-transform 0.3s; 
+    -ms-transition: -ms-transform 0.3s; 
+}
+
+.work-more .more-pic1{
+	width:0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	transform-origin:center center; //旋转中心要是正中间 才行
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: transform 0.3s; //过度时间 可调
+    -moz-transition: -moz-transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -o-transition: -o-transform 0.3s; 
+    -ms-transition: -ms-transform 0.3s; 
+}
+
+ textarea{
+	padding-top:0.2rem;
+	padding-left:0.24rem;
+	height: 1.8rem;
+	width: 7.26rem;
+	
+}
+
+.writeul i{
+	position: absolute;
+	right:0.24rem;
+	height: 0.42rem;
+	text-align:right;
+	color: #363636;
+}
+
+.description ul{
+	border-bottom: 0.1rem solid #F2F2F2;
+}
+
+.description ul li:first-child{
+	font-size: 0.24rem;
+	color: #C7C7CC;
+	height: 0.72rem;
+	line-height: 0.72rem;	
+}
+
+.description ul li:last-child{
+	border-bottom: none;
+}
+
+.description ul li{
+	position: relative;
+	border-bottom:1px solid #E6E6E6;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	margin-left:0.24rem;
+	color: #999999;
+}
+
+.description ul li b{
+	position: absolute;
+	right: 0.24rem;
+	color: #363636;
+}
+
+.description .des{
+	margin-top:0.28rem;
+	margin-left:0.24rem;
+}
+
+.description .fj{
+	height: auto;
+	border-bottom: 0.1rem solid #F2F2F2;
+	padding-bottom:0.28rem;
+}
+
+.description .fj span{
+	display: block;
+	margin-top:0.2rem;
+	margin-left:0.24rem;
+}
+
+.work-return .work1{
+	position: relative;
+	height: 0.98rem;
+	margin-left:0.24rem;
+	line-height: 0.98rem;
+}
+
+.work-return .work1 .next{
+	position: absolute;
+	width:0.45rem;
+	height: 0.45rem;
+	right:0.1rem;
+	top:0.28rem;
+}
+
+.work-return .work1 span{
+	color:#999999;
+}
+
+.work-return .work1 i,.work-return .work1 s{
+	position: absolute;
+	right:0.45rem;
+	color: #999999;
+}
+.work-return .work1 input{
+	width:2rem;
+	position: absolute;
+	right: 0.45rem;
+	top:0.28rem;
+	background: none;
+}
+
+

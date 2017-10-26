@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>待整改整备</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/deviceDefendResultR.css" />
+		<style>
+			.first-message i{
+			color:#363636;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="lefts" id="left">取消</div>
+			<div class="imp">提交处理结果</div>
+		</header>
+		
+		<div class="first-message">
+			<ul class="writeul">
+				<li><span>出厂编号</span><i>回显</i></li>
+				<li><span>设备小时数</span><i>988</i></li>
+				<li><span>采购日期</span><i>2017-10-20</i></li>
+				<li><span>质保</span><i>保内</i></li>
+				<li><span>实际工时</span><i>3小时</i></li>
+				
+			</ul>
+			<textarea placeholder="处理结果:" readonly></textarea>
+		</div>
+		
+		<div class="description">配件描述</div>
+
+			<div id="more">
+			
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span>
+						</li>
+						<li>
+							<span>配件名称</span><input type="text" placeholder="请输入名称" class="num1" />
+						</li>
+						<li>
+							<span>数量</span><input type="number" placeholder="请输入数量" class="num2"/>
+						</li>
+					</ol>
+			
+
+			</div>
+			
+			<div class="fj1"><span>上传处理前附件</span></div>
+			<div class="fj2"><span>上传处理后附件</span></div>
+			<textarea placeholder="备注:" class="last"></textarea>
+			<button class="ok">提&nbsp;&nbsp;&nbsp;交</button>
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script>
+	left();
+	var ok =document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="deviceDefend.html?type=3";
+	}
+</script>
+

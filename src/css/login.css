@@ -1,0 +1,119 @@
+/*去除自带边距*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,img {padding:0;margin:0;font-family: "microsoft yahei";}
+
+li {
+	list-style: none;
+}
+
+a{text-decoration: none;}
+
+html,body{
+			overflow:hidden;
+			overflow-y:auto;
+			height:100%;
+			font-family: "microsoft yahei";
+			}
+
+header {
+	width:100%;
+	
+	height:5.26rem;
+}
+header img{
+	width:100%;
+	height:100%;
+}
+
+input,button{
+	width:5.6rem;
+	height: 0.9rem;
+	display: block;
+	margin:0 auto;
+	border-radius: 5px;
+	
+	
+}
+input{
+	font-size:0.3rem;
+	color: #8E8E93;
+	border: 2px solid #CCCCCC;
+	padding-left:0.82rem;
+	margin-bottom:0.36rem;
+	width:4.78rem;
+	outline:blue;
+}
+
+button{
+	font-size:0.36rem;
+	color:#FFFFFF;
+	background: #0082D9;
+	cursor:pointer;
+	outline:none;
+	border:none;
+	
+}
+
+
+
+.tel{
+	background: url(../img/login/tel.png) no-repeat 0.26rem 0.25rem;
+	background-size: 0.27rem 0.4rem;
+}
+
+.pw{
+	background: url(../img/login/password.png) no-repeat 0.26rem 0.25rem;
+	background-size: 0.27rem 0.4rem;
+}
+
+#forget{
+	font-size:0.22rem;
+	float: right;
+	margin-right:0.96rem;
+	margin-top:0.1rem;
+	color: #CCCCCC;
+	letter-spacing: -0.53px;
+	cursor:pointer;	
+}
+
+#tips{
+
+	width:3.4rem;
+	margin-top:2.49rem;
+	display:none;
+	background: #D8D8D8;
+	height:0.7rem;
+	border-radius: 0.35rem;
+	font-size:0.28rem;
+	line-height: 0.7rem;
+	text-align: center;
+	margin-left:2.05rem;
+	
+}
+
+
+#mark{
+	width:100%;
+	height: 100%;
+	display: none;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#mark #markTips{
+	width:4rem;
+	height: 1.75rem;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-2rem;
+	margin-top:-0.875rem;
+	font-size: 0.32rem;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.61);
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 1.75rem;
+}
+
+

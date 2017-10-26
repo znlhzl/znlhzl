@@ -1,0 +1,183 @@
+	header{
+		padding:0;
+		z-index: 100;
+	}
+	
+	html,body{
+		background: #FAFAFA;
+	}
+	/*-----------section------------*/
+	section{
+		margin-top:0.88rem;
+	}
+	
+	section .change{
+		height: 1.03rem;
+		line-height: 1.03rem;
+		background: #F2F2F2;
+		font-size: 0.32rem;
+		color: #666666;
+		padding-left:0.5rem;
+		position: relative;
+	}
+	
+	section .change span{
+		position: absolute;
+		width:0.06rem;
+		height: 0.4rem;
+		left:0.24rem;
+		top:0.32rem;
+		background:#0082D9;
+	}
+	
+	section #changeId{
+		width:100%;
+		font-size:0;
+		height: auto;
+	}
+	
+	section #changeId li{
+		height: 0.98rem;
+		width:auto;
+		font-size:0.32rem;
+		color: #999999;
+		position: relative;
+		border-bottom: 1px solid #E6E6E6;
+		margin-left:0.24rem;
+	}
+	
+	section #changeId li span{
+		position: absolute;
+		font-size:0.32rem;
+		top:0.28rem;
+	}
+	
+	section #changeId li i{
+		position: absolute;
+		right:0.24rem;
+		top:0.28rem;
+		color:#363636;
+	}
+	
+	
+	
+	section #changeId li .next{
+		width:0.45rem;
+		height: 0.45rem;
+		position: absolute;
+		top:0.28rem;
+		right:0.12rem;
+	}
+	
+
+	
+
+   /* -----设备明细-----------*/
+
+  	section #more{
+  		font-size:0.32rem;
+  		width:100%;
+  		height: auto;
+  		
+  	}
+  
+  	section #more .div-more li{
+  		height: 0.98rem;
+  		line-height: 0.98rem;
+		width:auto;
+		font-size:0.32rem;
+		color: #999999;
+		position: relative;
+		border-bottom: 1px solid #E6E6E6;
+		margin-left:0.24rem;
+  	}
+  	
+  
+	section #more .div-more .li-first{
+		height: 0.71rem;
+		line-height: 0.71rem;
+		display: block;
+		font-size: 0.24rem;
+	}
+	section #more .div-more .li-first i{
+		position: static;
+		color:#363636;
+	}
+	
+	section #more ol li i{
+		position: absolute;
+		right: 0.24rem;
+		color:#999999;
+	}
+	
+	section .sprz{
+		line-height: 0.4rem;
+		padding:0.2rem 0;
+		margin-left: 0.24rem;
+		border-bottom:1px solid #E6E6E6;
+	}
+	section .sprz small{
+		display: block;
+		font-size: 0.26rem;
+		color: #999999;
+		
+	}
+	
+	textarea{
+		padding-left:0.24rem;
+		padding-top:0.2rem;
+		height: 1.8rem;
+		width:7.26rem;
+	}
+	
+	/*----------底部----------*/
+	footer{
+		width:100%;
+		height: 2.75rem;
+	}
+	footer div{
+		text-align: center;
+		font-size:0.32rem;
+		color: #0082D9;
+	}
+	footer button{
+		width:5.6rem;
+		height: 0.9rem;
+		font-size: 0.36rem;
+		color: #FFFFFF;
+		background: #0082D9;
+		border-radius: 5px;
+		display:block;
+		border: none;
+		margin:0.5rem auto 0.9rem;
+		
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+
+
+
+html,body{
+	background: #FAFAFA;
+}
+
+
+
+/*-------头部导航-----------*/
+header{
+	z-index:100;
+}
+
+header input{
+	width:5.25rem;
+	font-size:0.28rem;
+	padding-left:0.67rem;
+}
+header .zoom{
+	left:1.1rem;
+	z-index:100;
+}
+
+
+/*--------tab切换四部分页面-----------*/
+
+
+.box .bottom .show .bot2 span{
+	position: absolute;
+	color: #0082D9;
+	top:0.26rem;
+	right:0.24rem;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>录入设备</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/inputEquipment.css" />
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png" id="left" class="left" />
+			<div class="imp">录入设备</div>
+		</header>
+		
+		<section>
+			<div id="more">
+				<div class="heading"><span></span>设备明细</div>
+				<ul>
+					<li>
+						<div class="top-message">
+							<span class="nums">JCPT12345</span>
+							<span class="inputs">已录入<i class="blue">0</i>台</span>
+						</div>
+						<div class="bottom-message">
+							<span>品牌:鼎力</span>
+							<span class="blue">采购台量:3</span>
+							<span>单价:1500</span>
+							<span>小计:4500</span>
+						</div>
+					</li>
+					<li>
+						<div class="top-message">
+							<span class="nums">JCPT12347</span>
+							<span class="inputs">已录入<i class="blue">1</i>台</span>
+						</div>
+						<div class="bottom-message">
+							<span>品牌:鼎力</span>
+							<span class="blue">采购台量:2</span>
+							<span>单价:1500</span>
+							<span>小计:3000</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="device">
+				<div class="heading"><span></span>设备录入</div>
+				<ul>
+					<li>
+						<span>所属门店</span><i>请输入所选门店</i><img src="../img/next.png" />
+					</li>
+					<li>
+						<span>出厂编号</span><input placeholder="请输入出厂编号 (必填)" />
+					</li>
+					<li>
+						<span>品牌</span><i>(必填)</i><img src="../img/next.png" />
+					</li>
+					<li>
+						<span>型号</span><i>(必填)</i><img src="../img/next.png" />
+					</li>
+					<li>
+						<span>质保时间</span><input placeholder="请输入质保月份" />
+					</li>
+					<li>
+						<span>自编号</span><input placeholder="请输入自编号" />
+					</li>
+					<li>
+						<span>GPS号</span><input placeholder="请输入GPS号" />
+					</li>
+					<li>
+						<span>物流订单</span><input placeholder="请输入物流订单" />
+					</li>
+				</ul>
+				<textarea name="textarea" style="resize : none;">备注:</textarea>
+				
+			</div>
+			
+		</section>
+		<footer>
+			<button class="keep">保存</button>
+			<button class="new">保存并新增</button>
+		</footer>
+		
+
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/inputEquipemnt.js" ></script>

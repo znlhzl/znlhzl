@@ -1,0 +1,173 @@
+html,body{
+	font-size:0.32rem;
+	background: #FAFAFA;
+}
+header{
+	z-index: 200;
+}
+input{
+	background: none;
+	font-size:0.32rem;
+}
+
+
+.wl-more{
+	margin-top:0.88rem;
+}
+
+.wl-more .more-pic{
+	width:0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	transform-origin:center center;
+    transform: rotate(0deg); //返回原点
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -o-transition: -o-transform 0.3s; 
+    -ms-transition: -ms-transform 0.3s; 
+}
+
+.wl-more .more-pic1{
+	width:0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	transform-origin:center center; //旋转中心要是正中间 才行
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transition: transform 0.3s; //过度时间 可调
+    -moz-transition: -moz-transform 0.3s; 
+    -moz-transition: -moz-transform 0.3s; 
+    -o-transition: -o-transform 0.3s; 
+    -ms-transition: -ms-transform 0.3s; 
+}
+
+.wl-more input{
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	height: 0.42rem;
+	text-align: right;
+}
+
+.wl-more textarea{
+	padding-top:0.2rem;
+	padding-left:0.24rem;
+	height: 1.8rem;
+	width: 7.26rem;
+}
+
+
+
+.de-message ul{
+	border-bottom: 0.1rem solid #F2F2F2;
+}
+
+.de-message ul:last-child{
+	border-bottom :none;
+}
+.de-message ul:last-child li:last-child{
+	border-bottom:1px solid #E6E6E6;
+}
+.de-message ul li{
+	position: relative;
+	border-bottom:1px solid #E6E6E6;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	margin-left:0.24rem;
+	color: #999999;
+}
+
+.de-message ul li:first-child{
+	font-size: 0.24rem;
+	color: #C7C7CC;
+	height: 0.72rem;
+	line-height: 0.72rem;	
+}
+
+.de-message ul li:nth-child(2) b{
+	position: absolute;
+	right:0.24rem;
+	color: black;
+	
+}
+
+.de-message ul li:last-child{
+	border-bottom: none;
+}
+
+.de-message ul li:last-child input{
+	width:0.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size:0.32rem;
+	position: absolute;
+	top:0.28rem;
+	right: 0.24rem;
+	text-align: right;
+	
+}
+
+.de-more ul li{
+	height: 0.98rem;
+	line-height: 0.98rem;
+	margin-left:0.24rem;
+	border-bottom:1px solid #E6E6E6;
+	color: #999999;
+	position: relative;
+}
+
+.de-more ul .firstli{
+	font-size:0.24rem;
+	height: 0.72rem;
+	line-height: 0.72rem;
+	color: #C7C7CC;
+}
+
+.de-more ul li b{
+	position: absolute;
+	right:0.24rem;
+}
+
+.de-more ul li input{
+	width:2.24rem;
+	height: 0.42rem;
+	right:0.24rem;
+	top:0.28rem;
+	position: absolute;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: #0099FF;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: #0099FF;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color: #0099FF;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color: #0099FF;
+}
+
+button{
+	width:5.6rem;
+	height: 0.9rem;
+	background: #0082D9;
+	border-radius: 0.08rem;
+	margin:0.5rem 0 0.5rem 0.95rem;
+	font-size:0.36rem;
+	color:#FFFFFF;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>新建物流需求</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/newLog.css" />
+	</head>
+	<body>
+		<header>
+			<div id="left">取消</div>
+			<div id="new" class="imp">新建物流需求</div>
+		</header>
+		<div class="need">
+			<div class="partblue"><span></span><i>物流需求</i></div>
+			<ul class="writeul">
+				<li><span>物流类型</span><i>自动生成</i></li>
+				<li><span>物流需求名称</span><input placeholder="请输入(必填)"/></li>
+				<li><span>合同号</span><input placeholder="请输入(必填)"/></li>
+				<li><span>要求运输时间</span><input placeholder="精确到分(必填)" class="mins" type="date"/><img src="../img/date.png"/></li>
+				<li><span>项目名称</span><input placeholder="请输入(必填)"/></li>
+				<li><span>预计公里数</span><input placeholder="请输入(必填)"/></li>
+				<li><span>发货地址</span><input placeholder="请输入(必填)"/></li>
+				<li><span>收货地址</span><input placeholder="请输入(必填)"/></li>
+				<li><span>发货人</span><input placeholder="请输入(必填)"/></li>
+				<li><span>收货人</span><input placeholder="请输入(必填)"/></li>
+				<li><span>发货人电话</span><input placeholder="请输入(必填)" type="number"/></li>
+				<li class="lastli"><span>收货人电话</span><input type="number" placeholder="请输入(必填)"/></li>
+			</ul>
+			<textarea placeholder="备注:"></textarea>
+		</div>
+		
+		<div class="message">
+			<div class="partblue"><span></span><i>设备信息</i></div>
+			<ul>
+				<li><span>明细</span>&nbsp;<i>(1)</i></li>
+				<li><span>型号</span><b>JCPT123456</b></li>
+				<li><span>台量</span><img src="../img/log/minus.png" class="img1"/>
+					<input type="number" value="12" class="input1"/>
+					<img src="../img/log/add.png"class="img2"/></li>
+			</ul>
+			<ul>
+				<li><span>明细</span>&nbsp;<i>(2)</i></li>
+				<li><span>型号</span><b>JCPT767345</b></li>
+				<li><span>台量</span><img src="../img/log/minus.png" class="img1"/>
+					<input type="number" value="5" class="input1"/>
+					<img src="../img/log/add.png" class="img2"/>
+				</li>
+			</ul>
+		</div>
+		<button type="submit" class="tijiao">提&nbsp;交</button>
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/newLog.js" ></script>

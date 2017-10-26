@@ -1,0 +1,46 @@
+html,body{
+	background: #FAFAFA;
+}
+header{
+	z-index: 200;
+}
+.writeul {
+	margin-top:0.88rem;
+
+}
+
+.writeul i{
+	position: absolute;
+	right:0.24rem;
+	color:black;
+}
+
+.writeul input{
+	font-size:0.32rem;
+	position: absolute;
+	right:0.24rem;
+	top:0.28rem;
+	width:4rem;
+	text-align: right;
+	background: none;
+}
+.writeul .next{
+	width:0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right: 0.2rem;
+	top:0.28rem;
+}
+
+
+.writeul s{
+	position: absolute;
+	right: 0.57rem;
+}
+
+textarea{
+	padding-top:0.2rem;
+	padding-left:0.24rem;
+	width:7.26rem;
+	height: 1.8rem;
+}

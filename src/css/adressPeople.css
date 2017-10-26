@@ -1,0 +1,70 @@
+html,body{
+		background: #FAFAFA;
+	}
+	b,i{
+		font-weight: normal;
+		font-style:normal;
+	}
+	
+	header{
+		z-index:100;
+	}
+	header img,header input{
+		position: absolute;
+	}
+	
+	header .left{
+		width:0.26rem;
+		height: 0.45rem;
+		top:0.2rem;
+		left:0.24rem;
+	}
+	
+	header input{
+		width:3.74rem;
+		height: 0.58rem;
+		border:none;
+		outline:none;
+		font-size:0.28rem;
+		padding-left:2.16rem;
+		border-radius:0.1rem;
+		top:0.15rem;
+		left:0.8rem;
+		background: #FFFFFF;
+	}
+	
+	header .zoom{
+		width:0.25rem;
+		height: 0.25rem;
+		top:0.32rem;
+		left:2.61rem;
+	}
+	ul{
+		margin-top:0.88rem;
+		height: auto;
+		width:100%;
+	}
+
+	ul li{
+		height: 1.26rem;
+		margin-left:0.24rem;
+		border-bottom:1px solid #E6E6E6;
+		font-size: 0.24rem;
+		position: relative;
+	}
+	
+	ul li span{
+		position: absolute;
+		top:0.26rem;
+		color: #979797;
+	}
+	
+	ul li i{
+		position: absolute;
+		top:0.64rem;
+		font-size:0.32rem;
+		color: #363636;
+	}
+	ul li .telphone{
+		color: #00A7EF;
+	}

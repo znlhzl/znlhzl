@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>服务工单审批保养整备</title>
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/servesRepair.css" />
+		
+	</head>
+	<body>
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left" />
+			<div class="imp">服务工单审批</div>
+		</header>
+		
+		<!--工单详情-->
+		<div class="work-more">
+			<div class="partblue"><span></span><i>工单详情</i><img src="../img/more.png" class="more-pic"/></div>
+			<ul class="writeul">
+				<li><span>工单号</span><i>FW20170716</i></li>
+				<li><span>工单类型</span><i>报修</i></li>
+				<li><span>型号</span><i>JCPT1234</i></li>
+				<li><span>门店</span><i>南京店</i></li>
+				<li><span>项目名称</span><i>鸿泰消防项目</i></li>
+				<li><span>项目地址</span><i>南京市江宁区</i></li>
+				<li><span>联系人</span><i>测试人</i></li>
+				<li><span>联系电话</span><i>18710231211</i></li>
+				<li><span>客户名称</span><i>测试客户</i></li>
+				<li><span>服务工程师</span><i>17878782931</i></li>
+				<li><span>协作工程师</span><i>测试客户</i></li>
+			</ul>
+			<textarea readonly>备注信息</textarea>
+		</div>
+		
+		<!--处理结果-->
+		<div class="work-result">
+			<div class="partblue"><span></span><i>处理结果</i></div>
+			<ul class="writeul">
+				<li><span>出厂编号</span><i>NCPT20170716</i></li>
+				<li><span>设备小时数</span><i>888</i></li>
+				<li><span>实际工时</span><i>3小时</i></li>
+				
+			</ul>
+			<textarea placeholder="处理结果:">故障类型:漏油</textarea>
+		</div>
+		
+		<div class="description">
+			<div class="des">配件描述</div>
+			<ul>
+				<li><span>明细</span>&nbsp;<i>(1)</i></li>
+				<li><span>配件名称</span><b>油管</b></li>
+				<li>
+					<span>数量</span><b>1</b>
+				</li>
+			</ul>
+			<div class="fj"><span>附件</span></div>
+			
+			<textarea placeholder="备注:"></textarea>
+		</div>
+		
+		<div class="read-result">
+			<div class="partblue"><span></span><i>审批结果</i><button class="agree">同意</button><button class="disagree">不同意</button></div>
+			<textarea placeholder="备注:"></textarea>
+		</div>
+		<button class="ok">确&nbsp;&nbsp;&nbsp;定</button>
+	</body>
+</html>
+<script type="text/javascript" src="../js/public.js" ></script>
+<script type="text/javascript" src="../js/servesRepair.js" ></script>
+<script>
+	var agree= document.getElementsByClassName("agree")[0];
+	
+		var disagree =document.getElementsByClassName("disagree")[0];
+	
+		var ok =document.getElementsByClassName("ok")[0];
+		
+	agree.onclick=function(){
+		agree.style.background="#0082D9";
+		disagree.style.background="none";
+		agree.style.color="#FFFFFF";
+		disagree.style.color="#979797";
+			
+	}
+	disagree.onclick =function(){
+		disagree.style.background="#0082D9";
+		agree.style.background="none";
+		disagree.style.color="#FFFFFF";
+		agree.style.color="#979797";
+		
+	}
+	ok.onclick=function(){
+		window.location.href="serves.html?type=3";
+	}
+</script>

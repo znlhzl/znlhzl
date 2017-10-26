@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+	 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>采购单详情</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/buyAdd.css" />
+
+	</head>
+
+	<body>
+
+		<header>
+			<img src="../img/Back Chevron.png" class="left-img" id="left" />
+			<div class="imp">采购单详情</div>
+		</header>
+
+		<section>
+			<div class="buy">采购单<span></span></div>
+			<ul id="buyId">
+				<li>
+					<span>采购单号</span>
+					<i>C1000101</i>
+				</li>
+				<li>
+					<span>采购类型</span>
+					<i>银行贷款</i>
+				</li>
+				<li>
+					<span>采购日期</span>
+					<i>2015-10-10</i>
+				</li>
+				<li>
+					<span>融资公司</span>
+					<i>山重融资租赁有限公司</i>
+				</li>
+				<li>
+					<span>供应商</span>
+					<i>捷尔杰设备公司</i>
+				</li>
+				<li>
+					<span>采购台量</span>
+					<i>10</i>
+				</li>
+				<li>
+					<span>采购金额</span>
+					<i>50000</i>
+				</li>
+				<li>
+					<span>采购计划</span>
+					<i>计划内</i>
+				</li>
+				<li>
+					<span>发货地址</span>
+					<input type="text" placeholder="请输入发货地址" id="address" class="address" value="南京江宁大学城"/>
+				</li>
+			</ul>
+
+			<!--使用相册-->
+
+			<!--安卓手机只支持一张张的传递-->
+			<div class="container">
+				<!--    照片添加    -->
+				<div class="give-pic">附件</div>
+				
+
+				
+			</div>
+
+			<div class="rember">
+				<form>
+					<textarea name="textarea" placeholder="备注:" readonly>备注内容备注备注。。。。。</textarea>
+				</form>
+
+			</div>
+
+			<!-- 添加设备明细-->
+			<div class="buy">设备明细<span></span></div>
+
+			<div id="more">
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span>
+						</li>
+						<li>
+							<span>品牌</span><em>JLG</em>
+						</li>
+						<li>
+							<span>型号</span><em>R10</em>
+						</li>
+						<li>
+							<span>台量</span><em>10</em>
+						</li>
+						<li>
+							<span>已录入设备</span><em>0</em>
+						</li>
+						<li>
+							<span>单价(元)</span><em>5000</em>
+						</li>
+						<li class="li-last">
+							<span>小计(元)</span>
+							<b class="num3 numk">50000</b>
+						</li>
+					</ol>
+			
+
+			</div>
+			<div class="sprz">
+				<div class="partblue"><span></span><i>审批日志</i></div>
+				<div class="sprz-1">
+					<small>执行环节:开始</small>
+					<small>执行人:孔彩虹</small>
+					<small>开始时间:2017-9-1 11:08:23</small>
+					<small>结束时间:2017-9-1 11:08:23</small>
+					<small>提交意见:</small>
+					<small>任务历时:</small>
+				</div>
+			</div>
+			
+		</section>
+		<footer>
+			<button class="fqwl">发起物流</button><button class="lrsb">录入设备</button>
+		</footer>
+	
+
+	</body>
+
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+<script>
+	left();
+	var fqwl = document.getElementsByClassName("fqwl")[0];
+	var lrsb = document.getElementsByClassName("lrsb")[0];
+	fqwl.onclick=function(){
+		window.location.href="newLog.html";
+	}
+	lrsb.onclick=function(){
+		window.location.href="inputEquipment.html";
+	}
+</script>
+
+

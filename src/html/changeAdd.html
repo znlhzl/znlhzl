@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>添加调拨单</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/changeAdd.css" />
+	</head>
+
+	<body>
+
+		<header>
+			<div id="left" class="lefts">取消</div>
+			<div id="new" class="imp">新建调拨单</div>
+		</header>
+
+		<section>
+			<div class="change">调拨单<span></span></div>
+			<ul id="changeId">
+				<li class="dcmd">
+					<span>调出门店</span>
+					<s>(必填)</s>
+					<img src="../img/next.png" class="next" />
+				</li>
+				<li class="drmd">
+					<span>调入门店</span>
+					<s>(必填)</s>
+					<img src="../img/next.png" class="next" />
+				</li>
+				<li>
+					<span>调出日期</span>
+					<input type="date" class="time" />
+					<img src="../img/date.png" class="date-first"/>
+				</li>
+				<li>
+					<span>调拨原因</span>
+					<input type="text" placeholder="请输入调拨原因" id="address" />
+				</li>
+			</ul>
+
+
+			<!-- 添加设备明细-->
+			<div class="change">设备明细<span></span></div>
+
+			<div id="more">
+					<ol class="div-more">
+						<li class="li-first">
+							<span>明细 <i>(1)</i></span><b class="btn-clear">删除</b>
+						</li>
+						<li class="pinpai">
+							<span>品牌</span><s></s><img src="../img/next.png" class="next pins" />
+						</li>
+						<li class="xinhao">
+							<span>型号</span><s></s><img src="../img/next.png" class="next xins" />
+						</li>
+						<li>
+							<span>台量</span><input type="number" placeholder="请输入台量" />
+						</li>
+					</ol>
+			</div>
+
+		</section>
+		
+		<footer>
+			<div id="addOl">+添加设备明细</div>
+			<button type="submit" class="ok">提交</button>
+		</footer >
+		<div id="mark"></div>
+		<div class="yincang drmds">
+			<ul>
+				<li>北京店</li>
+				<li>上海店</li>
+				<li>南京店</li>
+				<li>济南店</li>
+				<li>合肥店</li>
+				<li>杭州店</li>
+			</ul>
+		</div>
+		<div class="yincang dcmds">
+			<ul>
+				<li>北京店</li>
+				<li>上海店</li>
+				<li>南京店</li>
+				<li>济南店</li>
+				<li>合肥店</li>
+				<li>杭州店</li>
+			</ul>
+		</div>
+		<div class="pinpais yincang">
+			<ul>
+				<li>CLG</li>
+				<li>LDG</li>
+				<li>天津中盛百利工厂</li>
+			</ul>
+		</div>
+		<div class="xinhaos yincang">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
+<script src="../js/public.js"></script>
+<script type="text/javascript" src="../js/changeAdd.js"></script>
+
