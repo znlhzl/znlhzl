@@ -41,18 +41,11 @@ html,body{
 }
 
 .need .writeul .mins{
-	width:2.12rem;
-	right:0.77rem;
+	width:2.5rem;
+	right:0.24rem;
 }
 
-.need .writeul img{
-	width:0.45rem;
-	height: 0.45rem;
-	position: absolute;
-	right: 0.24rem;
-	top:0.28rem;
-	
-}
+
 
 .need textarea{
 	height: 1.8rem;

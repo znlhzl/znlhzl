@@ -532,7 +532,8 @@
 					"src/html/subletJujue.html",
 					"src/lib/js/jquery-1.10.0.min.js",
 					"src/img/dateb.png",
-					"src/img/check.png"
+					"src/img/check.png",
+					"src/html/subletGo.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -740,7 +741,8 @@
 					"src/img/date.png",
 					"src/js/public.js",
 					"src/css/public.css",
-					"src/html/inField.html"
+					"src/html/inField.html",
+					"src/html/subletGo.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -1058,7 +1060,18 @@
 			},
 			"src/html/lizi.html": {
 				"resources": [
-					"src/lib/js/jquery-1.10.0.min.js"
+					"src/lib/js/jquery-1.10.0.min.js",
+					"src/html/upload.png",
+					"src/html/del.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/subletGo.html": {
+				"resources": [
+					"src/css/subletAdd.css",
+					"src/img/radio.png",
+					"src/html/newLog.html"
 				],
 				"refer": [],
 				"priority": 0
