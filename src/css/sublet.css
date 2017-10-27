@@ -189,14 +189,14 @@ header .add{
 
 /*-----日期调控界面----*/
 .bottom #selects ul li input{
-	width:2rem;
+	width:2.1rem;
 	height: 0.56rem;
 	/*z-index:301;*/
 	margin-bottom:0.2rem;
 	font-size:0.26rem;
 	border: 1px solid #E6E6E6;
 	border-radius:0.08rem;
-	padding-left:0.05rem;
+	padding-left:0.02rem;
 	text-align: left;
 
 }
@@ -206,7 +206,10 @@ header .add{
 	padding-right: 0.2rem;
 }
 
-
+.bottom #selects ul li .i2{
+	padding-left:0.1rem;
+	padding-right: 0.1rem;
+}
 
 
 
