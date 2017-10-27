@@ -63,16 +63,8 @@
 		top:0.28rem;
 	}
 
-	section .rili{
-		width:0.45rem;
-		height: 0.45rem;
-		position: absolute;
-		right:0.24rem;
-		top:0.28rem;
-	}
-	
-	
-	
+
+		
 	section #buyId .have input{
 		width:0.44rem;
 		height: 0.44rem;
@@ -108,7 +100,7 @@
 	section #buyId li .zz{
 		position: absolute;
 		width:2rem;
-		right:0.42rem;
+		right:0.24rem;
 	}
 	
 	section #buyId li i{
