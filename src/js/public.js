@@ -175,16 +175,15 @@
 			
 		/*---------------筛选日期变色和大小顺序-------------------*/	
 			
-        function selectDate(a,b,c,d){
+        function selectDate(a,b){
 			var date1 = document.getElementsByClassName(a)[0];
 			var date2 = document.getElementsByClassName(b)[0];
-			var img1 = document.getElementsByClassName(c)[0];
-			var img2 = document.getElementsByClassName(d)[0];
+		
 			date1.onchange=function(){
 					if((date1.value!=""&&date2.value=="")||(date2.value!=0&&date1.value<=date2.value)){
-					img1.src="../img/dateb.png";	
+					
 				}else{
-					img1.src="../img/date.png";
+					
 					clearTimeout(dates);
 					var dates=setTimeout(function(){
 						alert("日期时间错误，请重填");
@@ -193,10 +192,8 @@
 				}
 			}
 			date2.onchange=function(){
-					if(date2.value!=""&&date2.value>=date1.value){
-					img2.src="../img/dateb.png";	
+					if(date2.value!=""&&date2.value>=date1.value){					
 				}else{
-					img2.src="../img/date.png";
 					clearTimeout(dates);
 					var dates=setTimeout(function(){
 						alert("日期时间错误，请重填");

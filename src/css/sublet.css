@@ -206,21 +206,7 @@ header .add{
 	padding-right: 0.2rem;
 }
 
-.bottom #selects ul li .date-first{
-	position: absolute;
-	width:0.26rem;
-	height: 0.28rem;
-	top:1rem;
-	left:2.7rem;
-}
 
-.bottom #selects ul li .date-second{
-	position: absolute;
-	width:0.26rem;
-	height: 0.28rem;
-	top:1rem;
-	right:0.33rem;
-}
 
 
 

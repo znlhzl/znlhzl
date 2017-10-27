@@ -28,8 +28,6 @@ s{
 @media (min-width: 640px){html{font-size: 85.3333px;} }
 @media (min-width: 750px){html{font-size: 100px;} }
 
-
-
 button,input,textarea{
 	border:none;
 	outline:none;
@@ -51,16 +49,15 @@ html,body{
 			font-family: "microsoft yahei"; 
 			height:100%;
 			}
-		
-			
+				
 header{
-			height: 0.88rem;
-			width:100%;
-			background-color:rgba(0,130,217,1);
-			position: fixed;
-			left:0;
-			top:0;
-			z-index:200;
+		height: 0.88rem;
+		width:100%;
+		background-color:rgba(0,130,217,1);
+		position: fixed;
+		left:0;
+		top:0;
+		z-index:200;
 		}
 		
 header .imp{
