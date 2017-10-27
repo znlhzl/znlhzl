@@ -193,11 +193,11 @@ header .add{
 	height: 0.56rem;
 	/*z-index:301;*/
 	margin-bottom:0.2rem;
-	outline: none;
 	font-size:0.26rem;
 	border: 1px solid #E6E6E6;
 	border-radius:0.08rem;
 	padding-left:0.15rem;
+	text-align: left;
 
 }
 
