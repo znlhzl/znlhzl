@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-
-<body>
-<input id="input1" type="text" value="1" onkeyup="sum()"/>
-
-</body>
-
+	<head>
+	<meta charset="utf-8">
+	<title>Gallery Example</title>
+	<script type="text/javascript" >
+// 扩展API加载完毕后调用onPlusReady回调函数 
+document.addEventListener( "plusready", onPlusReady, false );
+// 扩展API加载完毕，现在可以正常调用扩展API 
+function onPlusReady() {
+}
+var lfs=null;// 保留上次选择图片列表
+// 从相册中选择多张图片 
+function gallerySelected(){
+	// 从相册中选择图片
+	console.log("从相册中选择多张图片:");
+    plus.gallery.pick( function(e){
+    	for(var i in e.files){
+			lfs=e.files;
+	    	console.log(e.files[i]);
+    	}
+    }, function ( e ) {
+    	console.log( "取消选择图片" );
+    },{filter:"image",multiple:true,selected:lfs,maximum:3,system:false});// 最多选择3张图片
+}
+	</script>
+	</head>
+	<body >
+		已选择的图片路径列表
+		<br/>
+		<button onclick="gallerySelected()">设置已选中的图片</button>
+	</body>
 </html>
-<script>
-	var input1 =document.getElementById("input1");
-	function sum(){
-		alert(input1.innerHTML);
-	}
-</script>

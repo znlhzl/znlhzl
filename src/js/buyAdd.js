@@ -35,6 +35,13 @@
 	 	danxuan.style.display="block";
 	 	danxuan.style.left="5.22rem";
 	 }
+	 
+	 
+	 
+	 var ok=document.getElementsByClassName("ok")[0];
+	 ok.onclick=function(){
+	 	window.location.href="buy.html";
+	 }
 	 /*	-------------------动态添加和删除和序列号重排-------------------------*/
 	$(function(){	
 	tk("caigou","caigous","0");

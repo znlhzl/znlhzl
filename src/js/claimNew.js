@@ -59,6 +59,7 @@
 				num+=parseInt(danjia[i].innerHTML);
 			}
 			allmoney.innerHTML = num;
+			allmoney.style.color="#0082D9";
 		}
 		
 		
@@ -70,12 +71,11 @@
 		}
 		
 		
-		
 	 /*	-------------------动态添加和删除和序列号重排-------------------------*/
 	$(function(){
     $('#addOl').click(function(){
     	var num =more.children.length+1;
-        $('#more').append('<ol class="div-more writeul"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li><span>配件名称</span><input placeholder="请输入（必填）" /></li><li><span>数量</span><input placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()" /></li><li><span>单价</span><input placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/></li><li><span>小计</span><b class="rights num3">自动计算</b></li></ol>')
+        $('#more').append('<ol class="div-more writeul"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li><span>配件名称</span><input placeholder="请输入（必填）" /></li><li><span>数量</span><input placeholder="请输入（必填）" class="num1" oninput="autoAdds()" /></li><li><span>单价</span><input placeholder="请输入（必填）" class="num2" oninput="autoAdds()"/></li><li><span>小计</span><b class="rights num3">自动计算</b></li></ol>')
        autoAdd();
        dels(1);
         
@@ -84,10 +84,32 @@
         $('.btn-clear').bind('click','b',function(){
             $(this).parent().parent().remove();
            /* 序号重排序*/
+          var allmoney =document.getElementsByClassName("allmoney")[0];
+		  allmoney.style.color="red";
             $('#more').find("ol").each(function(i){
-    			$(this).find("i").text("("+parseInt(i+1)+")")
+    			$(this).find("i").text("("+parseInt(i+1)+")");
+    			
    			 })
         });
     }
-
+	
 });
+
+
+	function autoAdds(){
+    	/*-----------自动计算--------------*/
+			  var input1 = document.getElementsByClassName("num1");
+			  var input2 = document.getElementsByClassName("num2");
+			  var sum =document.getElementsByClassName("num3");
+			  var allmoney =document.getElementsByClassName("allmoney")[0]
+			  allmoney.style.color="red";
+			  allmoney.style.fontWeight="900";
+  			  for(var i=0;i<input1.length;i++){
+  				sum[i].innerHTML = parseInt(input1[i].value) * parseInt(input2[i].value);	
+  				
+			  }
+
+
+    }
+
+

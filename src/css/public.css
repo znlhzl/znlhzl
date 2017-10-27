@@ -348,7 +348,6 @@ button.ok{
 	.yincang ul{
 		overflow-y: scroll;
 		height: auto;
-		/*padding-right:0.1rem;*/
 		max-height: 4rem;
 	}
 	

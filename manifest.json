@@ -247,7 +247,8 @@
 					"src/img/home/stopm.png",
 					"src/html/serves.html",
 					"src/html/log.html",
-					"src/html/lizi.html"
+					"src/html/lizi.html",
+					"src/html/deviceDefend.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -393,7 +394,8 @@
 					"src/html/buyJujue.html",
 					"src/img/check.png",
 					"src/img/device/top.png",
-					"src/img/dateb.png"
+					"src/img/dateb.png",
+					"src/lib/js/jquery-1.10.0.min.js"
 				],
 				"refer": [],
 				"priority": 0
@@ -754,7 +756,9 @@
 					"src/css/public.css",
 					"index.html",
 					"src/html/claimNew.html",
-					"src/html/claimReadF.html"
+					"src/html/claimReadF.html",
+					"src/html/claimWanchengF.html",
+					"src/html/claimWanchengC.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -790,7 +794,8 @@
 					"src/html/claim.html",
 					"src/js/public.js",
 					"src/css/public.css",
-					"src/img/next.png"
+					"src/img/next.png",
+					"src/html/borrowsReadOut.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -911,7 +916,9 @@
 					"src/js/borrowsMore.js",
 					"src/js/borrowsReadOut.js",
 					"src/html/borrows.html",
-					"src/js/borrowsReadIn.js"
+					"src/js/borrowsReadIn.js",
+					"src/html/servesNew.html",
+					"src/html/claimNew.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -994,6 +1001,54 @@
 					"src/css/claimNew.css",
 					"src/js/claimNew.js",
 					"src/html/claim.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/deviceDefendReceive.html": {
+				"resources": [
+					"src/css/deviceDefendReceive.css",
+					"src/html/deviceDefend.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/deviceDefend.html": {
+				"resources": [
+					"src/html/deviceDefendReceive.html",
+					"src/css/deviceDefend.css",
+					"src/js/deviceDefend.js",
+					"index.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/servesNew.html": {
+				"resources": [
+					"src/js/servesNew.js",
+					"src/css/servesNew.css",
+					"src/html/borrowsReadOut.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/claimWanchengF.html": {
+				"resources": [
+					"src/html/claim.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/claimWanchengC.html": {
+				"resources": [
+					"src/html/claim.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/lizi.html": {
+				"resources": [
+					"src/lib/js/jquery-1.10.0.min.js"
 				],
 				"refer": [],
 				"priority": 0

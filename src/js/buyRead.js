@@ -1,19 +1,12 @@
-	
+	/*----返回上一页------*/
 	left();
 	
-	var agree= document.getElementsByClassName("agree")[0];
+	/*----同意不同意------*/
+	pizhun();
 	
-	var disagree =document.getElementsByClassName("disagree")[0];
+	var ok =document.getElementsByClassName("ok")[0];
 	
-	agree.onclick=function(){
-		agree.style.background="#0082D9";
-		disagree.style.background="none";
-		agree.style.color="#FFFFFF";
-		disagree.style.color="#979797";
+	ok.onclick=function(){
+		window.location.href="buy.html?type=3";
 	}
-	disagree.onclick =function(){
-		disagree.style.background="#0082D9";
-		agree.style.background="none";
-		disagree.style.color="#FFFFFF";
-		agree.style.color="#979797";
-	}
+	

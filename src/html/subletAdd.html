@@ -44,7 +44,7 @@
 				</li>
 				<li>
 					<span>转租开始日期</span>
-					<input placeholder="（必填）" class="zz" type="date"/>
+					<input placeholder="（必填）" class="zz" type="date" />
 					<img src="../img/date.png" class="rili"/>
 				</li>
 				<li>
@@ -68,7 +68,6 @@
 					<input type="text" placeholder="请输入发货地址" id="address" />
 				</li>
 			</ul>
-
 
 			<div class="rember">			
 					<textarea name="textarea" placeholder="备注:">备注:</textarea>
@@ -152,4 +151,14 @@
 		window.location.href="sublet.html";
 	}
 	tk("gys","gyss","0");
+	
+	var zz = document.getElementsByClassName("zz")[0];
+	var rili = document.getElementsByClassName("rili")[0];
+	zz.onchange = function(){
+		if(zz.value!=""){
+			rili.src="../img/dateb.png";
+		}else{
+			rili.src="../img/date.png";
+		}
+	}
 </script>

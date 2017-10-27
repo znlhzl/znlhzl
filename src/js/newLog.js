@@ -14,7 +14,6 @@
 	/*		console.log(inputs[this.index].value);*/
 			if(inputs[this.index].value!=0){
 				inputs[this.index].value--;
-				
 			}
 			
 			if(inputs[this.index].value==0){
@@ -33,4 +32,9 @@
 			this.previousElementSibling.previousElementSibling.style.opacity="1";
 		}
 		
+	}
+
+	var tijiao =document.getElementsByClassName("tijiao")[0];
+	tijiao.onclick=function(){
+		window.history.go(-1);
 	}
