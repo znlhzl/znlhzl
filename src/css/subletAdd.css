@@ -102,6 +102,7 @@
 		width:3rem;
 		right:0.24rem;
 		text-align: center;
+		border:1px red dashed;
 	}
 	
 	section #buyId li i{
