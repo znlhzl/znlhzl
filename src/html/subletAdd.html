@@ -44,7 +44,7 @@
 				</li>
 				<li>
 					<span>转租开始日期</span>
-					<input placeholder="（必填）" class="zz" type="date" />
+					<input placeholder="（必填）" class="zz" type="date" id="zz" />
 					
 				</li>
 				<li>
@@ -60,8 +60,8 @@
 					<input type="text" placeholder="自动计算" readonly/>
 				</li>
 				<li>
-					<span>保证金</span>
-					<input type="text" placeholder="请输入保证金金额" id="address" />
+					<span>保证金(元)</span>
+					<input type="number" placeholder="请输入保证金金额" id="address" />
 				</li>
 				<li>
 					<span>发货地址</span>
@@ -73,11 +73,10 @@
 					<textarea name="textarea" placeholder="备注:">备注:</textarea>
 			</div>
 
-	<!--添加设备明细-->
+			<!--添加设备明细-->
 			<div class="partblue"><i>设备明细</i><span></span></div>
 
 			<div id="more">
-			
 					<ol class="div-more">
 						<li class="li-first">
 							<span>明细 <i>(1)</i></span><b class="b-clear btn-clear">删除</b>

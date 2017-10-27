@@ -671,11 +671,13 @@
 			"src/img/date.png",
 			"src/img/log/add.png",
 			"src/css/logManage.css",
-			"src/html/inField.html"
+			"src/html/inField.html",
+			"src/html/log.html"
 		],
 		"refer": [
 			"src/html/inCar.html",
-			"src/html/inField.html"
+			"src/html/inField.html",
+			"src/html/log.html"
 		]
 	},
 	"src/html/claimNew.html": {
@@ -804,10 +806,13 @@
 			"src/js/log.js",
 			"src/css/log.css",
 			"src/img/select.png",
-			"src/img/date.png"
+			"src/img/date.png",
+			"src/img/dateb.png",
+			"src/html/logManage.html"
 		],
 		"refer": [
-			"index.html"
+			"index.html",
+			"src/html/logManage.html"
 		]
 	},
 	"src/html/borrowsReadOut.html": {

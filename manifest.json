@@ -781,7 +781,8 @@
 					"src/img/date.png",
 					"src/img/log/add.png",
 					"src/css/logManage.css",
-					"src/html/inField.html"
+					"src/html/inField.html",
+					"src/html/log.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -905,7 +906,9 @@
 					"src/js/log.js",
 					"src/css/log.css",
 					"src/img/select.png",
-					"src/img/date.png"
+					"src/img/date.png",
+					"src/img/dateb.png",
+					"src/html/logManage.html"
 				],
 				"refer": [],
 				"priority": 0

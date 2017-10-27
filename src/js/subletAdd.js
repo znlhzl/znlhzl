@@ -68,6 +68,7 @@
         $('.btn-clear').bind('click','b',function(){
             $(this).parent().parent().remove();
            /*序号重排序*/
+          	we();
             $('#more').find("ol").each(function(i){
     			$(this).find("i").text("("+parseInt(i+1)+")")
    			 })
@@ -75,7 +76,7 @@
 
     }
     
-
+	dels(1);
       
 });
 
