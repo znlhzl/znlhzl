@@ -120,7 +120,7 @@
 		
 		<footer>
 			
-			<button type="submit" class="ok">提&nbsp;&nbsp;&nbsp;交</button>
+			<button type="submit" class="ok">确&nbsp;&nbsp;&nbsp;定</button>
 		</footer >
 
 	</body>
@@ -128,13 +128,9 @@
 </html>
 <script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
 <script src="../js/public.js"></script>
-
 <script>
 	left();
-	var ok=document.getElementsByClassName("ok")[0];
-	ok.onclick=function(){
-		window.location.href="sublet.html";
-	}
+	
 	
 	/*----------单选--------------*/
 	var radios =document.getElementsByClassName("radios")[0];
@@ -179,6 +175,16 @@
 		agree.style.background="none";
 		disagree.style.color="#FFFFFF";
 		agree.style.color="#979797";
+	}
+	
+	var ok=document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		if(agree.style.color=="rgb(255, 255, 255)"||disagree.style.color=="rgb(255, 255, 255)"){
+			window.location.href="sublet.html";
+		}else{
+			alert("请填写审批结果后再确定");
+		}
+		
 	}
 
 </script>

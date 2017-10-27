@@ -948,7 +948,14 @@
 			"src/html/subletJujue.html": {
 				"resources": [
 					"src/img/dateb.png",
-					"src/html/sublet.html"
+					"src/html/sublet.html",
+					"src/js/subletAdd.js",
+					"src/css/subletAdd.css",
+					"src/img/radio.png",
+					"src/js/public.js",
+					"src/css/public.css",
+					"src/lib/js/jquery-1.10.0.min.js",
+					"src/img/next.png"
 				],
 				"refer": [],
 				"priority": 0

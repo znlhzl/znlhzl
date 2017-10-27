@@ -22,21 +22,19 @@
 			<ul id="buyId">
 				<li>
 					<span>转租单号</span>
-					<input type="type" placeholder="请输入转租单号(必填)" value="Z1000001"/>
+					<input type="type" placeholder="请输入转租单号(必填)" value="Z1000001" class="musts"/>
 				</li>
 				<li class="gys">
 					<span>供应商</span>
-					<s>浙江鼎力机械股份有限公司</s>
+					<s class="must">浙江鼎力机械股份有限公司</s>
 					<img src="../img/next.png" class="next" />
 				</li>
 			
 				<li class="have">
-    			<span>转租方式</span><input type="radio" name="checks" class="year" checked/><b class="years">年</b>
-    			<input type="radio" name="checks" class="month"/><b class="months">月</b>
-    			<img src="../img/radio.png" class="radios"/> 
-    			
+	    			<span>转租方式</span><input type="radio" name="checks" class="year" checked/><b class="years">年</b>
+	    			<input type="radio" name="checks" class="month"/><b class="months">月</b>
+	    			<img src="../img/radio.png" class="radios"/> 
     			</li>
-				
 				
 				<li>
 					<span>转租周期</span>
@@ -44,8 +42,8 @@
 				</li>
 				<li>
 					<span>转租开始日期</span>
-					<input placeholder="（必填）" class="zz" type="date" value="2017-08-18"/>
-					<img src="../img/dateb.png" class="rili"/>
+					<input placeholder="（必填）" class="zz" type="date" value="2017-08-18" class="musts"/>
+					
 				</li>
 				<li>
 					<span>转租结束日期</span>
@@ -66,6 +64,9 @@
 				<li>
 					<span>发货地址</span>
 					<input type="text" placeholder="请输入发货地址" id="address" value="南京市江宁区" />
+				</li>
+				<li>
+					<span>上传图片</span>
 				</li>
 			</ul>
 
@@ -91,10 +92,10 @@
 							
 						</li>
 						<li>
-							<span>台量</span><input type="number" placeholder="请输入台量" class="num1" onkeyup="autoAdd()"/>
+							<span>台量</span><input type="number" placeholder="请输入台量" class="num1" oninput="autoAdd()"/>
 						</li>
 						<li>
-							<span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" onkeyup="autoAdd()"/>
+							<span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" oninput="autoAdd()"/>
 						</li>
 						<li class="li-last">
 							<span>小计(元)</span>
@@ -106,7 +107,7 @@
 		</section>
 		
 		<footer>
-			<div id="addOl">+添加设备明细</div>
+			<div ><i id="addOl">+添加设备明细</i></div>
 			<button type="submit" class="ok">提&nbsp;&nbsp;&nbsp;交</button>
 		</footer >
 
@@ -146,10 +147,4 @@
 <script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
 <script src="../js/public.js"></script>
 <script type="text/javascript" src="../js/subletAdd.js"></script>
-<script>
-	var ok=document.getElementsByClassName("ok")[0];
-	ok.onclick=function(){
-		window.location.href="sublet.html";
-	}
-	tk("gys","gyss","0");
-</script>
+

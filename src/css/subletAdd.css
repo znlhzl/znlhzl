@@ -248,9 +248,15 @@
 		height: 2.75rem;
 	}
 	footer div{
-		text-align: center;
+		margin-top:0.2rem;
 		font-size:0.32rem;
+		text-align: center;
+		
+	}
+	footer div #addOl{
 		color: #0082D9;
+	
+		text-align: center;
 	}
 	
 	textarea{

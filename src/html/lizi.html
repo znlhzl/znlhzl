@@ -1,33 +1,30 @@
-<!DOCTYPE html>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<title>Gallery Example</title>
-	<script type="text/javascript" >
-// 扩展API加载完毕后调用onPlusReady回调函数 
-document.addEventListener( "plusready", onPlusReady, false );
-// 扩展API加载完毕，现在可以正常调用扩展API 
-function onPlusReady() {
-}
-var lfs=null;// 保留上次选择图片列表
-// 从相册中选择多张图片 
-function gallerySelected(){
-	// 从相册中选择图片
-	console.log("从相册中选择多张图片:");
-    plus.gallery.pick( function(e){
-    	for(var i in e.files){
-			lfs=e.files;
-	    	console.log(e.files[i]);
-    	}
-    }, function ( e ) {
-    	console.log( "取消选择图片" );
-    },{filter:"image",multiple:true,selected:lfs,maximum:3,system:false});// 最多选择3张图片
-}
-	</script>
-	</head>
-	<body >
-		已选择的图片路径列表
-		<br/>
-		<button onclick="gallerySelected()">设置已选中的图片</button>
-	</body>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	<input />
+	<s>3</s>
+</body>
 </html>
+<script>
+	var inputs=document.getElementsByTagName("input")[0];
+	var s=document.getElementsByTagName("s")[0];
+	if(inputs.value){
+		console.log(1);
+	}
+	if(inputs.innerHTML){
+		console.log(2);
+	}
+	if(s.value){
+		console.log(3);
+		
+	}
+	if(s.innerHTML){
+		console.log(4);
+	}
+
+//	console.log(inputs.value);
+</script>
