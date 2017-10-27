@@ -97,11 +97,10 @@
 		
 	}
 	
-	section #buyId li #zz{
+	section #buyId li .zz{
 		position: absolute;
 		width:2.5rem;
 		right:0.24rem;
-		
 	}
 	
 	section #buyId li i{
