@@ -97,12 +97,11 @@
 		
 	}
 	
-	section #buyId li .zz{
+	section #buyId li #zz{
 		position: absolute;
-		width:3rem;
+		width:2.5rem;
 		right:0.24rem;
-		text-align: center;
-		border:1px red dashed;
+		
 	}
 	
 	section #buyId li i{
