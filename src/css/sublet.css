@@ -189,7 +189,7 @@ header .add{
 
 /*-----日期调控界面----*/
 .bottom #selects ul li input{
-	width:1.9rem;
+	width:2rem;
 	height: 0.56rem;
 	/*z-index:301;*/
 	margin-bottom:0.2rem;
