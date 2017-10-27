@@ -38,3 +38,7 @@
 	tijiao.onclick=function(){
 		window.history.go(-1);
 	}
+	
+
+	var autoc = document.getElementsByClassName("autoc")[0];
+	autoc.innerHTML=localStorage.name ;

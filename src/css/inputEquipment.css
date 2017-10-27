@@ -51,7 +51,7 @@ header img{
 
 #more ul li .top-message{
 	height: 0.96rem;
-	border-bottom: 0.02rem solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
 	line-height: 0.96rem;
 	position: relative;
 }

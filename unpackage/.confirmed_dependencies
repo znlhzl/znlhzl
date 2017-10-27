@@ -629,11 +629,13 @@
 			"src/js/public.js",
 			"src/css/public.css",
 			"src/html/inField.html",
-			"src/html/subletGo.html"
+			"src/html/subletGo.html",
+			"src/html/lizi.html"
 		],
 		"refer": [
 			"src/html/inField.html",
-			"src/html/subletGo.html"
+			"src/html/subletGo.html",
+			"src/html/lizi.html"
 		]
 	},
 	"src/html/claim.html": {
@@ -850,7 +852,9 @@
 	},
 	"src/html/subletZuofei.html": {
 		"resources": [
-			"src/html/sublet.html"
+			"src/html/sublet.html",
+			"src/css/subletAdd.css",
+			"src/img/radio.png"
 		],
 		"refer": [
 			"src/html/sublet.html"
@@ -983,17 +987,39 @@
 		"resources": [
 			"src/lib/js/jquery-1.10.0.min.js",
 			"src/html/upload.png",
-			"src/html/del.png"
+			"src/html/del.png",
+			"src/html/newLog.html"
+		],
+		"refer": [
+			"src/html/newLog.html"
 		]
 	},
 	"src/html/subletGo.html": {
 		"resources": [
 			"src/css/subletAdd.css",
 			"src/img/radio.png",
-			"src/html/newLog.html"
+			"src/html/newLog.html",
+			"src/html/inputEquipment.html",
+			"src/html/sublet.html"
 		],
 		"refer": [
-			"src/html/newLog.html"
+			"src/html/newLog.html",
+			"src/html/inputEquipment.html",
+			"src/html/sublet.html"
+		]
+	},
+	"src/html/inputEquipment.html": {
+		"resources": [
+			"src/css/inputEquipment.css",
+			"src/js/inputEquipemnt.js",
+			"src/img/Back Chevron.png",
+			"src/js/public.js",
+			"src/css/public.css",
+			"src/img/next.png",
+			"src/html/sublet.html"
+		],
+		"refer": [
+			"src/html/sublet.html"
 		]
 	}
 }
