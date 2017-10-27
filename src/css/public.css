@@ -14,7 +14,7 @@ s{
 	text-decoration: none;
 }
 
-
+html{font-size: 50px;}
 
 button,input,textarea{
 	border:none;
