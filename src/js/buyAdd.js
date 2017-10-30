@@ -1,18 +1,5 @@
 	/*	--------回到之前页面------------------*/
 		left();
-	
-	/*------------图标变色----------------*/
-		var buyDay = document.getElementById("buyDay");
-		var buyDate = buyDay.nextElementSibling;
-		
-		buyDay.onchange=function(){
-			if(buyDay.value!=""){
-			buyDate.src="../img/dateb.png";
-		}else{
-			buyDate.src="../img/date.png";
-		}
-		}
-		
 		
 	/*-------计划内和计划外----------------*/
 	 var jhns = document.getElementsByClassName("jhns")[0];
@@ -89,7 +76,7 @@
         }); 
 
     }
-    
+    dels();
 
       
 });

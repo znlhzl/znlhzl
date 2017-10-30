@@ -61,7 +61,7 @@
         dels(1);    
        
     });
-    function dels(e){
+    function dels(){
         $('.btn-clear').bind('click','b',function(){
             $(this).parent().parent().remove();
            /*序号重排序*/
@@ -71,6 +71,7 @@
         }); 
 
     }
+     dels(1);  
     
 	var ok =document.getElementsByClassName("ok")[0];
 

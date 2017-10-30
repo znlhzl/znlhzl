@@ -18,6 +18,7 @@
         }); 
 
     }
+    dels();
     
 	var ok =document.getElementsByClassName("ok")[0];
 

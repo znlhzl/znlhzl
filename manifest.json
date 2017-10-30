@@ -874,7 +874,8 @@
 					"src/js/serves.js",
 					"index.html",
 					"src/html/servesAllot.html",
-					"src/lib/js/jquery-1.10.0.min.js"
+					"src/lib/js/jquery-1.10.0.min.js",
+					"src/html/servesReturnrepair.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -1096,6 +1097,15 @@
 					"src/css/public.css",
 					"src/img/next.png",
 					"src/html/sublet.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/servesReturnrepair.html": {
+				"resources": [
+					"src/js/servesRepair.js",
+					"src/css/servesRepair.css",
+					"src/img/more.png"
 				],
 				"refer": [],
 				"priority": 0

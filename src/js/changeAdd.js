@@ -6,17 +6,6 @@ ok.onclick=function(){
 	window.location.href="change.html";
 }
 
-
-//-----------------------------------
-var time = document.getElementsByClassName("time")[0];
-	var dateF = document.getElementsByClassName("date-first")[0];
-	time.onchange = function(){
-		if(time.value!=""){
-			dateF.src="../img/dateb.png";
-		}else{
-			dateF.src="../img/date.png";
-		}
-	}
 /*-------------动态添加的内容弹框问题--------------------*/
 	function we(){
 		var pins = document.getElementById("more").getElementsByClassName("pins");
@@ -47,17 +36,16 @@ $(function(){
         we();
         dels(1); //删除事件1
     });
-    function dels(e){
+    function dels(){
         $('.btn-clear').bind('click','b',function(){
-            $(this).parent().parent().remove();
-            console.log(e);
-            
+            $(this).parent().parent().remove(); 
+            we();
            /* 序号重排序*/
             $('#more').find("ol").each(function(i){
     	$(this).find("i").text("("+parseInt(i+1)+")")
     })
         });
-       
+     
     }
         dels(1);
 });

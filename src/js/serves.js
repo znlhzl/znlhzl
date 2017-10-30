@@ -59,6 +59,9 @@
 				buttons[i].style.display="none";
 			}else if(bs[i].innerHTML=="待整改"){
 				bs[i].style.color=" #6673FF";
+				sections[i].onclick=function(){
+					window.location.href="servesNew.html";
+				}
 				buttons[i].style.display="none";
 			}else if(bs[i].innerHTML=="已完成"){
 				bs[i].style.color=" #3EC68B";

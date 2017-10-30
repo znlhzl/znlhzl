@@ -10,22 +10,6 @@
 		text-align: right;
 		width:4.8rem;
 	}
-	/*header #left{
-		position: absolute;
-		color:white;
-		top:0.24rem;
-		left:0.24rem;
-		font-size: 0.32rem;
-		
-	}
-	
-	header #new{
-		position: absolute;
-		color:white;
-		top:0.23rem;
-		left:2.85rem;
-		font-size: 0.34rem;
-	}*/
 	
 	.writes{
 		margin-top:0.88rem;
@@ -74,7 +58,7 @@
 	.writes .times{
 		text-align: left;
 		position: absolute;
-		right:0.4rem;
+		right:0.24rem;
 		width:2rem;
 	}
 	.writes .days{

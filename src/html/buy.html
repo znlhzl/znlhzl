@@ -171,17 +171,14 @@
 								<a>计划内</a>
 								<a>计划外</a>
 							</li>
-							<li>
-								
+							<li>	
 								<span>采购日期</span>
-								<i>开始</i><input type="date" placeholder="1990-01-01" class="kaishi"/>
-								<i>至</i><input type="date" placeholder="1990-01-01"  class="jieshu"/>
-								<img src="../img/date.png" class="date-first" />
-								<img src="../img/date.png" class="date-second" />
+								<i>开始</i><input type="date" placeholder="1990-01-01" class="date1"/>
+								<i>至</i><input type="date" placeholder="1990-01-01"  class="date2"/>
 							</li>
 							
 						</ul>
-						<div class="sel-end">
+						<div class="sel-end tkls">
 							<button  type="reset" class="btn-first">重置</button><button  type="submit" class="btn-next">确定</button>
 						</div>
 			        </div>
@@ -201,24 +198,4 @@
 <script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
 <script src="../js/public.js"></script>
 <script type="text/javascript" src="../js/buy.js" ></script>
-<script>
-	var kaishi = document.getElementsByClassName("kaishi")[0];
-	var jieshu = document.getElementsByClassName("jieshu")[0];
-	var dateFirst = document.getElementsByClassName("date-first")[0];
-	var dateSecond = document.getElementsByClassName("date-second")[0];
-	kaishi.onchange = function(){
-		if(kaishi.value!=""){
-			dateFirst.src="../img/dateb.png";
-		}else{
-			dateFirst.src="../img/date.png";
-		}
-	}
-	
-	jieshu.onchange=function(){
-		if(jieshu.value!=""){
-			dateSecond.src="../img/dateb.png";
-		}else{
-			dateSecond.src="../img/date.png";
-		}
-	}
-</script>
+

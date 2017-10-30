@@ -778,11 +778,13 @@
 			"src/js/serves.js",
 			"index.html",
 			"src/html/servesAllot.html",
-			"src/lib/js/jquery-1.10.0.min.js"
+			"src/lib/js/jquery-1.10.0.min.js",
+			"src/html/servesReturnrepair.html"
 		],
 		"refer": [
 			"index.html",
-			"src/html/servesAllot.html"
+			"src/html/servesAllot.html",
+			"src/html/servesReturnrepair.html"
 		]
 	},
 	"src/html/changeRead.html": {
@@ -1025,6 +1027,13 @@
 		],
 		"refer": [
 			"src/html/sublet.html"
+		]
+	},
+	"src/html/servesReturnrepair.html": {
+		"resources": [
+			"src/js/servesRepair.js",
+			"src/css/servesRepair.css",
+			"src/img/more.png"
 		]
 	}
 }

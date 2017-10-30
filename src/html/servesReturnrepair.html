@@ -63,7 +63,7 @@
 		</div>
 		<div class="work-return">
 			<div class="partblue"><span></span><i>工单回访</i></div>
-			<div class="work1 "><span>回访时间</span><input type="date" class="time"/><img src="../img/date.png" class="date-first next"/></div>
+			<div class="work1 "><span>回访时间</span><input type="date" class="time"/></div>
 			<div class="work1 score"><span>回访满意度</span><s>请选择（1-10分）</s><img src="../img/next.png" class="next"/></div>
 			<textarea placeholder="客户评价:"></textarea>
 			<textarea placeholder="回访遗留问题:"></textarea>
@@ -90,15 +90,6 @@
 <script type="text/javascript" src="../js/servesRepair.js"></script>
 <script>
 	tk("score","scores","0");
-	var time = document.getElementsByClassName("time")[0];
-	var dateF = document.getElementsByClassName("date-first")[0];
-	time.onchange = function(){
-		if(time.value!=""){
-			dateF.src="../img/dateb.png";
-		}else{
-			dateF.src="../img/date.png";
-		}
-	}
 	var ok=document.getElementsByClassName("ok")[0];
 	ok.onclick=function(){
 		window.location.href="serves.html?type=4";
