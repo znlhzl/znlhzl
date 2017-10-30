@@ -116,23 +116,19 @@ ul .no1 img{
 }
 
 ul li .time{
-	width:4.5rem;
+	width:4.3rem;
 	height:0.42rem;
 	font-size:0.32rem;
-	outline: none;
-	border:none;
 	line-height: 0.42rem;
-	background: #FAFAFA;
+	
 }
 
 ul .no4 input{
 	width:2.56rem;
 	height: 0.42rem;
 	font-size:0.32rem;
-	outline: none;
-	border:none;
 	line-height: 0.42rem;
-	background: #FAFAFA;
+
 }
 
 textarea{
