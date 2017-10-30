@@ -678,7 +678,8 @@
 			"src/img/log/add.png",
 			"src/css/logManage.css",
 			"src/html/inField.html",
-			"src/html/log.html"
+			"src/html/log.html",
+			"src/lib/js/jquery-1.10.0.min.js"
 		],
 		"refer": [
 			"src/html/inCar.html",

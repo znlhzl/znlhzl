@@ -53,19 +53,7 @@
 		}
 
 		/*--------------------------模态框和新页面--------------------------------*/
-		var mark = document.getElementById("mark");
-		var selects=document.getElementById("selects");
-		btns[3].onclick=function(){
-			mark.style.display="block";
-			mark.style.background="rgba(0,0,0,0.60)" ;
-			selects.style.display="block";
-			selects.style.zIndex="200";
-		}
-		
-		mark.onclick=function(){
-			selects.style.display="none";
-			mark.style.display="none";
-		}
+		selectsMove(3);
 		
 		/*-------------------------------红圈删除和添加-----------------------------*/
 		var spans=btns[2].getElementsByTagName("span")[0];
@@ -85,30 +73,11 @@
 		
 		
 		
+		selectDate("date1","date2");
 		
 		
 		
-		
-			var kaishi = document.getElementsByClassName("kaishi")[0];
-	var jieshu = document.getElementsByClassName("jieshu")[0];
-	var dateFirst = document.getElementsByClassName("date-first")[0];
-	var dateSecond = document.getElementsByClassName("date-second")[0];
-	kaishi.onchange = function(){
-		if(kaishi.value!=""){
-			dateFirst.src="../img/dateb.png";
-		}else{
-			dateFirst.src="../img/date.png";
-		}
-	}
-	
-	jieshu.onchange=function(){
-		if(jieshu.value!=""){
-			dateSecond.src="../img/dateb.png";
-		}else{
-			dateSecond.src="../img/date.png";
-		}
-	}
-		
+
 		
 		
 		

@@ -327,40 +327,33 @@ header .zoom{
 	border-bottom:0;
 }
 
+
 /*-----日期调控界面----*/
 .bottom #selects ul li input{
-	width:1.8rem;
+	width:2rem;
 	height: 0.56rem;
 	/*z-index:301;*/
 	margin-bottom:0.2rem;
-	outline: none;
 	font-size:0.26rem;
 	border: 1px solid #E6E6E6;
 	border-radius:0.08rem;
-	padding-left:0.15rem;
+	padding-left:0.02rem;
+	text-align: left;
 
 }
 
 .bottom #selects ul li i{
-	padding-left:0.25rem;
+	padding-left:0.2rem;
 	padding-right: 0.2rem;
 }
 
-.bottom #selects ul li .date-first{
-	position: absolute;
-	width:0.26rem;
-	height: 0.28rem;
-	top:1rem;
-	left:2.7rem;
+.bottom #selects ul li .i2{
+	padding-left:0.1rem;
+	padding-right: 0.1rem;
 }
 
-.bottom #selects ul li .date-second{
-	position: absolute;
-	width:0.26rem;
-	height: 0.28rem;
-	top:1rem;
-	right:0.33rem;
-}
+
+
 
 
 

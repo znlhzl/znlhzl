@@ -21,25 +21,7 @@
 	
 	}
 	
-	/*----------设备详情----------------*/
-	var inputblue = document.getElementsByClassName("de-more")[0].getElementsByTagName("input");
-	for(var i=0;i<inputblue.length;i++){
-		
-		inputblue[i].onkeyup =function(){
-			if(this.value!=""){
-				this.style.textAlign="right";
-			}else{
-				this.style.textAlign="left"
-			}
-		}
-		
-		if(inputblue[i].value!=""){
-			inputblue[i].style.textAlign="right";
-		}else{
-			inputblue[i].style.textAlign="left";
-		}
-		
-	}
+
 	
 	
 	
