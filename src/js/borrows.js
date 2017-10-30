@@ -115,7 +115,7 @@
 		selectHTML();
 		
 		/*		-----------------日期判断----------------------------------*/
-		selectDate("date1","date2","date-first","date-second");
+		selectDate("date1","date2");
 
 
 	

@@ -214,6 +214,8 @@
 				agree.style.background="#0082D9";
 				disagree.style.background="none";
 				agree.style.color="#FFFFFF";
+				agree.style.border="none";
+				disagree.style.border="1px solid #979797 "
 				disagree.style.color="#979797";
 					
 			}
@@ -222,6 +224,8 @@
 				agree.style.background="none";
 				disagree.style.color="#FFFFFF";
 				agree.style.color="#979797";
+				disagree.style.border="none";
+				agree.style.border="1px solid #979797 "
 				
 			}
 		}

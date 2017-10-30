@@ -2,21 +2,9 @@
 	oks.onclick=function(){
 		window.location.href="borrows.html?type=3";
 	}
-	/*------------工单审核---------------*/
-	var btnss = document.getElementById("gdsp").getElementsByTagName("button");
-	btnss[0].onclick=function(){
-		this.style.background="#0082D9";
-		this.style.color="#FFFFFF";
-		btnss[1].style.background="none";
-		btnss[1].style.color="#999999";
-	}
 	
-	btnss[1].onclick=function(){
-		this.style.background="#0082D9";
-		this.style.color="#FFFFFF";
-		btnss[0].style.background="none";
-		btnss[0].style.color="#999999";
-	}
+	/*------------工单审核---------------*/
+	pizhun();
 	
 	
 // 获取页面 A 访问的 url

@@ -169,10 +169,7 @@ header .add{
 	height: 0.82rem;
 	width:3rem;
 	font-family: MicrosoftYaHei-Bold;
-	font-size: 0.3rem;
-	outline: none;
-	/*border: none;*/
-	
+	font-size: 0.3rem;	
 }
 #selects .btn-first{
 	color: #363636;
