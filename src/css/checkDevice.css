@@ -4,6 +4,7 @@ html,body{
 
 input{
 	text-align: right;
+	background: none;
 }
 header{
 	padding:0;
@@ -115,7 +116,7 @@ ul .no1 img{
 }
 
 ul li .time{
-	width:5rem;
+	width:4.5rem;
 	height:0.42rem;
 	font-size:0.32rem;
 	outline: none;
@@ -154,9 +155,6 @@ button{
 	font-size: 0.36rem;
 	color: #FFFFFF;
 	border-radius: 0.05rem;
-	/*position:fixed;
-	bottom:2.2rem;
-	left:0.95rem;*/
 	margin-top:0.5rem;
 	margin-left:0.95rem;
 	margin-bottom: 2rem;
