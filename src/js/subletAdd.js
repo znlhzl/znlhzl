@@ -105,7 +105,9 @@ var ok=document.getElementsByClassName("ok")[0];
 		if(num!=0){
 			alert("日期或其他必填项未填好")
 		}else{
+			
 			window.location.href="sublet.html";
+			alert("已成功提交");
 		}
 			
 	}
