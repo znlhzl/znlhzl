@@ -3,7 +3,10 @@ html,body{
 	size: 0.32rem;
 }
 
-
+input{
+	background: none;
+	text-align: right;
+}
 header{
 	padding:0;
 	z-index:100;

@@ -105,6 +105,9 @@
 		adds('servesNew.html');
 		
 		
+		/*-------------r日期判断-----------------*/
+		selectDate("date1","date2");
+		
 		
 		
 		

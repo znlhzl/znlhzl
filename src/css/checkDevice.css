@@ -142,16 +142,4 @@ textarea{
 	color: #999999;
 }
 
-button{
-	border:none;
-	outline:none;
-	width:5.6rem;
-	height: 0.9rem;
-	background:#0082D9;
-	font-size: 0.36rem;
-	color: #FFFFFF;
-	border-radius: 0.05rem;
-	margin-top:0.5rem;
-	margin-left:0.95rem;
-	margin-bottom: 2rem;
-}
+
