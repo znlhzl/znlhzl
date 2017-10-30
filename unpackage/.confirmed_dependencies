@@ -814,7 +814,11 @@
 			"src/img/select.png",
 			"src/img/date.png",
 			"src/img/dateb.png",
-			"src/html/logManage.html"
+			"src/html/logManage.html",
+			"src/img/Back Chevron.png",
+			"src/img/zoom.png",
+			"src/js/public.js",
+			"src/css/public.css"
 		],
 		"refer": [
 			"index.html",

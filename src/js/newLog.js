@@ -41,4 +41,4 @@
 	
 
 	var autoc = document.getElementsByClassName("autoc")[0];
-	autoc.innerHTML=localStorage.name ;
+	autoc.innerHTML=sessionStorage.name ;

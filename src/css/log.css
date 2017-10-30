@@ -35,7 +35,7 @@ header input{
 	position: absolute;
 	left:0.8rem;
 	top:0.15rem;
-	width:5.25rem;
+	width:5.55rem;
 	height: 0.58rem;
 	border-radius: 6px;
 	outline: none;
@@ -51,14 +51,6 @@ header .zoom{
 	top:0.32rem;
 	z-index:100;
 	
-}
-
-header .add{
-	position: absolute;
-	right:0.24rem;
-	top:0.26rem;
-	width:0.34rem;
-	height: 0.34rem;
 }
 
 /*--------中间模块-------------*/
@@ -80,7 +72,6 @@ header .add{
 	height:0.99rem;
 	line-height: 0.99rem;
 	border-bottom:2px solid #E6E6E6;
-	/*border-bottom:0.02rem solid #E6E6E6;*/
 	position: fixed;
 	top:0.88rem;
 	left:0;

@@ -10,7 +10,7 @@
 </html>
 <script>
 		var btns =document.getElementsByTagName("button")[0];
-		localStorage.name="zhangsan";
+		sessionStorage.setItem('name', 'lizi');
 		btns.onclick=function(){
 			window.location.href="newLog.html";
 		}

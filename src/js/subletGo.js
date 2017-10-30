@@ -1,4 +1,4 @@
-localStorage.name = "转租";
+	sessionStorage.setItem('name','转租');
 	left();
 	var fqwl =document.getElementsByClassName("fqwl")[0];
 	var lrsb =document.getElementsByClassName("lrsb")[0];
