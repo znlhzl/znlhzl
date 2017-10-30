@@ -20,8 +20,6 @@
             }
 
 		/*-------------------------------红圈删除和添加-----------------------------*/
-	
-		
 		for(var i=0;i<btns.length;i++){
 		
 				var spans=document.getElementById("top").getElementsByTagName("span");
@@ -35,8 +33,6 @@
 		}
 		
 		
-		
-
 		/*-----------------------接单和待处理样式------------------------------*/
 		
 		var buttons=document.getElementById("divs").getElementsByTagName("button");
@@ -47,11 +43,8 @@
 				buttons[i].style.color=" #0082D9";
 			}
 			if(buttons[i].innerHTML=="接单"){
-				buttons[i].onclick=function(){
-					this.style.background="#FAFAFA";
-					this.style.color=" #0082D9";
-					this.innerHTML="待处理";
-				}
+					buttons[i].style.background="#0082D9";
+					buttons[i].style.color="#FAFAFA";
 			}
 		}
 		
