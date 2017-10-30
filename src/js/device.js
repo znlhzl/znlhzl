@@ -1,27 +1,45 @@
 		
 	
 		
-          var divs = document.getElementById("divs").getElementsByTagName("div");
-          
+         var divs = document.getElementById("divs").getElementsByTagName("div");
+         var inputs =document.getElementsByTagName("header")[0].getElementsByTagName("input")[0];
+         var footer =document.getElementsByTagName("footer")[0];
+         inputs.onfocus=function(){
+         	footer.style.opacity=0;
+         }
+         inputs.onblur=function(){
+         	footer.style.opacity=1;
+         }
 
 		/*--------------------------模态框和新页面--------------------------------*/
-		var mark = document.getElementById("mark");
-		var selects=document.getElementById("selects");
-		var sels=document.getElementsByTagName("header")[0].getElementsByTagName("div")[0];
-		sels.onclick=function(){
-			mark.style.display="block";
-			mark.style.background="rgba(0,0,0,0.60)" ;
-			selects.style.display="block";
-			selects.style.zIndex="200";
-		}
-		
-		
-		
-		mark.onclick=function(){
-			selects.style.display="none";
-			mark.style.display="none";
-		}
-		
+		function selectsMove(a){
+			var btns =document.getElementsByTagName("header")[0].getElementsByTagName("div");
+			var mark = document.getElementById("mark");
+			var selects=document.getElementById("selects");
+			var selEnd = document.getElementsByClassName("sel-end")[0];
+			btns[a].onclick=function(){
+				selects.className="tkl";
+				selEnd.className="tkls sel-end";
+				clearTimeout(t);
+				var t=setTimeout(function(){
+				mark.style.display="block";
+				mark.style.background="rgba(0,0,0,0.6)";
+				},1000);
+				selects.style.display="block";
+				selects.style.zIndex="200";
+			}
+			
+			mark.onclick=function(){
+				
+				selects.className="tkr";
+				selEnd.className="tkrs sel-end";
+				clearTimeout(t);
+				var t=setTimeout(function(){
+				mark.style.display="none";
+				},1000);
+			}
+		}		
+		selectsMove(0);
 		
 	/*-----------------跳转页面-------------------*/
 
