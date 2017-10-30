@@ -76,22 +76,7 @@
 		}
 
 		/*--------------------------模态框和新页面--------------------------------*/
-		var mark = document.getElementById("mark");
-		var selects=document.getElementById("selects");
-		btns[4].onclick=function(){
-			mark.style.display="block";
-			mark.style.background="rgba(0,0,0,0.60)" ;
-			selects.style.display="block";
-			selects.style.zIndex="200";
-		}
-		
-		
-		
-		mark.onclick=function(){
-			selects.style.display="none";
-			mark.style.display="none";
-		}
-		
+		selectsMove(4);
 		/*-------------------------------红圈删除和添加-----------------------------*/
 		var spans=btns[2].getElementsByTagName("span")[0];
 		if(divs[2].children.length<1){

@@ -19,95 +19,7 @@ html,body{
 
 
 /*--------中间模块-------------*/
-/*----------tab切换------------*/
-.box{
-	width:100%;
-	height: auto;
-	display: flex;
-	margin-top:0.88rem;	
-}
-.box .top{
-	display: flex;
-	width:100%;
-	height:0.99rem;
-	line-height: 0.99rem;
-	border-bottom:2px solid #E6E6E6;
-	/*border-bottom:0.02rem solid #E6E6E6;*/
-	position: fixed;
-	top:0.88rem;
-	left:0;
-	background: #FAFAFA;
-	z-index: 100;
-}
-.box .top div{
-	
-	flex:1;
-	font-size:0.3rem;
-	height:0.99rem;
-	line-height: 0.99rem;
-	text-align: center;
-
-
-	
-}
-
-.top div{
-	position: relative;
-}
-.top div span{
-	position: absolute;
-	width:0.16rem;
-	height: 0.16rem;
-	border-radius: 0.16rem;
-	background: #FE3F3B;
-	top:0.27rem;
-}
-
-.box .top .blue {
-    border-bottom:0.04rem solid #0082D9;
-    font-family: HiraginoSansGB-W6;
-    color: #0082D9;   
-}
 /*--------tab切换四部分页面-----------*/
-.box .bottom{
-	margin-top:0.99rem;
-	width:7.5rem;
-	height: auto;
-}
-
-.box .bottom .show{
-	width:7.5rem;
-	height:auto;
-	
-}
-.box .bottom .bot1{
-   width:7.5rem;
-	height:auto;
-	border-bottom: 0.1rem solid #F2F2F2;
-}
-
-
-.box .bottom .show .bot2{
-	height:0.96rem;
-	width: 7.5rem;
-	background: #FAFAFA;
-	position:relative;
-	border-bottom: 1px solid #E6E6E6;
-	font-size:0.3rem;
-	
-	
-	
-}
-
-.box .bottom .show .bot2 i{
-	
-	font-size:0.3rem;
-	display:block;
-	color: #363636;
-	line-height: 0.96rem;
-	margin-left:0.24rem;
-	
-}
 
 .box .bottom .show .bot2 b{
 	position: absolute;
@@ -116,25 +28,4 @@ html,body{
 	color: #FF715D;
 }
 
-.box .bottom .show .bot3{
-	width:7.5rem;
-	height:auto;
-	font-size:0.26rem;
-	background: #FAFAFA;
-	padding:0.2rem 0;
-}
 
-.box .bottom .show small{
-	font-size:0.26rem;
-	display:block;
-	line-height: 0.4rem;
-	color: #999999;
-	margin-left:0.24rem;
-}
-
-.box .bottom div{
-	display: none;
-}
-.box .bottom .show{
-	display: block;
-}
