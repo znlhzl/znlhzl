@@ -24,11 +24,13 @@
 		var suopei =document.getElementsByClassName("suopei");
 		var zhengbei =document.getElementsByClassName("zhengbei");
 		for(var k=0;k<suopei.length;k++){
-			suopei[k].onclick=function(){
+			suopei[k].onclick=function(e){
 				window.location.href="claimNew.html";
+				window.event? window.event.cancelBubble = true : e.stopPropagation();
 			}
-			zhengbei[k].onclick=function(){
+			zhengbei[k].onclick=function(e){
 				window.location.href="servesNew.html";
+				window.event? window.event.cancelBubble = true : e.stopPropagation();
 			}
 		}
 		
@@ -38,6 +40,7 @@
 			devicesol[i].onclick=function(){
 				window.location.href="borrowsMores.html";
 			}
+			
 		}
 
 		
