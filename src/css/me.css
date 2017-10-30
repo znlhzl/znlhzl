@@ -199,12 +199,8 @@ footer .bot2{
     background: url(../img/device.png) no-repeat center 0.14rem;
     background-size:  0.5rem 0.5rem;
 }
+
 footer .bot3{
-    flex: 1;
-    background: url(../img/address.png) no-repeat center 0.14rem;
-    background-size:  0.5rem 0.5rem;
-}
-footer .bot4{
     flex: 1;
     background: url(../img/meb.png) no-repeat center 0.14rem;
     background-size:  0.5rem 0.5rem;

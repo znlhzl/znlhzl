@@ -357,12 +357,8 @@ footer .bot2{
     color: #0082D9;
     
 }
+
 footer .bot3{
-    flex: 1;
-    background: url(../img/address.png) no-repeat center 0.14rem;
-    background-size:  0.5rem 0.5rem;
-}
-footer .bot4{
     flex: 1;
     background: url(../img/me.png) no-repeat center 0.14rem;
     background-size:  0.5rem 0.5rem;

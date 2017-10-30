@@ -32,6 +32,13 @@
 			}
 		}
 		
+		
+		var devicesol =document.getElementsByClassName("devices")[0].getElementsByTagName("ol");
+		for(var i=0;i<devicesol.length;i++){
+			devicesol[i].onclick=function(){
+				window.location.href="borrowsMores.html";
+			}
+		}
 
 		
 		
