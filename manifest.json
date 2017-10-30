@@ -590,7 +590,8 @@
 					"src/lib/css/mui.min.css",
 					"src/img/date1.png",
 					"src/img/dateb.png",
-					"src/html/borrowsReadOut.html"
+					"src/html/borrowsReadOut.html",
+					"src/html/borrowsFinish.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -899,7 +900,9 @@
 			},
 			"src/html/borrowsDaichuli.html": {
 				"resources": [
-					"src/html/borrows.html"
+					"src/html/borrows.html",
+					"src/css/borrowsMore.css",
+					"src/js/borrowsMore.js"
 				],
 				"refer": [],
 				"priority": 0
@@ -1106,6 +1109,24 @@
 					"src/js/servesRepair.js",
 					"src/css/servesRepair.css",
 					"src/img/more.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/borrowsFinish.html": {
+				"resources": [
+					"src/css/borrowsMore.css",
+					"src/js/borrowsMore.js",
+					"src/html/borrowsMores.html",
+					"src/html/borrows.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"src/html/borrowsMores.html": {
+				"resources": [
+					"src/html/borrowsFinish.html",
+					"src/css/borrowsMores.css"
 				],
 				"refer": [],
 				"priority": 0

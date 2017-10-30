@@ -444,7 +444,8 @@
 			"src/lib/css/mui.min.css",
 			"src/img/date1.png",
 			"src/img/dateb.png",
-			"src/html/borrowsReadOut.html"
+			"src/html/borrowsReadOut.html",
+			"src/html/borrowsFinish.html"
 		],
 		"refer": [
 			"index.html",
@@ -453,7 +454,8 @@
 			"src/html/borrowshuifang.html",
 			"src/html/borrowsAgainAssign.html",
 			"src/html/borrowsDaichuli.html",
-			"src/html/borrowsReadOut.html"
+			"src/html/borrowsReadOut.html",
+			"src/html/borrowsFinish.html"
 		]
 	},
 	"src/html/field.html": {
@@ -802,7 +804,9 @@
 	},
 	"src/html/borrowsDaichuli.html": {
 		"resources": [
-			"src/html/borrows.html"
+			"src/html/borrows.html",
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js"
 		],
 		"refer": [
 			"src/html/borrows.html"
@@ -1034,6 +1038,27 @@
 			"src/js/servesRepair.js",
 			"src/css/servesRepair.css",
 			"src/img/more.png"
+		]
+	},
+	"src/html/borrowsFinish.html": {
+		"resources": [
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js",
+			"src/html/borrowsMores.html",
+			"src/html/borrows.html"
+		],
+		"refer": [
+			"src/html/borrowsMores.html",
+			"src/html/borrows.html"
+		]
+	},
+	"src/html/borrowsMores.html": {
+		"resources": [
+			"src/html/borrowsFinish.html",
+			"src/css/borrowsMores.css"
+		],
+		"refer": [
+			"src/html/borrowsFinish.html"
 		]
 	}
 }

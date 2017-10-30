@@ -45,6 +45,7 @@ a{text-decoration: none;
 
 html,body{
 			overflow:hidden;
+			overflow-x:hidden;
 			overflow-y:auto;
 			font-family: "microsoft yahei"; 
 			height:100%;
@@ -428,31 +429,36 @@ button.ok{
 	
 	
 	.tkl{
+	overflow-x:hidden ;
 	animation:mymove 1s forwards;
 	-webkit-animation:mymove 1s forwards ; 
 	-moz-animation:mymove 1s forwards ; 
 	-o-animation:mymove 1s forwards ; 
+	
 	}
 	
-	.tkr{
+	.tkr{overflow-x:hidden ;
 	  animation:mymoves 1s forwards;
 	  -webkit-animation:mymoves 1s forwards ;
 	  -moz-animation:mymoves 1s forwards ; 
-	-o-animation:mymoves 1s forwards ; 
+		-o-animation:mymoves 1s forwards ; 
+		
 	}
 	
-	.tkls{
+	.tkls{overflow-x:hidden ;
 	animation:mymove 1s forwards;
 	-webkit-animation:mymove 1s forwards ;
 	-moz-animation:mymove 1s forwards ; 
 	-o-animation:mymove 1s forwards ;  	
+	
 	}
 	
-	.tkrs{
+	.tkrs{overflow-x:hidden ;
 	  animation:mymoves 1s forwards;
 	  -webkit-animation:mymoves 1s forwards ;
 	   -moz-animation:mymoves 1s forwards ; 
 		-o-animation:mymoves 1s forwards ; 
+		
 	}
 
 
@@ -460,7 +466,7 @@ button.ok{
 #selects{
 	width:6rem;
 	height:100%;
-	position: absolute;
+	position: fixed;
 	top:0;
 	right:-6rem;
 	overflow: auto;
@@ -497,7 +503,7 @@ button.ok{
 	position: relative;
 	border-bottom:1px solid #E6E6E6;
 	font-size:0.3rem;
-	height: ;
+
 }
 
 .bottom #selects ul li span{

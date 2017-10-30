@@ -34,6 +34,10 @@ header .zoom{
 	z-index:100;
 }
 
+html,body{
+	overflow-x: hidden;
+}
+
 
 /*-----------tab栏-----------*/
 

@@ -117,7 +117,6 @@ b{
 }
 
 
-
  .changepw b{
 	display: block;
 	width:0.06rem;
@@ -145,16 +144,9 @@ section button{
 	height: 0.9rem;
 	margin:0 auto;
 	margin-top:0.82rem;
-	cursor: pointer;
-	outline: none;
 	display: block;
-	border-radius: 10px;
-	border:none;
-	
+	border-radius:0.1rem;	
 }
-
-
-
 
 
 /*-----------footer--------*/
@@ -181,14 +173,10 @@ footer a{
     -webkit-tap-highlight-color :rgba(0, 0, 0, 0);
 }
 
-
-
 footer .bot1{
      flex: 1;
      background:url(../img/home.png) no-repeat center 0.14rem;
      background-size:  0.5rem 0.5rem;
-     
-    
 }
 footer .bot2{
     flex: 1;

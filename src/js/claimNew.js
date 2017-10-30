@@ -67,7 +67,13 @@
 		var ol = document.getElementsByTagName("ol");
 		ok.onclick=function(){
 //			window.location.href="claim.html";
-			window.history.go(-1);
+			if(allmoney.style.color=="red"){
+				alert("请填完表格并且点击获得总金额");
+			}
+			if(allmoney.style.color=="rgb(0, 130, 217)"){
+				window.history.go(-1);
+			}
+			
 		}
 		
 		
