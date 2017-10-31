@@ -93,7 +93,7 @@
 			}
 			
 			var inputdate =document.getElementById("selects").getElementsByTagName("input");
-			alert(inputdate.length);
+		
 			if(inputdate.length==0){
 				console.log(0);
 			}else{
