@@ -74,7 +74,7 @@
 			</ul>
 			<div class="fj"><span>附件</span></div>
 			
-			<textarea placeholder="备注:"></textarea>
+			<textarea placeholder="备注:" readonly></textarea>
 		</div>
 		
 		<div class="read-result">
@@ -88,35 +88,4 @@
 </html>
 <script type="text/javascript" src="../js/public.js" ></script>
 <script type="text/javascript" src="../js/servesRepair.js" ></script>
-<script>
-		var agree= document.getElementsByClassName("agree")[0];
-	
-		var disagree =document.getElementsByClassName("disagree")[0];
-	
-		var ok =document.getElementsByClassName("ok")[0];
-		var tips =document.getElementById("tips");
-	agree.onclick=function(){
-		agree.style.background="#0082D9";
-		disagree.style.background="none";
-		agree.style.color="#FFFFFF";
-		disagree.style.color="#979797";
-		tips.style.display="block";
-		clearTimeout(timers);
-		
-		var timers=setTimeout(function(){
-					tips.style.display="none";
-					mark.style.display="none";
-					ok.innerHTML="发起索赔";
-				},1000);	
-	}
-	disagree.onclick =function(){
-		disagree.style.background="#0082D9";
-		agree.style.background="none";
-		disagree.style.color="#FFFFFF";
-		agree.style.color="#979797";
-		ok.innerHTML="确定";
-	}
-	ok.onclick=function(){
-		window.location.href="serves.html?type=3";
-	}
-</script>
+<script type="text/javascript" src="../js/servesRepairS.js" ></script>
