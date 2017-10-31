@@ -146,4 +146,6 @@ html,body{
 	background: none;
 }
 
-
+.score{
+	border-top:1px solid #E6E6E6;
+}

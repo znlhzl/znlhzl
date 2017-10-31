@@ -28,23 +28,13 @@ left();
 		radios.style.right="0.56rem";
 		radios.style.top="0.14rem";
 	}
+	pizhun();
 	
 	var agree= document.getElementsByClassName("agree")[0];
 	
 	var disagree =document.getElementsByClassName("disagree")[0];
 	
-	agree.onclick=function(){
-		agree.style.background="#0082D9";
-		disagree.style.background="none";
-		agree.style.color="#FFFFFF";
-		disagree.style.color="#979797";
-	}
-	disagree.onclick =function(){
-		disagree.style.background="#0082D9";
-		agree.style.background="none";
-		disagree.style.color="#FFFFFF";
-		agree.style.color="#979797";
-	}
+	
 	
 	var ok=document.getElementsByClassName("ok")[0];
 	ok.onclick=function(){

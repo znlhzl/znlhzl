@@ -19,7 +19,7 @@
 			<div class="partblue"><span></span><i>工单详情</i><img src="../img/more.png" class="more-pic"/></div>
 			<ul class="writeul">
 				<li><span>工单号</span><i>FW20170716</i></li>
-				<li><span>工单类型</span><i>报修</i></li>
+				<li><span>工单类型</span><i>保养整备</i></li>
 				<li><span>型号</span><i>JCPT1234</i></li>
 				<li><span>门店</span><i>南京店</i></li>
 				<li><span>项目名称</span><i>鸿泰消防项目</i></li>
@@ -68,28 +68,4 @@
 </html>
 <script type="text/javascript" src="../js/public.js" ></script>
 <script type="text/javascript" src="../js/servesRepair.js" ></script>
-<script>
-	var agree= document.getElementsByClassName("agree")[0];
-	
-		var disagree =document.getElementsByClassName("disagree")[0];
-	
-		var ok =document.getElementsByClassName("ok")[0];
-		
-	agree.onclick=function(){
-		agree.style.background="#0082D9";
-		disagree.style.background="none";
-		agree.style.color="#FFFFFF";
-		disagree.style.color="#979797";
-			
-	}
-	disagree.onclick =function(){
-		disagree.style.background="#0082D9";
-		agree.style.background="none";
-		disagree.style.color="#FFFFFF";
-		agree.style.color="#979797";
-		
-	}
-	ok.onclick=function(){
-		window.location.href="serves.html?type=3";
-	}
-</script>
+<script type="text/javascript" src="../js/servesMaintain.js" ></script>
