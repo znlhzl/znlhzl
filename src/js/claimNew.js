@@ -64,15 +64,27 @@
 		
 		
 		var ok = document.getElementsByClassName("ok")[0];
+
 		var ol = document.getElementsByTagName("ol");
 		ok.onclick=function(){
-//			window.location.href="claim.html";
-			if(allmoney.style.color=="red"){
-				alert("请填完表格并且点击获得总金额");
+			var musts =document.getElementsByClassName("musts");
+			var num=0;
+			for(var j=0;j<musts.length;j++){
+				if(musts[j].value==""){
+					num++;
+				}
 			}
-			if(allmoney.style.color=="rgb(0, 130, 217)"){
-				window.history.go(-1);
+			if(num==0){	
+				if(allmoney.style.color=="rgb(0, 130, 217)"){
+					window.history.go(-1);
+					alert("已经提交，点击跳转页面");
+				}
+			}else{
+				alert("请填完所有必填项并且点击计算总金额");
 			}
+			
+			
+			
 			
 		}
 		
@@ -81,7 +93,7 @@
 	$(function(){
     $('#addOl').click(function(){
     	var num =more.children.length+1;
-        $('#more').append('<ol class="div-more writeul"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li><span>配件名称</span><input placeholder="请输入（必填）" /></li><li><span>数量</span><input placeholder="请输入（必填）" class="num1" oninput="autoAdds()" /></li><li><span>单价</span><input placeholder="请输入（必填）" class="num2" oninput="autoAdds()"/></li><li><span>小计</span><b class="rights num3">自动计算</b></li></ol>')
+        $('#more').append('<ol class="div-more writeul"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li><span>配件名称</span><input placeholder="请输入（必填）"  class="musts" /></li><li><span>数量</span><input placeholder="请输入（必填）" class="num1 musts" oninput="autoAdds()" /></li><li><span>单价</span><input placeholder="请输入（必填）" class="num2 musts" oninput="autoAdds()"/></li><li><span>小计</span><b class="rights num3">自动计算</b></li></ol>')
        autoAdd();
        dels(1);
         
@@ -109,7 +121,7 @@
 			  var sum =document.getElementsByClassName("num3");
 			  var allmoney =document.getElementsByClassName("allmoney")[0]
 			  allmoney.style.color="red";
-			  allmoney.style.fontWeight="900";
+			  allmoney.style.fontWeight="700";
   			  for(var i=0;i<input1.length;i++){
   				sum[i].innerHTML = parseInt(input1[i].value) * parseInt(input2[i].value);	
   				

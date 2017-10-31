@@ -17,7 +17,7 @@
 			<li><span>出厂编号</span><input type="text" placeholder="请输入（必填）"/></li>
 			<li><span>型号</span><i></i></li>
 			<li class="suopei"><span>索赔类型</span><s></s><img src="../img/next.png" class="choose"/></li>
-			<li><span>索赔原因</span><input type="text" placeholder="请输入（必填）"/></li>
+			<li><span>索赔原因</span><input type="text" placeholder="请输入（必填）" class="musts"/></li>
 			<li class="custom"><span>客户名称</span><i></i></li>
 			<li class="custom"><span>项目名称</span><i></i></li>
 			<li class="custom"><span>合同编号</span><i></i></li>
@@ -26,11 +26,11 @@
 			<li class="factory"><span>质保</span><i></i></li>
 			<li class="factory"><span>供应商名称</span><i></i></li>
 			<li class="factory"><span>联系人</span><i></i></li>
-			<li><span>工时单价</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()"/></li>
-			<li><span>工时</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/></li>
+			<li><span>工时单价</span><input type="number" placeholder="请输入（必填）" class="num1 musts" oninput="autoAdd()"/></li>
+			<li><span>工时</span><input type="number" placeholder="请输入（必填）" class="num2 musts" oninput="autoAdd()"/></li>
 			<li><span>工时费总计</span><b class="num3 auto">自动计算</b></li>
-			<li><span>里程单价</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdd()"/></li>
-			<li><span>里程</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdd()"/></li>
+			<li><span>里程单价</span><input type="number" placeholder="请输入（必填）" class="num1 musts" oninput="autoAdd()"/></li>
+			<li><span>里程</span><input type="number" placeholder="请输入（必填）" class="num2 musts" oninput="autoAdd()"/></li>
 			<li><span>里程费总计</span><b class="num3 auto">自动计算</b></li>
 		</ul>
 		<div class="lastcon">配件描述</div>
@@ -41,13 +41,13 @@
 					<span>明细  <i>(1)</i></span><b class="btn-clear">删除</b>
 				</li>
 				<li>
-					<span>配件名称</span><input placeholder="请输入（必填）" />
+					<span>配件名称</span><input placeholder="请输入（必填）" class="musts"/>
 				</li>
 				<li>
-					<span>数量</span><input type="number" placeholder="请输入（必填）" class="num1" onkeyup="autoAdds()"/>
+					<span>数量</span><input type="number" placeholder="请输入（必填）" class="num1 musts" oninput="autoAdds()"/>
 				</li>
 				<li>
-					<span>单价</span><input type="number" placeholder="请输入（必填）" class="num2" onkeyup="autoAdds()"/>
+					<span>单价</span><input type="number" placeholder="请输入（必填）" class="num2 musts" oninput="autoAdds()"/>
 				</li>
 				<li>
 					<span>小计</span><b class="rights num3">自动计算</b>
