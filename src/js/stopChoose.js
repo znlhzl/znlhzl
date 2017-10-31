@@ -1,20 +1,15 @@
-left();
-	var btns = document.getElementsByClassName("choose")[0].getElementsByClassName("end1")[0].getElementsByTagName("button");
-	btns[0].onclick=function(){
-		this.style.background="#0082D9";
-		this.style.color="#FFFFFF";
-		this.style.border="none";
-		btns[1].style.background="none";
-		btns[1].style.color="#999999";
-		btns[1].style.border="1px solid #979797";
+
+	left();
+	pizhun();
+	var agree= document.getElementsByClassName("agree")[0];
+	var disagree =document.getElementsByClassName("disagree")[0];
+	var ok= document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		if(agree.style.color=="rgb(255, 255, 255)"||disagree.style.color=="rgb(255, 255, 255)"){
+			window.location.href="stop.html?type=2";
+			alert("审批已提交，点击跳转");
+		}else{
+			alert("请确定审批结果");
+		}
+		
 	}
-	
-	btns[1].onclick=function(){
-		this.style.background="#0082D9";
-		this.style.color="#FFFFFF";
-		this.style.border="none";
-		btns[0].style.background="none";
-		btns[0].style.color="#999999";
-		btns[0].style.border="1px solid #979797";
-	}
-	

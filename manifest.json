@@ -307,7 +307,8 @@
 					"src/img/login/background.png",
 					"src/css/login.css",
 					"src/js/login.js",
-					"src/js/public.js"
+					"src/js/public.js",
+					"src/html/login.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -1086,7 +1087,8 @@
 					"src/img/radio.png",
 					"src/html/newLog.html",
 					"src/html/inputEquipment.html",
-					"src/html/sublet.html"
+					"src/html/sublet.html",
+					"src/js/subletGo.js"
 				],
 				"refer": [],
 				"priority": 0
