@@ -92,6 +92,16 @@
 				aAll[i].className ="";
 			}
 			
+			var inputdate =document.getElementById("selects").getElementsByTagName("input");
+			alert(inputdate.length);
+			if(inputdate.length==0){
+				console.log(0);
+			}else{
+				for(var j=0;j<inputdate.length;j++){
+					inputdate[j].value="";
+				}
+			}
+			
 			
 		}
 	}
@@ -173,7 +183,7 @@
 			}
 		}
 			
-		/*---------------筛选日期变色和大小顺序-------------------*/	
+		/*---------------筛选日期大小顺序-------------------*/	
 			
         function selectDate(a,b){
 			var date1 = document.getElementsByClassName(a)[0];

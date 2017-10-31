@@ -60,7 +60,7 @@
 		
     $('#addOl').click(function(){
     	var num =more.children.length+1;
-        $('#more').append('<ol class="div-more"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li class="pinpai"><span>品牌</span><s></s><img src="../img/next.png" class="next pins" /></li><li class="xinhao"><span>型号</span><s></s><img src="../img/next.png" class="next xins" /></li><li><span>台量</span><input type="number" placeholder="请输入台量" class="num1" onkeyup="autoAdd()"/></li><li><span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" onkeyup="autoAdd()" /></li><li class="li-last"><span>小计(元)</span><b class="num3">自动计算</b></li></ol>')
+        $('#more').append('<ol class="div-more"><li class="li-first"><span>明细 <i>('+num+')</i></span><b class="btn-clear">删除</b></li><li class="pinpai"><span>品牌</span><s></s><img src="../img/next.png" class="next pins" /></li><li class="xinhao"><span>型号</span><s></s><img src="../img/next.png" class="next xins" /></li><li><span>台量</span><input type="number" placeholder="请输入台量" class="num1" oninput="autoAdd()"/></li><li><span>单价(元)</span><input type="number" placeholder="请输入单价" class="num2" oninput="autoAdd()" /></li><li class="li-last"><span>小计(元)</span><b class="num3">自动计算</b></li></ol>')
 		we();
         autoAdd();
         dels(1);    
