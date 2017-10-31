@@ -19,12 +19,10 @@
 	pw.onfocus = function(){
 		this.style.border = "2px solid #0080D6";
 		missTips();
-	
 	}
 	
 	pw.onblur = function(){
 		this.style.border = "2px solid #CCCCCC";
-//		checkPw();
 		
 	}
 	

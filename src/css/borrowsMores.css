@@ -15,20 +15,7 @@ header .left{
 	height: 0.45rem;
 }
 
-header div{
-	font-size:0.34rem;
-	color: #FFFFFF;
-	letter-spacing:0.02rem;
-	position: absolute;
-	left:3.03rem;
-	top:0.2rem;
-}
-
-
-
 i,b{
-	font-weight: normal;
-	font-style: normal;
 	 font-size:0.32rem;
 }
 

@@ -45,12 +45,6 @@ lis[10].onclick =function(){
 	delayURL('src/html/sublet.html');
 }
 
-lis[11].onclick =function(){
-	this.style.opacity="0.5";
-	delayURL('src/html/lizi.html');
-}
-
-
   var swiper = new Swiper('.swiper-container', {
       pagination: {
         el: '.swiper-pagination',

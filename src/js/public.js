@@ -186,31 +186,31 @@
 		/*---------------筛选日期大小顺序-------------------*/	
 			
         function selectDate(a,b){
-			var date1 = document.getElementsByClassName(a)[0];
-			var date2 = document.getElementsByClassName(b)[0];
-		
-			date1.onchange=function(){
-					if((date1.value!=""&&date2.value=="")||(date2.value!=0&&date1.value<=date2.value)){
-					
-				}else{
-					
-					clearTimeout(dates);
-					var dates=setTimeout(function(){
-						alert("日期时间错误，请重填");
-					},500)
-					date1.value="";
-				}
-			}
-			date2.onchange=function(){
-					if(date2.value!=""&&date2.value>=date1.value){					
-				}else{
-					clearTimeout(dates);
-					var dates=setTimeout(function(){
-						alert("日期时间错误，请重填");
-					},500)
-					date2.value="";
-				}
-			}			
+//			var date1 = document.getElementsByClassName(a)[0];
+//			var date2 = document.getElementsByClassName(b)[0];
+//		
+//			date1.onchange=function(){
+//					if((date1.value!=""&&date2.value=="")||(date2.value!=0&&date1.value<=date2.value)){
+//					
+//				}else{
+//					
+//					clearTimeout(dates);
+//					var dates=setTimeout(function(){
+//						alert("日期时间错误，请重填");
+//					},500)
+//					date1.value="";
+//				}
+//			}
+//			date2.onchange=function(){
+//					if(date2.value!=""&&date2.value>=date1.value){					
+//				}else{
+//					clearTimeout(dates);
+//					var dates=setTimeout(function(){
+//						alert("日期时间错误，请重填");
+//					},500)
+//					date2.value="";
+//				}
+//			}			
 		}
 		
 		
