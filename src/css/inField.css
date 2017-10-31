@@ -68,10 +68,7 @@ header div{
 
 
 /*--------tab切换四部分页面-----------*/
-.box i,b{
-	font-weight: normal;
-	font-style: normal;
-}
+
 .box .bottom{
 	margin-top:0.99rem;
 	width:7.5rem;
@@ -173,16 +170,15 @@ header div{
 
 .box li button{
 	position: absolute;
-	width:1.58rem;
-	height: 0.58rem;
+	width:1.7rem;
+	height: 0.6rem;
 	background: #0082D9;
 	border-radius:0.04rem;
-	border:none;
-	outline: none;
-	top:0.19rem;
+	top:0.18rem;
 	right:0.24rem;
 	color: #FFFFFF;
 	font-size:0.28rem;
+	
 }
 
 .box .bottom .start{

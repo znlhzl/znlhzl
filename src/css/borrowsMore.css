@@ -139,31 +139,6 @@ button,input,textarea{
 	color:#363636;
 }
 
-.box .bottom .jiedan{
-	margin-top:0.5rem;
-	width:3rem;
-	height: 0.9rem;
-	background-color:rgba(0,130,217,1);
-	border-radius: 0.08rem;
-	font-size: 0.36rem;
-	color: #FFFFFF;
-	margin-left:0.5rem;
-	margin-bottom: 0.5rem;
-	box-sizing: border-box;
-}
-
-.box .bottom .fanhui{
-	margin-top:0.5rem;
-	width:3rem;
-	height: 0.9rem;
-	margin-bottom: 0.5rem;
-	border-radius: 0.08rem;
-	font-size: 0.36rem;
-	color: #FFFFFF;
-	margin-left:0.5rem;
-	box-sizing: border-box;
-}
-
 
 .top-message {
 	position: relative;
