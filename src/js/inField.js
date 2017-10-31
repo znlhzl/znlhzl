@@ -29,6 +29,8 @@
 				}else if(tests[j].innerHTML=="验机异常"){
 					tests[j].style.color="#FE3F3B";
 					tests[j].style.background="#FAFAFA";
+					tests[j].style.background="green";
+					
 				}
 				
 				if(tests[j].innerHTML=="验机"){
