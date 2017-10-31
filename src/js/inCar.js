@@ -21,6 +21,10 @@
 	
 	}
 	
+	var ok =document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		window.location.href="logManage.html?type=3"
+	}
 
 	
 	
