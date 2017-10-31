@@ -15,6 +15,9 @@ html,body{
 	background: #FAFAFA;
 }
 
+button{
+	font-size:0.28rem;
+}
 
 
 /*-------头部导航-----------*/
