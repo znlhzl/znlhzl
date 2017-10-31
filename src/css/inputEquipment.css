@@ -9,7 +9,12 @@ header img{
 	left:0.24rem;
 }
 
-
+html,body{
+	background: #FAFAFA;
+}
+input{
+	background: none;
+}
 /*----------内容区域----------------*/
 /*-----------设备明细---------------*/
 #more{
@@ -126,15 +131,14 @@ header img{
 }
 
 #device textarea{
-	width:100%;
+	width:7.26rem;
 	height: 1.6rem;
 	background: #FFFFFF;
-	outline: none;
-	border:none;
-	padding:0.2rem 0;
-	margin-left:0.24rem ;
+	padding-left:0.24rem ;
 	font-size:0.32rem;
 	color:#999999;
+	height: 1.8rem;
+	padding-top:0.2rem;
 }
 
 footer{
@@ -157,10 +161,9 @@ footer button{
  	position: absolute;
  	background: #63CFE8;
  	top:0.5rem;
- 	left:0.5rem;
-
-	
+ 	left:0.5rem;	
  }
+ 
 footer .new{
 	position: absolute;
  	background: #0082D9;
