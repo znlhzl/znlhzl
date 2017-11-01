@@ -1,6 +1,14 @@
-	var oks =document.getElementsByClassName("ok")[0];
+	var oks = document.getElementsByClassName("ok")[0];
+	var agree = document.getElementsByClassName("agree")[0];
+	var disagree = document.getElementsByClassName("disagree")[0]; 
 	oks.onclick=function(){
-		window.location.href="borrows.html?type=3";
+		if(agree.style.color=="rgb(255, 255, 255)"||disagree.style.color=="rgb(255, 255, 255)"){
+			window.location.href="borrows.html?type=3";
+			alert("已成功提交，点击跳转");
+		}else{
+			alert("请审批后再确定");
+		}
+		
 	}
 	
 	/*------------工单审核---------------*/
