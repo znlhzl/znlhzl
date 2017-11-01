@@ -1,10 +1,31 @@
 /*	--------回到之前页面------------------*/
 	left();
 		
-var ok = document.getElementsByClassName("ok")[0];
-ok.onclick=function(){
-	window.location.href="change.html";
-}
+	var ok = document.getElementsByClassName("ok")[0];
+	ok.onclick=function(){
+		var musts =document.getElementsByClassName("musts");
+		var must =document.getElementsByClassName("must");
+		var num=0;
+		
+		for(var j=0;j<musts.length;j++){
+			if(musts[j].value==""){
+				num++;
+			}
+		}
+		for(var i=0;i<must.length;i++){
+			if(must[i].innerHTML=="(必填)"||must[i].innerHTML=="（必填）"){
+				num++;
+			}
+		}
+		
+		if(num!=0){
+			alert("日期或其他必填项未填好")
+		}else{
+			
+			window.location.href="change.html";
+			alert("已成功提交");
+		}
+	}
 
 /*-------------动态添加的内容弹框问题--------------------*/
 	function we(){
