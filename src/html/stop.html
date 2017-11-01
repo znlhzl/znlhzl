@@ -188,13 +188,4 @@
 <script type="text/javascript" src="../lib/js/jquery-1.10.0.min.js" ></script>
 <script type="text/javascript" src="../js/public.js" ></script>
 <script type="text/javascript" src="../js/stop.js" ></script>
-<script>	
-		var ur =location.href;
-		if(ur.indexOf("?")>-1){
-		var type=ur.split('?')[1].split("=")[1];
-		$('#divs div').removeClass('show');
-		$('#top div').removeClass('blue');
-		$('#top div').eq(type-1).addClass('blue');
-		$('#divs div').eq(type-1).addClass('show');
-		}
-</script>
+

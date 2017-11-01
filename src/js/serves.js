@@ -1,6 +1,16 @@
 		/*---------------------------返回上页--------------------------------------*/
 		left();
-
+		
+		var ur =location.href;
+		if(ur.indexOf("?")>-1){
+		var type=ur.split('?')[1].split("=")[1];
+		$('#divs div').removeClass('show');
+		$('#top div').removeClass('blue');
+		$('#top div').eq(type-1).addClass('blue');
+		$('#divs div').eq(type-1).addClass('show');
+		}
+		
+		
 		/*----------------------------tab栏切换-----------------------------------*/
 			var btns =document.getElementById("top").getElementsByTagName("div");
             var divs = document.getElementById("divs").getElementsByTagName("div");
