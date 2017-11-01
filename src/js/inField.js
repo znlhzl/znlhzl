@@ -60,7 +60,6 @@
 			var tck = document.getElementsByClassName("sbpps")[0];
 			var mark = document.getElementById("mark");
 			
-			
 			for(var i=0;i<btns.length;i++){
 				btns[i].index=i;
 				btns[i].onclick=function(){
@@ -68,9 +67,12 @@
 					mark.style.display="block";
 					mark.style.background="rgba(0,0,0,0.60)";
 					var is= this.parentNode.nextElementSibling.getElementsByTagName("i")[0];
-					
+					console.log(parseInt(is.innerHTML));
+					confirm(123);
 				}
 			}
+			
+			
 					
 		}
 		deviceS();
