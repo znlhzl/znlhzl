@@ -7,6 +7,7 @@
 		var disagree = document.getElementsByClassName("disagree")[0];
 		if(agree.style.color=="#FFFFFF"||disagree.style.color){
 			window.location.href="borrows.html?type=3";
+			alert("已成功审核，点击跳转页面");
 		}else{
 			alert("请对工单审批后再确定");
 		}

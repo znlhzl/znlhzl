@@ -50,8 +50,45 @@ left();
 		}
 	}
 		
-	var ok =document.getElementsByClassName("ok")[0];
+		
+var ok =document.getElementsByClassName("ok")[0];
 	ok.onclick=function(){
-//		window.location.href="serves.html";
-		window.history.go(-1);
+		var leixin= document.getElementsByClassName("gdlx")[0].getElementsByTagName("s")[0];
+		
+		if(leixin.innerHTML.indexOf("保养")>-1||leixin.innerHTML.indexOf("整备")>-1){
+			
+			var mustm =document.getElementsByClassName("mustm")[0];
+		
+			if(mustm.value==""){
+				alert("必填项请填写");
+			}else{
+				window.history.go(-1);
+				alert("已提交，点击跳转页面");
+			}
+		}else if(leixin.innerHTML=="报修"){
+				var musts =document.getElementsByClassName("mustr");
+				var must =document.getElementsByClassName("must");
+				var num=0;
+			
+				for(var j=0;j<musts.length;j++){
+					if(musts[j].value==""){
+						num++;
+					}
+				}
+				for(var i=0;i<must.length;i++){
+					if(must[i].innerHTML=="(必填)"||must[i].innerHTML=="（必填）"){
+						num++;
+					}
+				}
+				
+				if(num!=0){
+					alert("日期或其他必填项未填好");
+				}else{
+					
+					window.history.go(-1);
+					alert("已成功提交");
+				}
+		}
+		
+		
 	}

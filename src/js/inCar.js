@@ -23,7 +23,29 @@
 	
 	var ok =document.getElementsByClassName("ok")[0];
 	ok.onclick=function(){
-		window.location.href="logManage.html?type=3"
+		
+		var musts =document.getElementsByClassName("musts");
+	
+		var num=0;	
+		for(var j=0;j<musts.length;j++){
+			if(musts[j].value==""){
+				num++;
+			}
+		}
+	
+		
+		if(num!=0){
+			alert("必填项未填好")
+		}else{
+			
+			window.location.href="logManage.html?type=3";
+			alert("已成功提交");
+		}
+		
+		
+		
+		
+		
 	}
 
 	

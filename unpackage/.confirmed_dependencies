@@ -729,7 +729,9 @@
 	"src/html/borrowsReadIn.html": {
 		"resources": [
 			"src/js/borrowsReadIn.js",
-			"src/html/borrows.html"
+			"src/html/borrows.html",
+			"src/css/borrowsMore.css",
+			"src/js/borrowsMore.js"
 		],
 		"refer": [
 			"src/html/borrows.html"
