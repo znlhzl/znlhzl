@@ -1,4 +1,5 @@
 	sessionStorage.setItem('name','转租');
+	sessionStorage.setItem("num","转租台量:");
 	left();
 	var fqwl =document.getElementsByClassName("fqwl")[0];
 	var lrsb =document.getElementsByClassName("lrsb")[0];

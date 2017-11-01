@@ -51,7 +51,7 @@ left();
 	}
 		
 		
-var ok =document.getElementsByClassName("ok")[0];
+	var ok =document.getElementsByClassName("ok")[0];
 	ok.onclick=function(){
 		var leixin= document.getElementsByClassName("gdlx")[0].getElementsByTagName("s")[0];
 		
@@ -84,7 +84,6 @@ var ok =document.getElementsByClassName("ok")[0];
 				if(num!=0){
 					alert("日期或其他必填项未填好");
 				}else{
-					
 					window.history.go(-1);
 					alert("已成功提交");
 				}

@@ -15,3 +15,8 @@
 	tk("pinpai","pinpais","0");
 	tk("xinhao","xinhaos","0");
 		
+	
+	var ems =document.getElementsByTagName("em");
+	for(var i=0;i<ems.length;i++){
+		ems[i].innerHTML=sessionStorage.num ;
+	}
