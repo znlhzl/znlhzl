@@ -99,20 +99,14 @@
 //		
 //		
 //		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
-//		
+	var ur =location.href;
+		if(ur.indexOf("?")>-1){
+		var type=ur.split('?')[1].split("=")[1];
+		$('#divs div').removeClass('show');
+		$('#top div').removeClass('blue');
+		$('#top div').eq(type-1).addClass('blue');
+		$('#divs div').eq(type-1).addClass('show');
+		}
 		
 		
 		
