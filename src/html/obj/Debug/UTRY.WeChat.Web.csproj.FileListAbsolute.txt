@@ -1,0 +1,10 @@
+D:\WorkProject\3.UTRY微信公众号-2016.11.30\UTRY.WeChat.Web\bin\UTRY.WeChat.Web.dll
+D:\WorkProject\3.UTRY微信公众号-2016.11.30\UTRY.WeChat.Web\bin\UTRY.WeChat.Web.pdb
+D:\WorkProject\3.UTRY微信公众号-2016.11.30\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.dll
+D:\WorkProject\3.UTRY微信公众号-2016.11.30\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.pdb
+D:\WorkProject\3.UTRY微信公众号-2016.11.30\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.csprojResolveAssemblyReference.cache
+E:\Demo\EX-Other\EX35-微信企业号辅助\UTRY.WeChat.Web\bin\UTRY.WeChat.Web.dll
+E:\Demo\EX-Other\EX35-微信企业号辅助\UTRY.WeChat.Web\bin\UTRY.WeChat.Web.pdb
+E:\Demo\EX-Other\EX35-微信企业号辅助\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.csprojResolveAssemblyReference.cache
+E:\Demo\EX-Other\EX35-微信企业号辅助\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.dll
+E:\Demo\EX-Other\EX35-微信企业号辅助\UTRY.WeChat.Web\obj\Debug\UTRY.WeChat.Web.pdb

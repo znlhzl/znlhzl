@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebSite" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="07/02/2014 15:01:49" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="07/02/2014 15:01:49" />
+    <file relUrl="bin/AK.QYH.Controller.dll" publishTime="12/16/2016 17:51:50" />
+    <file relUrl="Web.config" publishTime="12/16/2016 16:17:17" />
+    <file relUrl="wx/jquery-1.7.2.js" publishTime="12/16/2016 15:33:05" />
+    <file relUrl="bin/AK.QYH.Controller.pdb" publishTime="12/16/2016 17:51:50" />
+    <file relUrl="wx/wxtest.html" publishTime="12/16/2016 17:05:20" />
+    <file relUrl="bin/AK.QYH.Common.pdb" publishTime="12/16/2016 17:51:49" />
+    <file relUrl="bin/AK.QYH.Common.dll" publishTime="12/16/2016 17:51:49" />
+    <file relUrl="bin/AK.QYH.Web.pdb" publishTime="12/16/2016 17:51:50" />
+    <file relUrl="bin/AK.QYH.Web.dll" publishTime="12/16/2016 17:51:50" />
+  </publishProfile>
+</publishData>
