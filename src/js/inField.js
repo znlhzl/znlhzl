@@ -68,13 +68,10 @@
 					mark.style.display="block";
 					mark.style.background="rgba(0,0,0,0.60)";
 					var is= this.parentNode.nextElementSibling.getElementsByTagName("i")[0];
-
+					
 				}
 			}
-			
-			
-			
-			
+					
 		}
 		deviceS();
 		
